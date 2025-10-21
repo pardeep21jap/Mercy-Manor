@@ -10,6 +10,7 @@
 .main-card {
     padding: 5px 40px;
     border-right: 1px solid #012451;
+    text-align: center;
 }
 .outer-card .main-card:last-child {
     border-right: none;
@@ -36,7 +37,8 @@
 .main-card button {
     text-transform: uppercase;
     background-color: transparent;
-    border-color: #012451;
+    border: none;
+    border-color: none;
     background-image: none;
     box-shadow: none;
     padding: 10px 28px;
@@ -44,4 +46,14 @@
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+}
+.main-card .svg-inline--fa {
+    color: #FD5D02;
+}
+.read-btn
+{
+    color: #FD5D02 !important;
+}
+.read-btn:hover {
+    text-decoration: underline;
 }

@@ -13,36 +13,60 @@ function Header() {
 
 
     <header className="inner-main-header">
-      <Navbar expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img src={Logo} alt="" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">About us</Nav.Link>
-              <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Personal Care<br />Services</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Home Support<br />Services</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Professional Nursing <br />Care Services</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Companionship<br />& Recreation</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.5">Hospital Recovery<br />Care Service</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.6">Meal Preparation<br />& Diet Planning</NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#link">Booking</Nav.Link>
-              <Nav.Link href="#link">Blog</Nav.Link>
-              <Nav.Link href="#link">Contact us</Nav.Link>
-            </Nav>
-            <div className="get-quote">
-              <button className="all-button">Book Appointment <FontAwesomeIcon icon={faArrowRight} className="social-icon" /></button>
 
+<div className="container">
+
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src={Logo} alt="" />
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">personal care<br></br> service</a></li>
+                  <li><a class="dropdown-item" href="#">home support<br></br>  service</a></li>
+                  <li><a class="dropdown-item" href="#">professional nursing<br></br>  service</a></li>
+                  <li><a class="dropdown-item" href="#">companionship & <br></br> recreation</a></li>
+                  <li><a class="dropdown-item" href="#">hospital recovery<br></br>  care service</a></li>
+                  <li><a class="dropdown-item" href="#">meal preparation &<br></br>  diet planning</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact Us</a>
+              </li>
+            </ul>
+            <div className="get-quote">
+              <button className="all-button">Booking  <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /> </button>
             </div>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+          </div>
+        </div>
+      </nav>
+      </div>
     </header>
+
+
   )
 }
 

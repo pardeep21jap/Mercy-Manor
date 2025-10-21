@@ -16,7 +16,7 @@
   background-color: white;
 }
 .inner-main-header .navbar-nav .nav-item a {
-  font-size: 20px;
+  font-size: 19px;
   color: #012451 !important;
   text-transform: capitalize;
   font-family: "Oswald", sans-serif;
@@ -77,4 +77,7 @@ height: 107px;
 .all-button:hover  {
   background-color: transparent;
   color: black;
+}
+.all-button .svg-inline--fa {
+ padding-left: 10px;
 }

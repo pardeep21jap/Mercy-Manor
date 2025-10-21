@@ -17,9 +17,9 @@ function Who() {
               <img src="./src/assets/Images/who1.jpeg" alt="" />
             </div>
             <div className="who-text col-6">
-              <h2>About Us</h2>
+              <h2 className='all-heading'>About Us</h2>
 
-              <p className='allp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.</p>
+              <p className='allp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
 
               <div className="blue-div">
