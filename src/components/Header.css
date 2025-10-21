@@ -1,6 +1,9 @@
+
+
+
 .inner-main-header .navbar-brand img {
   width: 100%;
-  height: 180px;
+  height: 140px;
 }
 .inner-main-header   .bg-body-tertiary {
   --bs-bg-opacity: 0;
@@ -9,14 +12,27 @@
 .inner-main-header .navbar-expand-lg .navbar-nav {
   margin: 0 auto;
   position: relative;
+  z-index: 111111111111111;
+  background-color: white;
 }
 .inner-main-header .navbar-nav .nav-item a {
   font-size: 20px;
-  color: black !important;
+  color: #012451 !important;
   text-transform: capitalize;
   font-family: "Oswald", sans-serif;
   margin: 0 20px 0 0;
   padding: 0;
+}
+.inner-main-header .navbar
+{
+padding: 0;
+margin: 0;
+height: 107px;
+}
+.inner-main-header .navbar-brand
+{
+  padding: 0;
+  margin: 0;
 }
 .inner-main-header .navbar-nav .nav-item
 {
@@ -44,7 +60,7 @@
 }
 
 
-.get-quote button {
+.all-button {
   text-transform: uppercase;
   background-color: #FD5D02;
   border-color: #FD5D02;
@@ -52,13 +68,13 @@
   box-shadow: none;
   padding: 10px 28px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   transition: 0.3s;
   border-radius: 3px;
 }
-.get-quote:hover button {
+.all-button:hover  {
   background-color: transparent;
   color: black;
 }

@@ -1,0 +1,48 @@
+.row
+{
+  margin: 0px !important;
+}
+.who-img img {
+    width: 100%;
+}
+#who-section {
+    margin: 55px 0 55px 0;
+}
+.who-text{
+    padding: 50px 0 0 80px !important;
+}
+.who-text h2
+{
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.blue-div li i .usericon {
+   
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.blue-div li {
+    display: inline-block;
+    padding: 15px 0 20px 25px;
+    text-align: center;
+}
+.bluedivbtn {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    background-color: #012451;
+    border-color: #012451;
+}
+.blue-div {
+    background-color: #012451;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 0 30px 0;
+    margin-top: 30px;
+}
+.blue-div ul li h4{
+  text-transform: capitalize;
+  font-size: 20px;
+}

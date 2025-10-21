@@ -5,29 +5,57 @@ import 'swiper/css';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
+import './Slider.css'
 
-function App() {
+function Slider() {
 
 
   return (
     <>
 
-      <Swiper navigation={true}  pagination={true} autoplay={true}
+      <Swiper navigation={true} pagination={false} autoplay={false}
         modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
-        <SwiperSlide><img src="https://picsum.photos/seed/1/800/500" alt="1" />
-          <div className="slider-text">
-            <h2>Slide 1</h2>
-            <p>This is the description for Slide 1.</p>
-          </div>
 
+        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slide2.png" alt="1" />
+
+          <div className="opacity-div">
+
+            <div className="slider-text">
+              <h2>Trusted Nurse Care at Your Doorstep</h2>
+
+              <button className='all-button'>Contact US</button>
+
+
+            </div>
+          </div>
         </SwiperSlide>
-        <SwiperSlide><img src="https://picsum.photos/seed/2/800/500" alt="2" /></SwiperSlide>
-        <SwiperSlide><img src="https://picsum.photos/seed/3/800/500" alt="3" /></SwiperSlide>
-        <SwiperSlide><img src="https://picsum.photos/seed/4/800/500" alt="4" /></SwiperSlide>
+        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slide3.png" alt="1" />
+          <div className="opacity-div">
+
+            <div className="slider-text">
+              <h2>Bringing Hospital-Quality Care to Your Home</h2>
+
+              <button className='all-button'>Contact US</button>
+
+
+            </div>
+          </div></SwiperSlide>
+        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slide1.png" alt="1" />
+          <div className="opacity-div">
+
+            <div className="slider-text">
+              <h2>Professional Health Care, Personalized for You</h2>
+
+              <button className='all-button'>Contact US</button>
+
+
+            </div>
+          </div></SwiperSlide>
+
       </Swiper>
 
     </>
   )
 }
 
-export default App
+export default Slider;

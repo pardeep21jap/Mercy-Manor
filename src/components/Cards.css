@@ -1,0 +1,47 @@
+
+.outer-card {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 40px;
+    z-index: 111111111111111;
+    padding: 17px 0;
+}
+.main-card {
+    padding: 5px 40px;
+    border-right: 1px solid #012451;
+}
+.outer-card .main-card:last-child {
+    border-right: none;
+}
+.main-card h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 21px;
+    margin: 20px 0 20px 0;
+}
+.allp {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: justify;
+}
+.main-card img {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+}
+.main-card button {
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #012451;
+    background-image: none;
+    box-shadow: none;
+    padding: 10px 28px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
