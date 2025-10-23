@@ -1,0 +1,34 @@
+ .mainlogo img
+ {
+    width: 150px;
+ }
+.allp.footp
+{
+  margin-top: 0px !important;
+  color: #012451;
+}
+.mainft .rightp
+
+{
+  text-align: center !important;
+}
+.mainft ul li
+{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.mainft h4
+{
+  font-weight: bold;
+  margin-bottom: 20px;
+    color: #FD5D02 ;
+}
+.mainft ul li a
+{
+  text-decoration: none;
+  color: #012451;
+  font-weight: 600;
+}
+.mainft {
+    margin-top: 40px;
+}

@@ -13,7 +13,7 @@ function Slider() {
   return (
     <>
 
-      <Swiper navigation={true} pagination={false} autoplay={false}
+      <Swiper navigation={true} pagination={false} autoplay={true}
         modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
         <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slide2.png" alt="1" />

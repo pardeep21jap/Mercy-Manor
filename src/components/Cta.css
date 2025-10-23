@@ -1,0 +1,47 @@
+.cta-inner
+{
+  background-image:  url('../assets/Images/cta-bg.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 470px;
+}
+.cta-text {
+    color: white;
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    padding: 98px 0 0 0;
+}
+.cta-text h3 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: oswald ,sans-serif;
+}
+.cta-text p {
+    font-size: 18px;
+    padding: 30px 0 29px 0;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.cta-text button
+{
+  margin-right: 8px;
+}
+.cta-text ul li {
+    display: inline-block;
+    color: white !important;
+    list-style-type: none;
+    margin: 15px 0 0 0;
+}
+.cta-text ul li a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 9px;
+    transition: 0.3s;
+    font-size: 26px;
+}
