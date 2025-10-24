@@ -9,19 +9,12 @@
 }
 
 .service-inner {
-  /* path is relative to this CSS file (src/components -> ../assets/Images) */
-  background-image: url('../assets/Images/service.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 420px; /* ensure the section is visible */
-  padding: 70px 0;
-  z-index: 1111111111111111;
+  
+  padding: 15px 0px;
 }
 
 .all-services {
-    margin: 0px 15px 19px 0px;
+    margin: 0px 12px 19px 0px;
     position: relative;
     z-index: 8888888888888;
     overflow: hidden;
@@ -33,11 +26,6 @@
   width: 100%;
   height: auto;
   transition: 0.3s;
-}
-
-.all-heading.cen-heading {
-  margin: auto;
-  margin-bottom: 41px;
 }
 
 .main-services {
@@ -52,7 +40,7 @@
 
 .ser-text {
   position: absolute;
-  bottom: -109px;
+  bottom: -103px;
   left: 0;
   color: white;
   background-color: rgba(1, 36, 81, 0.5);

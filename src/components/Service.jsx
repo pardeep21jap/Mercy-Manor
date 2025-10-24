@@ -12,7 +12,7 @@ function Service() {
       <div className="container-fluid">
 
         <h2 className='all-heading cen-heading'>our Services</h2>
-
+        <h3 className='subtitle'>Comprehensive Care for Every Need</h3>
 
         <div className="service-inner">
 

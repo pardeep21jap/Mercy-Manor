@@ -15,7 +15,7 @@ function Whyus() {
         <div className="whyus-inner">
 
           <h2 className='all-heading cen-heading'>why mercy Minor</h2>
-
+  <h3 className='subtitle'>Your Health Deserves the Best — Here’s Why</h3>
 
           <div className="row outer-whyus">
 

@@ -6,7 +6,6 @@ import Who from './components/Who.jsx'
 import Service from './components/Service.jsx'
 import Whyus from './components/Whyus.jsx'
 import Review from './components/Review.jsx'
-import Cta from './components/Cta.jsx'
 import Footer from './components/Footer.jsx'
 function App() {
 
@@ -19,7 +18,6 @@ function App() {
       <Service></Service>
       <Whyus></Whyus>
       <Review></Review>
-      <Cta></Cta>
       <Footer></Footer>
     </>
   )

@@ -4,6 +4,8 @@ import 'swiper/css';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 
 import "./Review.css"
@@ -13,41 +15,40 @@ function Review() {
       <div className="container">
         <div className="review-inner">
           <h2 className='all-heading cen-heading'>What our patients say</h2>
+          <h3 className='subtitle'>Hear From Our Happy Patients</h3>
+          <Swiper navigation={true} pagination={true} autoplay={true}
+            modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
- <Swiper navigation={true} pagination={true} autoplay={true}
-        modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
-
-        <SwiperSlide className='mainslider review-slider'>
-          <img src="./src/assets/Images/user.png" alt="1" />
-
-        
-
-            <div className="slider-text review-text">
-             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.  </p>
-
-            <span>User name</span>
+            <SwiperSlide className='mainslider review-slider'>
+              <FontAwesomeIcon icon={faUser} className='clienticon' />
 
 
-        
-          </div>
-        </SwiperSlide>
 
-     <SwiperSlide className='mainslider review-slider'>
-          <img src="./src/assets/Images/user.png" alt="1" />
+              <div className="slider-text review-text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.  </p>
 
-        
-
-            <div className="slider-text review-text">
-             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.  </p>
-
-            <span>User name</span>
+                <span>User name</span>
 
 
-        
-          </div>
-        </SwiperSlide>
 
-      </Swiper>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className='mainslider review-slider'>
+              <FontAwesomeIcon icon={faUser} className='clienticon' />
+
+
+              <div className="slider-text review-text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.  </p>
+
+                <span>User name</span>
+
+
+
+              </div>
+            </SwiperSlide>
+
+          </Swiper>
 
 
         </div>

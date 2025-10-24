@@ -1,11 +1,17 @@
- .mainlogo img
+#footer-section
+{
+    background-color: #FD5D02;
+    padding: 50px 0px 20px 0px;
+}
+
+.mainlogo img
  {
-    width: 150px;
+    width: 200px;
  }
 .allp.footp
 {
   margin-top: 0px !important;
-  color: #012451;
+  color: white !important;
 }
 .mainft .rightp
 
@@ -20,15 +26,56 @@
 .mainft h4
 {
   font-weight: bold;
-  margin-bottom: 20px;
-    color: #FD5D02 ;
+  margin-bottom: 0px;
+    color: white;
+}
+.mainft h4::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 0;
+    margin-top: 7px;
 }
 .mainft ul li a
 {
   text-decoration: none;
-  color: #012451;
+  color: white;
   font-weight: 600;
 }
+.mainft ul li a:hover
+{
+  text-decoration: underline;
+  color: black
+}
+.rightp
+{
+  text-align: center !important;
+  color: white !important;
+  font-weight: 500 !important;
+  margin-top: 30px;
+}
 .mainft {
-    margin-top: 40px;
+    margin-top: 38px !important;
+    padding-left: 74px !important;
+}
+.mainft ul {
+    margin: 0;
+    padding: 17px 0 0 4px;
+}
+
+.mediaicons {
+    display: flex !important;
+    margin: 0;
+    padding: 0;
+}
+.mainft .mediaicons li
+{
+  margin-left: 3px;
+  margin-right: 8px;
+}
+.mainft .mediaicons li a
+{
+   font-size: 35px;
 }

@@ -5,8 +5,8 @@ import { faSquarePhone } from '@fortawesome/free-solid-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { faMapPin } from '@fortawesome/free-solid-svg-icons'
-
-
+import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -19,7 +19,8 @@ function Footer() {
             <div className="row footer-main">
 
               <div className='col-3 mainlogo'>
-                <img src="./src/assets/Images/logo.png" alt="" />
+                <img src="./src/assets/Images/Logo-removebg-.png" alt="" />
+
                 <p className='allp footp'>Providing compassionate, professional nursing care in the comfort of your home. Your health, my priority.</p>
               </div>
 
@@ -48,7 +49,20 @@ function Footer() {
 
                 </ul>
               </div>
-
+              <div className="col-3 mainft">
+                <h4>Follow Us</h4>
+                <ul className='mediaicons'>
+                  <li>
+                    <a href=""><FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /></a>
+                  </li>
+                  <li>
+                    <a href=""><FontAwesomeIcon icon={faSquareInstagram} className='' /></a>
+                  </li>
+                  <li>
+                    <a href=""><FontAwesomeIcon icon={faSquareEnvelope} className='mailicon' /></a>
+                  </li>
+                </ul>
+              </div>
 
             </div>
             <p className='rightp'>© 2024 Mercy Minor. All rights reserved.</p>

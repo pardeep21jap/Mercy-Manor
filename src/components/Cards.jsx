@@ -2,6 +2,8 @@
 import './Cards.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
+import { faSackDollar } from "@fortawesome/free-solid-svg-icons";
 
 function Cards() {
 
@@ -19,14 +21,14 @@ function Cards() {
         </div>
 
         <div className='main-card'>
-          <FontAwesomeIcon icon={faUserCheck} className='usericon' />
+          <FontAwesomeIcon icon={faClock} className='usericon' />
           <h3>24/7 support</h3>
           <p className='allp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.</p>
           <button className='read-btn'>Read More</button>
         </div>
 
         <div className='main-card'>
-          <FontAwesomeIcon icon={faUserCheck} className='usericon' />
+          <FontAwesomeIcon icon={faSackDollar} className='usericon' />
           <h3>Affordable and flexible plans</h3>
           <p className='allp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.</p>
           <button className='read-btn'>Read More</button>
