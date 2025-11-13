@@ -1,18 +1,19 @@
 
-import Banner from "../Banner";
-
-import Ourstory from "../Ourstory";
-import Process from "../Process";
-import MVV from "../MVV";
+import Cards from "../Cards";
+import Slider from "../Slider";
+import Who from "../Who";
+import Service from "../Service";
+import Whyus from "../Whyus";
 import Cta from "../Cta";
 
 function Home() {
   return (
     <>
-      <Banner />
-      <Ourstory />
-      <MVV />
-      <Process />
+    <Slider />
+      <Cards />
+      <Who />
+      <Service />
+      <Whyus />
       <Cta />
     </>
   )

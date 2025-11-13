@@ -4,10 +4,10 @@
 }
 .proimage img
 {
-  width: 50%
+  width: 40%
 }
 .protext {
-    width: 50%;
+    width: 60%;
     float: left;
 }
 #pills-tab {
@@ -46,4 +46,8 @@
    background-color: #FD5D02 !important;
    color: white !important;
 
+}
+#pills-tabContent {
+    border: 2px solid #FD5D02;
+    padding: 20px;
 }

@@ -1,6 +1,5 @@
 /* Use a relative path from this CSS file to the image in src/assets/Images */
-.container{
-}
+
 
 .servicebg img {
   width: 100%;
@@ -36,7 +35,7 @@
 }
 
 .ser-text {
-  position: absolute;
+  position: absolute !important;
   bottom: -108px;
   left: 0;
   color: white;
@@ -70,4 +69,7 @@
 .all-button.servbtn:hover
 {
   color: black;
+}
+#services-section {
+    margin: 50px 0 50px 0;
 }

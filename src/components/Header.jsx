@@ -29,19 +29,19 @@ function Header() {
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/About" className="nav-link">About Us</Link>
+                  <Link to="/AboutUs" className="nav-link">About Us</Link>
                 </li>
                 <li className="nav-item dropdown">
+                  <Link to="/Services" className="nav-link">Services</Link>
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">personal care<br></br> service</a></li>
-                    <li><a className="dropdown-item" href="#">home support<br></br>  service</a></li>
-                    <li><a className="dropdown-item" href="#">professional nursing<br></br>  service</a></li>
-                    <li><a className="dropdown-item" href="#">companionship & <br></br> recreation</a></li>
-                    <li><a className="dropdown-item" href="#">hospital recovery<br></br>  care service</a></li>
-                    <li><a className="dropdown-item" href="#">meal preparation &<br></br>  diet planning</a></li>
+                    <li><a className="dropdown-item" href="#">Dementia Care <br></br> service</a></li>
+                    <li><a className="dropdown-item" href="#">Companion care<br></br>  service</a></li>
+                    <li><a className="dropdown-item" href="#">Escorting client to appointments<br></br>  service</a></li>
+                    <li><a className="dropdown-item" href="#">Home making</a></li>
+                    <li><a className="dropdown-item" href="#">Meal preparation</a></li>
+                    <li><a className="dropdown-item" href="#">Nursing Care</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">

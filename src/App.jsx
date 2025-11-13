@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home.jsx";
-import About from "./components/pages/About.jsx";
+import AboutUs from "./components/pages/AboutUs.jsx";
+import Services from "./components/pages/Services.jsx";
 import Header from "./components/Header.jsx";
 import Slider from "./components/Slider.jsx";
 import Cards from "./components/Cards.jsx";
@@ -10,6 +11,8 @@ import Whyus from "./components/Whyus.jsx";
 import Review from "./components/Review.jsx";
 import Cta from "./components/Cta.jsx";
 import Footer from "./components/Footer.jsx";
+
+
 function App() {
   return (
     <div>
@@ -17,7 +20,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Services" element={<Services />} />
         </Routes>
       </BrowserRouter>
       <Footer />
