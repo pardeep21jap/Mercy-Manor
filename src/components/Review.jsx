@@ -16,17 +16,18 @@ function Review() {
         <div className="review-inner">
           <h2 className='all-heading cen-heading'>What our patients say</h2>
           <h3 className='subtitle'>Hear From Our Happy Patients</h3>
-          <Swiper navigation={true} pagination={true} autoplay={true}
+          <Swiper navigation={true} pagination={true} autoplay={false} slidesPerView={2}
+        spaceBetween={30}
             modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
             <SwiperSlide className='mainslider review-slider'>
-              <FontAwesomeIcon icon={faUser} className='clienticon' />
+             
 
 
 
               <div className="slider-text review-text">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.  </p>
-
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. </p>
+ <FontAwesomeIcon icon={faUser} className='clienticon' />
                 <span>User name</span>
 
 
@@ -35,12 +36,40 @@ function Review() {
             </SwiperSlide>
 
             <SwiperSlide className='mainslider review-slider'>
-              <FontAwesomeIcon icon={faUser} className='clienticon' />
+             
 
 
               <div className="slider-text review-text">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.  </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. </p>
+ <FontAwesomeIcon icon={faUser} className='clienticon' />
+                <span>User name</span>
 
+
+
+              </div>
+            </SwiperSlide>
+
+              <SwiperSlide className='mainslider review-slider'>
+             
+
+
+              <div className="slider-text review-text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. </p>
+ <FontAwesomeIcon icon={faUser} className='clienticon' />
+                <span>User name</span>
+
+
+
+              </div>
+            </SwiperSlide>
+
+              <SwiperSlide className='mainslider review-slider'>
+             
+
+
+              <div className="slider-text review-text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. </p>
+ <FontAwesomeIcon icon={faUser} className='clienticon' />
                 <span>User name</span>
 
 

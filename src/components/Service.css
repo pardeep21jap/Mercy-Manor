@@ -1,7 +1,5 @@
 /* Use a relative path from this CSS file to the image in src/assets/Images */
-.container-fluid {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.container{
 }
 
 .servicebg img {
@@ -14,7 +12,7 @@
 }
 
 .all-services {
-    margin: 0px 12px 19px 0px;
+    margin: 0px 14px 17px 0px;
     position: relative;
     z-index: 8888888888888;
     overflow: hidden;
@@ -30,7 +28,6 @@
 
 .main-services {
   margin-top: 40px !important;
-  width: 70%;
   margin: auto !important;
 }
 
@@ -40,10 +37,11 @@
 
 .ser-text {
   position: absolute;
-  bottom: -103px;
+  bottom: -108px;
   left: 0;
   color: white;
-  background-color: rgba(1, 36, 81, 0.5);
+  background-color: #FD5D02;
+  opacity: 0.8;
   padding: 10px 15px;
   border-radius: 0px;
   width: 100%;
@@ -63,4 +61,13 @@
   display: block;
   bottom: 0px;
  
+}
+.all-button.servbtn
+{
+  border-color: white;
+
+}
+.all-button.servbtn:hover
+{
+  color: black;
 }

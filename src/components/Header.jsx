@@ -10,63 +10,58 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
-
-
     <header className="inner-main-header">
-
       <div className="container">
-
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
               <img src={Logo} alt="" />
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                
+                <li className="nav-item">
+                  <a className="nav-link" href="#">About Us</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Services
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">personal care<br></br> service</a></li>
-                    <li><a class="dropdown-item" href="#">home support<br></br>  service</a></li>
-                    <li><a class="dropdown-item" href="#">professional nursing<br></br>  service</a></li>
-                    <li><a class="dropdown-item" href="#">companionship & <br></br> recreation</a></li>
-                    <li><a class="dropdown-item" href="#">hospital recovery<br></br>  care service</a></li>
-                    <li><a class="dropdown-item" href="#">meal preparation &<br></br>  diet planning</a></li>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">personal care<br></br> service</a></li>
+                    <li><a className="dropdown-item" href="#">home support<br></br>  service</a></li>
+                    <li><a className="dropdown-item" href="#">professional nursing<br></br>  service</a></li>
+                    <li><a className="dropdown-item" href="#">companionship & <br></br> recreation</a></li>
+                    <li><a className="dropdown-item" href="#">hospital recovery<br></br>  care service</a></li>
+                    <li><a className="dropdown-item" href="#">meal preparation &<br></br>  diet planning</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">booking</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">booking</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">blog</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">blog</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">contact Us</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">contact Us</a>
                 </li>
               </ul>
               <div className="get-quote">
-                <button className="all-button">Booking  <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /> </button>
+                <button className="all-button"> Booking  <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /> </button>
               </div>
+
             </div>
           </div>
         </nav>
       </div>
     </header>
-
-
   )
 }
 

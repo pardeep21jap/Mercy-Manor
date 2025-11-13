@@ -3,7 +3,9 @@ import "./Cta.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";  
+import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+
 
 
 
@@ -12,16 +14,14 @@ function Cta() {
     <div>
 
       <section id='cta-section'>
-        <div className="container-fluid">
-          <div className="cta-inner">
+        <div className="container">
+          <div className="row cta-inner">
 
-<div className="cta-text">
-  <h3>Don’t wait to feel better</h3>
-    <p>Your health and comfort matter most. Whether you need support recovering from illness, managing chronic conditions, or simply maintaining your wellbeing, I’m here to help.</p> 
-     <button className='all-button'>book appointment </button>
-       <button className='all-button'>our services</button>
+<div className="col-6 cta-text">
+  <h3>Book a Consultation You’re in Safe Hands</h3>
+   
 
-       <ul>
+       {/* <ul>
         <li>
           <a href=""> <FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /> </a>
         </li>
@@ -31,7 +31,13 @@ function Cta() {
         <li>
           <a href=""> <FontAwesomeIcon icon={faSquareEnvelope} className='mailicon' /> </a>
         </li>
-       </ul>
+       </ul> */}
+
+</div>
+
+<div className='col-6 cta-buttons'>
+  <button className='cta-button'>book appointment   <FontAwesomeIcon icon={faCalendarDays} className='' /></button>
+      
 </div>
 
           </div>

@@ -9,7 +9,7 @@ function Service() {
     <section id='services-section'>
 
 
-      <div className="container-fluid">
+      <div className="container">
 
         <h2 className='all-heading cen-heading'>our Services</h2>
         <h3 className='subtitle'>Comprehensive Care for Every Need</h3>
@@ -29,7 +29,7 @@ function Service() {
               <div className="ser-text">
                 <h3>personal care</h3>
                 <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                <button className='all-button'>booking</button>
+                <button className='all-button servbtn'>booking</button>
               </div>
 
 
@@ -42,7 +42,7 @@ function Service() {
               <div className="ser-text">
                 <h3>home support service</h3>
                 <p className='allp serp' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                <button className='all-button'>booking</button>
+                <button className='all-button servbtn'>booking</button>
               </div>
 
 
@@ -55,7 +55,7 @@ function Service() {
               <div className="ser-text">
                 <h3>professional nursing service</h3>
                 <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                <button className='all-button'>booking</button>
+                <button className='all-button servbtn'>booking</button>
               </div>
 
 
@@ -69,7 +69,7 @@ function Service() {
               <div className="ser-text">
                 <h3>companionship & recreation</h3>
                 <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                <button className='all-button'>booking</button>
+                <button className='all-button servbtn'>booking</button>
               </div>
 
 
@@ -81,7 +81,7 @@ function Service() {
               <div className="ser-text">
                 <h3>hospital recovery care service</h3>
                 <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                <button className='all-button'>booking</button>
+                <button className='all-button servbtn'>booking</button>
               </div>
 
 
@@ -94,7 +94,7 @@ function Service() {
               <div className="ser-text">
                 <h3>meal preparation & diet planning</h3>
                 <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                <button className='all-button'>booking</button>
+                <button className='all-button servbtn'>booking</button>
               </div>
 
 

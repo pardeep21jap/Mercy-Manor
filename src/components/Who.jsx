@@ -14,7 +14,7 @@ function Who() {
 
           <div className='row outer-who'>
             <div className="who-img col-6">
-              <img src="./src/assets/Images/who1.jpeg" alt="" />
+              <img src="./src/assets/Images/about2.png" alt="" />
             </div>
             <div className="who-text col-6">
               <h2 className='all-heading'>About Us</h2>

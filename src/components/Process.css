@@ -1,0 +1,49 @@
+#process-section
+{
+  margin: 110px 0px 50px 0px;
+}
+.proimage img
+{
+  width: 50%
+}
+.protext {
+    width: 50%;
+    float: left;
+}
+#pills-tab {
+    margin: auto;
+}
+.process-tabs
+{
+  margin: auto;
+  display: grid;
+}
+.process-tabs ul li button
+{
+  background-color: transparent;
+  border-color: #FD5D02;
+  color: #FD5D02;
+  margin: 0px 7px;
+  font-size: 17px;
+  border-radius: 0px;
+  border: 2px solid #FD5D02;
+  font-family: "Oswald", sans-serif;
+  border-radius: 0px !important;
+
+}
+.process-tabs ul li button:hover
+{
+  background-color: #FD5D02;
+  color: white;
+} 
+.protext p {
+    font-weight: 100;
+    font-size: 17px;
+    padding: 0 30px;
+    margin: 0;
+}
+.process-tabs .nav-link.active {
+   background-color: #FD5D02 !important;
+   color: white !important;
+
+}

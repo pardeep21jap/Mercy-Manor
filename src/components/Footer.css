@@ -1,6 +1,6 @@
 #footer-section
 {
-    background-color: #FD5D02;
+    background-color: white;
     padding: 50px 0px 20px 0px;
 }
 
@@ -11,7 +11,7 @@
 .allp.footp
 {
   margin-top: 0px !important;
-  color: white !important;
+  color: black !important;
 }
 .mainft .rightp
 
@@ -27,21 +27,21 @@
 {
   font-weight: bold;
   margin-bottom: 0px;
-    color: white;
+    color: black;
 }
 .mainft h4::after {
     content: "";
     display: block;
     width: 65px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin-bottom: 0;
     margin-top: 7px;
 }
 .mainft ul li a
 {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 600;
 }
 .mainft ul li a:hover
@@ -52,7 +52,7 @@
 .rightp
 {
   text-align: center !important;
-  color: white !important;
+  color: black !important;
   font-weight: 500 !important;
   margin-top: 30px;
 }

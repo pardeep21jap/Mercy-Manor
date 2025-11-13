@@ -1,0 +1,9 @@
+#story-section
+{
+  margin: 50px 0 50px 0;
+}
+.storytext p {
+    color: black;
+    margin: 24px 0 0 0;
+    font-size: 17px;
+}

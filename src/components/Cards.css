@@ -1,16 +1,18 @@
 
 .outer-card {
     display: flex;
-    width: 70%;
-    margin: 20px auto;
+    margin: 0px;
     border-radius: 40px;
     z-index: 111111111111111;
-    padding: 17px 0;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
 }
 .main-card {
-    padding: 5px 40px;
-    border-right: 1px solid #012451;
+    padding: 0px 43px !important;
     text-align: center;
+    margin: 38px 0 !important;
+    border-right: 1px solid #DDDDDD;
 }
 .outer-card .main-card:last-child {
     border-right: none;
@@ -19,6 +21,8 @@
     font-family: "Oswald", sans-serif;
     font-size: 21px;
     margin: 20px 0 20px 0;
+    text-transform: capitalize;
+    color: #FD5D02;
 }
 .allp {
     font-family: "Oswald", sans-serif;
@@ -47,8 +51,9 @@
     font-weight: bold;
     cursor: pointer;
 }
-.main-card .svg-inline--fa {
+.main-card .usericon {
     color: #FD5D02;
+    font-size: 30px;
 }
 .read-btn
 {

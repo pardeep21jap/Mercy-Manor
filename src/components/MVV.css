@@ -1,0 +1,47 @@
+#mission-section {
+    margin: 60px 0 60px 0;
+}
+.missioncard.one {
+    background-color: #418AB3;
+   
+}
+.missioncard.two
+{
+    background-color: #F69200;
+}
+.missioncard.three
+{
+    background-color: #1EA185;
+}
+.missioncard {
+    padding: 40px 15px 2px 15px !important;
+    margin: 0 10px;
+    width: 31.7% !important;
+}
+.missioncard h3,p
+{
+color: white;
+text-align: center;
+font-family: "Oswald", sans-serif;
+}
+.cardicon {
+    color: white;
+    border: 8px solid white;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 26px;
+    padding: 33px 5px;
+    position: relative;
+    bottom: -58px;
+    background-color: #0288A4;
+}
+.missioncard.two .cardicon
+{
+    background-color: #F69200;
+}
+.missioncard.three .cardicon
+{
+    background-color: #1EA185;
+}
