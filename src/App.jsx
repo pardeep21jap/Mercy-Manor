@@ -20,6 +20,7 @@ function App() {
           <Route path="/About" element={<About />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

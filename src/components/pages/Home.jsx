@@ -5,8 +5,6 @@ import Ourstory from "../Ourstory";
 import Process from "../Process";
 import MVV from "../MVV";
 import Cta from "../Cta";
-import Footer from "../Footer";
-
 
 function Home() {
   return (
@@ -16,7 +14,6 @@ function Home() {
       <MVV />
       <Process />
       <Cta />
-      <Footer />
     </>
   )
 }

@@ -1,5 +1,6 @@
 
 import "./Header.css";
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -24,11 +25,11 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+                  <Link to="/" className="nav-link active" aria-current="page">Home</Link>
                 </li>
-                
+
                 <li className="nav-item">
-                  <a className="nav-link" href="#">About Us</a>
+                  <Link to="/About" className="nav-link">About Us</Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
