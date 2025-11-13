@@ -15,17 +15,15 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Services" element={<Services />} />
-        </Routes>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Services" element={<Services />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 export default App;
