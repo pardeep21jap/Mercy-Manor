@@ -12,12 +12,11 @@
 
 .all-services {
     margin: 0px 14px 17px 0px;
-    position: relative;
-    z-index: 8888888888888;
-    overflow: hidden;
     transition: 0.3s;
     padding: 0 !important;
     width: 32.2% !important;
+    border: 2px solid #FD5D02;
+    position: relative;
 }
 .all-services img {
   width: 100%;
@@ -35,20 +34,19 @@
 }
 
 .ser-text {
-  position: absolute !important;
-  bottom: -108px;
-  left: 0;
-  color: white;
-  background-color: #FD5D02;
+ 
+
+  color: black;
+  background-color: transparent;
   opacity: 0.8;
   padding: 10px 15px;
   border-radius: 0px;
   width: 100%;
-   transition: all 0.4s ease-in-out !important;
+  transition: all 0.4s ease-in-out !important;
 }
 .ser-text .allp.serp {
   font-size: 14px;
-  color: white;
+  color: black;
   margin-top: 5px;
 }
 .ser-text h3 {
@@ -63,8 +61,8 @@
 }
 .all-button.servbtn
 {
-  border-color: white;
-
+  border-color: #FD5D02;
+font-size: 11px;
 }
 .all-button.servbtn:hover
 {
@@ -72,4 +70,28 @@
 }
 #services-section {
     margin: 50px 0 50px 0;
+}
+.servicehover {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background-color: black;
+    height: 275px;
+    width: 100%;
+  display: none;
+  
+}
+.service-icons
+{
+  position: absolute;
+ color: #FD5D02;
+ font-size: 25px;
+  top: 40%;
+  left: 48%;
+  
+}
+.all-services:hover .servicehover
+{
+  display: block;
+ 
 }

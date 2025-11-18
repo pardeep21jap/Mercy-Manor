@@ -1,0 +1,51 @@
+.coninfo-outer
+{
+  margin: 50px 0 50px 0;
+}
+.contact-icons ul {
+    margin: auto;
+    padding: 0;
+    display: table;
+}
+.contact-icons ul li{
+  list-style-type: none;
+  padding-bottom: 20px;
+  margin: 0
+}
+.contact-icons ul li h4
+{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.contact-icons ul li span
+{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+.contact-icons .con-icon {
+    font-size: 40px;
+    color: #FD5D02;
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+    left: -51px;
+    top: 36px;
+    display: flex;
+    align-items: center;
+}
+.contact-form ul
+{
+  margin: 0;
+  padding: 0;
+}
+.contact-form ul li {
+  list-style-type: none;
+}
+.contact-icons {
+    padding-left: 75px;
+}

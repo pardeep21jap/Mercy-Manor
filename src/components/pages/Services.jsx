@@ -4,15 +4,17 @@ import Cards from '../Cards'
 import Services from '../Service'
 import Cta from '../Cta'
 import bannerImg from "../../assets/Images/banner.png";
+import Innerservices from '../Innerservices';
+import Allservices from '../Allservices';
 
 function services() {
   return (
     <>
-      <Banner title="Our Services"
-        subtitleba="our mission is to provide compassionate personalized healthcare <br></br> using modern medicine and a human touch."
+      <Banner title="Your Health, Our Priority"
+        subtitleba="Experience cutting-edge healthcare powered by innovation, delivered with compassion."
         bannerImage={bannerImg} />
-      <Cards />
-      <Services />
+      <Innerservices />
+      <Allservices />
       <Cta />
     </>
   )

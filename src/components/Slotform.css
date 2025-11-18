@@ -1,0 +1,122 @@
+#form-section
+{
+  margin: 50px 0 50px 0;
+}
+.form-check
+{
+  padding-left: 2px !important;
+}
+.form-check #checkDefault {
+    margin-top: 13px;
+    border: 2px solid black;
+    padding: 8px;
+}
+.formcontent {
+    background-color: #FD5D02;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    padding: 48px 16px 30px 16px !important;
+    border-radius: 40px;
+    height: 513px;
+}
+.formcontent h3::after
+{
+  content: '';
+  display: block;
+  width: 500px;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.own-checkitems {
+    padding: 22px 0 0 18px;
+}
+.own-checkitems span {
+    color: #FD5D02;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 11px;
+    position: relative;
+    top: 4px;
+}
+.formcontent p
+{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.formcontent ul
+{
+  margin: 0;
+  padding: 0;
+}
+.formcontent ul li
+{
+  list-style-type: none;
+  padding-bottom: 18px;
+  font-size: 18px;
+}
+.formcontent .formicon
+{
+  padding-right: 10px;
+}
+label
+{
+  color: #FD5D02;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+      font-size: 18px;
+      padding: 10px;
+      
+}
+textarea
+{
+  width: 100%;
+ border-radius: 10px;
+ border-color: #DEE2E6;
+}
+.own-textarea
+{
+  margin-left: 10px !important;
+}
+.mainform ul{
+  margin: 0;
+  padding: 0; 
+}
+.mainform ul li
+{
+  list-style-type: none;
+  display: inline-block;
+  width: 47%;
+  margin: 0 10px;
+}
+.benefit-icons ul {
+    margin-top: 20px;
+}
+.benefit-icons ul li
+{
+  display: inline-block;
+}
+.benefit-icons ul li .bene-icon
+{
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.mainform button
+{
+  background-color: #FD5D02;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  padding: 10px 39px !important;
+  border-color: #FD5D02;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+}
+.service-image img{
+  width: 100%;
+  height: 600px;
+  margin-top: 80px;
+  border-radius: 15px;
+}

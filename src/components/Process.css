@@ -4,11 +4,15 @@
 }
 .proimage img
 {
-  width: 40%
+  width: 100%
+}
+.proimage {
+    width: 40%;
+    float: left;
 }
 .protext {
     width: 60%;
-    float: left;
+    float: right;
 }
 #pills-tab {
     margin: auto;

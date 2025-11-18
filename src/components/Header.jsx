@@ -45,13 +45,14 @@ function Header() {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">booking</a>
+                   <Link to="/Booking" className="nav-link">Booking</Link>
+                
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">blog</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">contact Us</a>
+                  <Link to="/Contact" className="nav-link">Contact</Link>
                 </li>
               </ul>
               <div className="get-quote">
