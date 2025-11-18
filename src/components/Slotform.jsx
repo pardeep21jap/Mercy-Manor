@@ -236,56 +236,56 @@ function Slotform() {
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple2" checked={form.optApple2} onChange={handleChange} className="form-check-input" id="checkDefault2" />
-                    <label className="form-check-label" htmlFor="checkDefault2">
+                    <input type="checkbox" name="optApple2" checked={form.optApple2} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Wound Care - Simple / Complex
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple3" checked={form.optApple3} onChange={handleChange} className="form-check-input" id="checkDefault3" />
-                    <label className="form-check-label" htmlFor="checkDefault3">
+                    <input type="checkbox" name="optApple3" checked={form.optApple3} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Pharmacy Service - Medication Home Delivery
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple4" checked={form.optApple4} onChange={handleChange} className="form-check-input" id="checkDefault4" />
-                    <label className="form-check-label" htmlFor="checkDefault4">
+                    <input type="checkbox" name="optApple4" checked={form.optApple4} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Medical Escort for appointments
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple5" checked={form.optApple5} onChange={handleChange} className="form-check-input" id="checkDefault5" />
-                    <label className="form-check-label" htmlFor="checkDefault5">
+                    <input type="checkbox" name="optApple5" checked={form.optApple5} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Residential Cleaning Services
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple6" checked={form.optApple6} onChange={handleChange} className="form-check-input" id="checkDefault6" />
-                    <label className="form-check-label" htmlFor="checkDefault6">
+                    <input type="checkbox" name="optApple6" checked={form.optApple6} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Law Maintenance
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple7" checked={form.optApple7} onChange={handleChange} className="form-check-input" id="checkDefault7" />
-                    <label className="form-check-label" htmlFor="checkDefault7">
+                    <input type="checkbox" name="optApple7" checked={form.optApple7} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Gardening
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple8" checked={form.optApple8} onChange={handleChange} className="form-check-input" id="checkDefault8" />
-                    <label className="form-check-label" htmlFor="checkDefault8">
+                    <input type="checkbox" name="optApple8" checked={form.optApple8} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Attendant Care
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple9" checked={form.optApple9} onChange={handleChange} className="form-check-input" id="checkDefault9" />
-                    <label className="form-check-label" htmlFor="checkDefault9">
+                    <input type="checkbox" name="optApple9" checked={form.optApple9} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Home Making Services
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple10" checked={form.optApple10} onChange={handleChange} className="form-check-input" id="checkDefault10" />
-                    <label className="form-check-label" htmlFor="checkDefault10">
+                    <input type="checkbox" name="optApple10" checked={form.optApple10} onChange={handleChange} className="form-check-input" id="checkDefault" />
+                    <label className="form-check-label" htmlFor="checkDefault">
                       Companionship
                     </label>
                   </div>
