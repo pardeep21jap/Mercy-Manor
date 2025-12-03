@@ -11,7 +11,7 @@ import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
-
+import "./responsive.css"
 
 
 
@@ -39,7 +39,7 @@ function Allservices() {
                     <FontAwesomeIcon icon={faBrain} className='service-icons' />
                   </div>
                   <h3>Dementia Care </h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+                  <p className='allp serp'>s on helping the person maintain safety </p>
                   <button className='all-button servbtn'>Read More...</button>
                 </div>
 
@@ -51,7 +51,7 @@ function Allservices() {
                 <img src="./src/assets/Images/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
-                   <div className="servicehover">
+                  <div className="servicehover">
                     <FontAwesomeIcon icon={faPills} className='service-icons' />
                   </div>
                   <h3>Medication reminder </h3>
@@ -67,7 +67,7 @@ function Allservices() {
                 <img src="./src/assets/Images/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
- <div className="servicehover">
+                  <div className="servicehover">
                     <FontAwesomeIcon icon={faUtensils} className='service-icons' />
                   </div>
                   <h3>Assisting with diet </h3>
@@ -83,7 +83,7 @@ function Allservices() {
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
-                   <FontAwesomeIcon icon={faChessBoard} className='service-icons' />
+                    <FontAwesomeIcon icon={faChessBoard} className='service-icons' />
                   </div>
                   <h3>Indoor recreational activities </h3>
                   <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
@@ -115,7 +115,7 @@ function Allservices() {
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
-                     <FontAwesomeIcon icon={faHandshake} className='service-icons' />
+                    <FontAwesomeIcon icon={faHandshake} className='service-icons' />
                   </div>
                   <h3>Companion care</h3>
                   <p className='allp serp' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
@@ -148,7 +148,7 @@ function Allservices() {
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
-                   <FontAwesomeIcon icon={faHouse} className='service-icons' />
+                    <FontAwesomeIcon icon={faHouse} className='service-icons' />
                   </div>
                   <h3>Home making</h3>
                   <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
@@ -163,7 +163,7 @@ function Allservices() {
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
-                      <FontAwesomeIcon icon={faBowlFood} className='service-icons' />
+                    <FontAwesomeIcon icon={faBowlFood} className='service-icons' />
                   </div>
                   <h3>Meal preparation</h3>
                   <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
@@ -179,7 +179,7 @@ function Allservices() {
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
-                     <FontAwesomeIcon icon={faUserNurse} className='service-icons' />
+                    <FontAwesomeIcon icon={faUserNurse} className='service-icons' />
                   </div>
                   <h3>Nursing Care</h3>
                   <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>

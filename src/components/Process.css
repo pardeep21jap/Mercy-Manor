@@ -55,3 +55,52 @@
     border: 2px solid #FD5D02;
     padding: 20px;
 }
+
+
+
+
+
+/* new-process */
+/* .newprocess-content
+{
+  position: relative;
+}
+.newprocess-content ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+    padding: 0 43px;
+}
+.newprocess-content ul li img
+{
+  width: 150px;
+  border-radius: 87px;
+  height: 150px;
+}
+.newprocess-content .own-badge
+{
+  background-color: #FD5D02;
+  color: white;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  position: relative;
+  bottom: 62px;
+}
+.newprocess-content .arrow-icon {
+    font-size: 60px;
+    color: lightgray;
+    position: relative;
+    top: -322px;
+    left: 219px;
+    rotate: calc(90deg);
+}
+.newprocess-content ul li:hover .arrow-icon
+{
+    color: #FD5D02;
+} */

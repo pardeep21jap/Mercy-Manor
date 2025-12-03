@@ -23,37 +23,37 @@ function Whyus() {
                 <li>
                   <FontAwesomeIcon icon={faHandshake} className='usericon whyicon' />
                   <h3>Trust and professionalism</h3>
-                  <p className='allp whyp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='allp whyp'>We deliver dependable care backed by skilled experts and ethical medical standards.</p>
                 </li>
 
                 <li>
                   <FontAwesomeIcon icon={faHandHoldingHeart} className='usericon whyicon' />
                   <h3>Personalized care</h3>
-                  <p className='allp whyp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='allp whyp'>Every treatment plan is tailored to your unique health needs and lifestyle.</p>
                 </li>
 
                 <li>
                   <FontAwesomeIcon icon={faCalendar} className='usericon whyicon' />
                   <h3>Flexible appointment times</h3>
-                  <p className='allp whyp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='allp whyp'>Easy, convenient scheduling to suit your busy lifestyle.</p>
                 </li>
 
                 <li>
                   <FontAwesomeIcon icon={faIdBadge} className='usericon whyicon' />
                   <h3>Certified & trained staff</h3>
-                  <p className='allp whyp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='allp whyp'>Skilled, certified, and dedicated staff ensuring safe and effective healthcare services.</p>
                 </li>
 
                   <li>
                   <FontAwesomeIcon icon={faKitMedical} className='usericon whyicon' />
                   <h3>Advanced Medical Technology</h3>
-                  <p className='allp whyp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='allp whyp'>Modern technology ensures faster, safer, and more precise healthcare services.</p>
                 </li>
 
  <li>
                   <FontAwesomeIcon icon={faHandHoldingDollar} className='usericon whyicon' />
                   <h3>Affordable & Accessible</h3>
-                  <p className='allp whyp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='allp whyp'>Quality healthcare that fits your budget and is easy to reach when you need it.</p>
                 </li>
 
 

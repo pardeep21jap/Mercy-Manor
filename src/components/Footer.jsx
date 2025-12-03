@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquarePhone } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { faMapPin } from '@fortawesome/free-solid-svg-icons'
@@ -41,11 +41,11 @@ function Footer() {
               <div className='col-3 mainft'>
                 <h4>Contact Us</h4>
                 <ul>
-                  <li><a href=""> <FontAwesomeIcon icon={faSquarePhone} className='' /> + 1234567890</a>
+                  <li><a href=""> <FontAwesomeIcon icon={faPhone} className='' /> + 604 613 1245</a>
                   </li>
                   <li><a href=""> <FontAwesomeIcon icon={faSquareEnvelope} className='' /> info@mercyminor.com</a></li>
                   <li><a href=""> <FontAwesomeIcon icon={faClock} className='' /> mon-fri: 8:30am - 5pm</a></li>
-                  <li><a href=""> <FontAwesomeIcon icon={faMapPin} className='' /> Address</a></li>
+                  <li><a href=""> <FontAwesomeIcon icon={faMapPin} className='' /> 113, 13900, Hyland Road, Surrey, BC, V3W 1K4</a></li>
 
                 </ul>
               </div>
@@ -65,7 +65,7 @@ function Footer() {
               </div>
 
             </div>
-            <p className='rightp'>© 2024 Mercy Minor. All rights reserved.</p>
+            <p className='rightp'>© 2025 Mercy Minor. All rights reserved.</p>
           </div>
         </div>
 

@@ -11,14 +11,13 @@
 {
   position: relative;
 }
-.banner-text
-{
-  position: absolute;
-  top: 40%;
-  left: 16%;
-  right: 0;
-  bottom: 0;
-  padding: 0 0 30px 0;
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 321px;
+    right: 0;
+    bottom: 0;
+    padding: 0 0 30px 0;
 }
 .banner-text h3
 {

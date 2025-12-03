@@ -34,11 +34,22 @@ function Slotform() {
 
   const handleChange = (e) => {
     const { name, type, checked, value } = e.target;
-    setForm((s) => ({ ...s, [name]: type === "checkbox" ? checked : value }));
+    let v = type === "checkbox" ? checked : value;
+    // For phone field: remove non-digits and limit to 10 characters
+    if (name === "phone") {
+      v = String(v).replace(/\D/g, "").slice(0, 10);
+    }
+    setForm((s) => ({ ...s, [name]: v }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    // Validate phone is exactly 10 digits
+    const digitsOnlyPhone = String(form.phone || "").replace(/\D/g, "");
+    if (digitsOnlyPhone.length !== 10) {
+      alert("Please enter a valid 10-digit phone number.");
+      return;
+    }
     // prepare user-friendly payload (checkboxes as labels)
     const data = {
       access_key: ACCESS_KEY,
@@ -46,7 +57,7 @@ function Slotform() {
       name: `${form.firstName} ${form.lastName}`.trim(),
       // first_name: form.firstName,
       // last_name: form.lastName,
-      phone: form.phone,
+      phone: digitsOnlyPhone,
       date_of_birth: form.dob,
       claim_number: form.claimNumber,
       date_of_accident: form.accidentDate,
@@ -106,11 +117,6 @@ function Slotform() {
       alert("Network error");
     }
   };
-
-
-
-
-
 
   return (
     <>
@@ -189,7 +195,7 @@ function Slotform() {
                   <li>
                     <div className="form-group own-form-group">
                       <label htmlFor="inputNumber">Phone Number</label>
-                      <input type="number" name="phone" value={form.phone} onChange={handleChange} className="form-control" id="inputNumber" placeholder="Phone Number" required></input>
+                      <input id="inputNumber" type="tel" name="phone" value={form.phone} onChange={handleChange} className="form-control" inputMode="numeric" pattern="[0-9]{10}" maxLength="10" placeholder="Phone Number" required />
                     </div>
                   </li>
                   <li>

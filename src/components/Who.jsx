@@ -19,7 +19,7 @@ function Who() {
             <div className="who-text col-6">
               <h2 className='all-heading'>About Us</h2>
               <h3 className='subtitle'>Your Health Our Mission</h3>
-              <p className='allp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p className='allp'>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by Deepa Cheriyan, Pawandeep Kaur Sangar, and Manju Sebastian. Together, this dedicated team—comprising two registered nurses and a nurse currently in the process of obtaining her BC license—delivers holistic, client-centered care with a strong focus on ICBC clients and individuals in need of in-home health and companion services. </p>
 
 
               <div className="blue-div">

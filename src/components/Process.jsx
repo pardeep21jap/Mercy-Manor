@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Process.css"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fa1 } from "@fortawesome/free-solid-svg-icons";
+import { fa2 } from "@fortawesome/free-solid-svg-icons";
+import { fa3 } from "@fortawesome/free-solid-svg-icons";
+import { fa4 } from "@fortawesome/free-solid-svg-icons";
 function Process() {
   return (
     <div>
@@ -15,16 +19,16 @@ function Process() {
               <div className="process-tabs">
                 <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Initial Assessment</button>
+                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Initial Assessment<br></br> <FontAwesomeIcon icon={fa1} className='pro-icon' /></button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Personalized Care</button>
+                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Personalized Care<br></br> <FontAwesomeIcon icon={fa2} className='pro-icon'/></button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Caregiver Assignment</button>
+                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Caregiver Assignment<br></br><FontAwesomeIcon icon={fa3} className='pro-icon' /></button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-service" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Client Feedback</button>
+                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-service" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Client Feedback<br></br><FontAwesomeIcon icon={fa4} className='pro-icon' /></button>
                   </li>
                 </ul>
                 <div className="tab-content" id="pills-tabContent">
@@ -106,6 +110,53 @@ function Process() {
 
 
       </section>
+
+
+{/* 
+      <section id='new-process-section'>
+        <div className="conatiner">
+          <div className="newprocess-outer">
+            <div className="newprocess-inner">
+
+
+              <div className="newprocess-content">
+                <ul>
+                  <li>
+                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
+                    <span class="badge badge-pill badge-primary own-badge">1</span>
+                    <h3>step1</h3>
+                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
+                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
+                  </li>
+                   <li>
+                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
+                    <span class="badge badge-pill badge-primary own-badge">1</span>
+                    <h3>step1</h3>
+                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
+                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
+                  </li>
+                   <li>
+                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
+                    <span class="badge badge-pill badge-primary own-badge">1</span>
+                    <h3>step1</h3>
+                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
+                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
+                  </li>
+                   <li>
+                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
+                    <span class="badge badge-pill badge-primary own-badge">1</span>
+                    <h3>step1</h3>
+                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
+                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section> */}
 
     </div>
   )

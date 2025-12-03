@@ -36,17 +36,29 @@ function Header() {
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Dementia Care <br></br> service</a></li>
-                    <li><a className="dropdown-item" href="#">Companion care<br></br>  service</a></li>
-                    <li><a className="dropdown-item" href="#">Escorting client to appointments<br></br>  service</a></li>
-                    <li><a className="dropdown-item" href="#">Home making</a></li>
-                    <li><a className="dropdown-item" href="#">Meal preparation</a></li>
-                    <li><a className="dropdown-item" href="#">Nursing Care</a></li>
+                    <li>
+                      <Link to="/Dementia" className="nav-link">Dementia Care<br></br> Service</Link>
+                    </li>
+                    <li>
+                      <Link to="/Companion" className="nav-link">Companion Care<br></br>   Service</Link>
+                    </li>
+                    <li>
+                      <Link to="/Escorting" className="nav-link">Escorting Clients<br></br> Service</Link>
+                    </li>
+                    <li>
+                      <Link to="/Homemaking" className="nav-link">Home Making<br></br> Service</Link>
+                    </li>
+                    <li>
+                      <Link to="/Mealprep" className="nav-link">Meal Prepare<br></br> Service</Link>
+                      </li>
+                    <li>
+                      <Link to="/Nursingcare" className="nav-link">Nursing Care<br></br> Service</Link>
+                      </li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                   <Link to="/Booking" className="nav-link">Booking</Link>
-                
+                  <Link to="/Booking" className="nav-link">Booking</Link>
+
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">blog</a>
