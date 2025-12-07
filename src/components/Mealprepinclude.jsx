@@ -21,7 +21,7 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/menu.png" alt="" />
+                  <img src="./src/assets/menu.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -36,7 +36,7 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/foodprep.png" alt="" />
+                  <img src="./src/assets/foodprep.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -51,7 +51,7 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/dietplan.png" alt="" />
+                  <img src="./src/assets/dietplan.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -66,7 +66,7 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/store.png" alt="" />
+                  <img src="./src/assets/store.png" alt="" />
 
 
                   <div className="ser-text innerpage texted">

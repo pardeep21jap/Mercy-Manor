@@ -13,7 +13,7 @@ function Faqdementia() {
                 <div className="row faqcontet dementia-faq">
 
                   <div className="col-6 faq-image">
-                    <img src="./src/assets/Images/faq.jpeg" alt="" />
+                    <img src="./src/assets/faq.jpeg" alt="" />
                   </div>
 
                   <div className="col-6 faq-accordion">

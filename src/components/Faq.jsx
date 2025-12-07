@@ -10,11 +10,11 @@ function Faq() {
           <div className="faq-outer">
             <h2 className='all-heading cen-heading'>Frequently Asked Questions</h2>
             <h3 className='subtitle'>Learn more about our care services, team, and how we support your loved ones</h3>
-            
+
             <div className="row faqcontet">
 
               <div className="col-6 faq-image">
-                <img src="./src/assets/Images/faq.jpeg" alt="" />
+                <img src="./src/assets/faq.jpeg" alt="" />
               </div>
 
               <div className="col-6 faq-accordion">

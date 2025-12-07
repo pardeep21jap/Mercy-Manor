@@ -32,7 +32,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -48,7 +48,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -64,7 +64,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -79,7 +79,7 @@ function Allservices() {
               </div>
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -95,7 +95,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -111,7 +111,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser2.jpg" alt="" />
+                <img src="./src/assets/ser2.jpg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -127,7 +127,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/pro3.png" alt="" />
+                <img src="./src/assets/pro3.png" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -143,7 +143,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
 
                 <div className="ser-text innerpage texted">
@@ -159,7 +159,7 @@ function Allservices() {
               </div>
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">
@@ -175,7 +175,7 @@ function Allservices() {
 
               <div className="col-4 all-services">
 
-                <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                <img src="./src/assets/ser1.jpeg" alt="" />
 
                 <div className="ser-text innerpage texted">
                   <div className="servicehover">

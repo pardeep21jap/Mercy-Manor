@@ -1,5 +1,5 @@
 import Banner from "../Banner";
-import bannerImg from "../../assets/Images/contactbanner.png";
+import bannerImg from "../../assets/contactbanner.png";
 import Contactpara from "../Contactpara";
 import Cta from "../Cta";
 import Faq from "../Faq";

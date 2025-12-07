@@ -20,7 +20,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/support.png" alt="" />
+                  <img src="./src/assets/support.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +35,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/monitoring.png" alt="" />
+                  <img src="./src/assets/monitoring.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +50,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/household.png" alt="" />
+                  <img src="./src/assets/household.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -65,7 +65,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/transport.png" alt="" />
+                  <img src="./src/assets/transport.png" alt="" />
 
 
                   <div className="ser-text innerpage texted">

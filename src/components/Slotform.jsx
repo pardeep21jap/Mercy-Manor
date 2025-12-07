@@ -171,7 +171,7 @@ function Slotform() {
               </div>
 
               <div className="service-image">
-                <img src="./src/assets/Images/services.jpg" alt="" />
+                <img src="./src/assets/services.jpg" alt="" />
               </div>
             </div>
 

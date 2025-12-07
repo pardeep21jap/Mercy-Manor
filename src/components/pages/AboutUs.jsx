@@ -5,7 +5,7 @@ import Mvv from "../MVV";
 import Process from "../Process";
 import Faq from "../Faq";
 import Cta from "../Cta";
-import bannerImg from "../../assets/Images/aboutbanner.png";
+import bannerImg from "../../assets/aboutbanner.png";
 
 
 function AboutUs() {

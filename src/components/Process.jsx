@@ -5,6 +5,10 @@ import { fa1 } from "@fortawesome/free-solid-svg-icons";
 import { fa2 } from "@fortawesome/free-solid-svg-icons";
 import { fa3 } from "@fortawesome/free-solid-svg-icons";
 import { fa4 } from "@fortawesome/free-solid-svg-icons";
+import pro1 from '../assets/pro1.jpeg';
+import pro2 from '../assets/pro2.jpeg';
+import pro3 from '../assets/pro3.png';
+import pro4 from '../assets/pro4.jpeg';
 function Process() {
   return (
     <div>
@@ -22,7 +26,7 @@ function Process() {
                     <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Initial Assessment<br></br> <FontAwesomeIcon icon={fa1} className='pro-icon' /></button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Personalized Care<br></br> <FontAwesomeIcon icon={fa2} className='pro-icon'/></button>
+                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Personalized Care<br></br> <FontAwesomeIcon icon={fa2} className='pro-icon' /></button>
                   </li>
                   <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Caregiver Assignment<br></br><FontAwesomeIcon icon={fa3} className='pro-icon' /></button>
@@ -43,7 +47,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src="./src/assets/Images/pro1.jpeg" alt="" />
+                      <img src={pro1} alt="" />
                     </div>
 
                   </div>
@@ -60,7 +64,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src="./src/assets/Images/pro3.png" alt="" />
+                      <img src={pro3} alt="" />
                     </div>
 
 
@@ -80,7 +84,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src="./src/assets/Images/pro2.jpeg" alt="" />
+                      <img src="./src/assets/pro2.jpeg" alt="" />
                     </div>
 
                   </div>
@@ -96,7 +100,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src="./src/assets/Images/pro4.jpeg" alt="" />
+                      <img src="./src/assets/pro4.jpeg" alt="" />
                     </div>
 
                   </div>
@@ -112,7 +116,7 @@ function Process() {
       </section>
 
 
-{/* 
+      {/* 
       <section id='new-process-section'>
         <div className="conatiner">
           <div className="newprocess-outer">

@@ -198,7 +198,7 @@
 import "./Header.css";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../assets/Images/Logo.png";
+import Logo from "../assets/Logo.png";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {

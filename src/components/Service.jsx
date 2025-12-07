@@ -7,6 +7,12 @@ import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
+import demencare from '../assets/demencare.png';
+import comcare from '../assets/comcare.png';
+import escorting from '../assets/escorting.png';
+import homemaking from '../assets/homemaking.png';
+import mealprep from '../assets/mealprep.png';
+import nursecare from '../assets/nursecare.png';
 
 
 
@@ -28,7 +34,7 @@ function Service() {
 
             <div className="col-4 all-services">
 
-              <img src="./src/assets/Images/demencare.png" alt="" />
+              <img src={demencare} alt="" />
 
               <div className="ser-text innerpage texted">
 
@@ -43,7 +49,7 @@ function Service() {
 
             <div className="col-4 all-services">
 
-              <img src="./src/assets/Images/comcare.png" alt="" />
+              <img src={comcare} alt="" />
 
               <div className="ser-text innerpage texted">
 
@@ -58,7 +64,7 @@ function Service() {
 
             <div className="col-4 all-services">
 
-              <img src="./src/assets/Images/escorting.png" alt="" />
+              <img src={escorting} alt="" />
 
               <div className="ser-text innerpage texted">
 
@@ -72,7 +78,7 @@ function Service() {
 
             <div className="col-4 all-services">
 
-              <img src="./src/assets/Images/homemaking.png" alt="" />
+              <img src={homemaking} alt="" />
 
 
               <div className="ser-text innerpage texted">
@@ -86,7 +92,7 @@ function Service() {
             </div>
             <div className="col-4 all-services">
 
-              <img src="./src/assets/Images/mealprep.png" alt="" />
+              <img src={mealprep} alt="" />
 
               <div className="ser-text innerpage texted">
 
@@ -100,7 +106,7 @@ function Service() {
 
             <div className="col-4 all-services">
 
-              <img src="./src/assets/Images/nursecare.png" alt="" />
+              <img src={nursecare} alt="" />
 
               <div className="ser-text innerpage texted">
 

@@ -20,7 +20,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/check.png" alt="" />
+                  <img src="./src/assets/check.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +35,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/wound.png" alt="" />
+                  <img src="./src/assets/wound.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +50,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/surgery.png" alt="" />
+                  <img src="./src/assets/surgery.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -65,7 +65,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/pain.png" alt="" />
+                  <img src="./src/assets/pain.png" alt="" />
 
 
                   <div className="ser-text innerpage texted">

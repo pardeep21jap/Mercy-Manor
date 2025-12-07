@@ -61,7 +61,7 @@ function Whyus() {
             </div>
 
             <div className="col-5 whyus-img">
-              <img src="./src/assets/Images/about1.png" alt="" />
+              <img src="./src/assets/about1.png" alt="" />
             </div>
 
           </div>

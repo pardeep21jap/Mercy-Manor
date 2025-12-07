@@ -1,6 +1,6 @@
 
 import Banner from '../Banner'
-import bannerImg from "../../assets/Images/dementiabanner.png";
+import bannerImg from "../../assets/dementiabanner.png";
 import Companioncare from '../Companioncare';
 import Benefitscompanion from '../Benefitscompanion';
 import Companionincluded from '../Companionincluded';

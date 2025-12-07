@@ -1,5 +1,5 @@
 import Banner from "../Banner";
-import bannerImg from "../../assets/Images/bookingbanner.png";
+import bannerImg from "../../assets/bookingbanner.png";
 import Slotpara from "../Slotpara";
 import Slotform from "../Slotform";
 import Cta from "../Cta";

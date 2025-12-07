@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../Banner'
-import bannerImg from "../../assets/Images/dementiabanner.png";
+import bannerImg from "../../assets/dementiabanner.png";
 import Mealprepcare from '../Mealprepcare';
 import Mealprepinclude from '../Mealprepinclude';
 import Benefitsmealprep from '../Benefitsmealprep';

@@ -6,6 +6,9 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
 import './Slider.css'
+import Slide05 from '../assets/Slides05.png';
+import Slide06 from '../assets/Slides06.png';
+import Slide07 from '../assets/Slides07.png';
 
 function Slider() {
 
@@ -17,8 +20,7 @@ function Slider() {
         modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
         <SwiperSlide className='mainslider'>
-
-          <img src="./src/assets/Images/Slides05.png" alt="1" />
+          <img src={Slide05} alt="1" />
           <div className="opacity-div">
 
             <div className="slider-text">
@@ -29,7 +31,7 @@ function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slides06.png" alt="1" />
+        <SwiperSlide className='mainslider'><img src={Slide06} alt="1" />
 
           <div className="opacity-div">
 
@@ -42,7 +44,7 @@ function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slides07.png" alt="1" />
+        <SwiperSlide className='mainslider'><img src={Slide07} alt="1" />
           <div className="opacity-div">
 
             <div className="slider-text">

@@ -89,7 +89,7 @@ function blogcon() {
 
               <div className="main-blog">
                 <div className="blog-image">
-                  <img src="./src/assets/Images/transport.png" alt="" />
+                  <img src="./src/assets/transport.png" alt="" />
                 </div>
                 <div className='blog-content'>
                   <h2>Home Support Services for Seniors in Mercy Manor: Enhancing Comfort and Care</h2>
@@ -106,15 +106,15 @@ function blogcon() {
             <div className='col-6 blog-list'>
               <ul>
                 <li>
-                  <img src="./src/assets/Images/pain.png" alt="" />
+                  <img src="./src/assets/pain.png" alt="" />
                   <a href="">10 Reasons to Choose Mercy Manor Healthcare Services for Your Loved Ones</a>
                 </li>
                 <li>
-                  <img src="./src/assets/Images/laundry.png" alt="" />
+                  <img src="./src/assets/laundry.png" alt="" />
                   <a href="">What Services Do In‑Home Care Providers at Mercy Manor Offer?</a>
                 </li>
                 <li>
-                  <img src="./src/assets/Images/transport.png" alt="" />
+                  <img src="./src/assets/transport.png" alt="" />
                   <a href="">Home Support Services for Seniors in Mercy Manor: Enhancing Comfort and Care</a>
                 </li>
               </ul>

@@ -19,7 +19,7 @@ function Footer() {
             <div className="row footer-main">
 
               <div className='col-3 mainlogo'>
-                <img src="./src/assets/Images/Logo.png" alt="" />
+                <img src="./src/assets/Logo.png" alt="" />
 
                 <p className='allp footp'>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by Deepa Cheriyan, Pawandeep Kaur Sangar, and Manju Sebastian. Together, this dedicated team—comprising two registered nurses and a nurse currently. </p>
               </div>
