@@ -6,11 +6,11 @@
 
 .mainlogo img
  {
-    width: 200px;
+    width: 130px;
  }
 .allp.footp
 {
-  margin-top: 0px !important;
+  margin-top: 9px !important;
   color: black !important;
 }
 .mainft .rightp
@@ -21,7 +21,9 @@
 .mainft ul li
 {
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: 14px;
+  position: relative;
+  font-size: 18px;
 }
 .mainft h4
 {
@@ -43,11 +45,11 @@
   text-decoration: none;
   color: black;
   font-weight: 600;
+  transition: 0.3s;
 }
-.mainft ul li a:hover
+.mainft ul li:hover a
 {
-  text-decoration: underline;
-  color: black
+  color: #FD5D02;
 }
 .rightp
 {
@@ -78,4 +80,8 @@
 .mainft .mediaicons li a
 {
    font-size: 35px;
+}
+.mediaicons ul li:hover 
+{
+  transform: rotateY('360deg') !important;
 }

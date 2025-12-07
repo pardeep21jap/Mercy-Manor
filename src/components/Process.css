@@ -32,7 +32,7 @@
   border-radius: 0px;
   border: 2px solid #FD5D02;
   font-family: "Oswald", sans-serif;
-  border-radius: 0px !important;
+  border-radius: 7px !important;
 
 }
 .process-tabs ul li button:hover

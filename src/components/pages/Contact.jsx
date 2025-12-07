@@ -1,5 +1,5 @@
 import Banner from "../Banner";
-import bannerImg from "../../assets/Images/banner.png";
+import bannerImg from "../../assets/Images/contactbanner.png";
 import Contactpara from "../Contactpara";
 import Cta from "../Cta";
 import Faq from "../Faq";
@@ -13,7 +13,6 @@ function Contact() {
         bannerImage={bannerImg} />
       <Contactpara />
       <Contactinfo />
-      <Faq />
       <Cta />
     </>
 

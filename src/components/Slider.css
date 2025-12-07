@@ -7,7 +7,6 @@
   width: 100%;
   margin: auto;
   display: block;
-  height: 800px
 }
 .slider-text {
     position: absolute;
@@ -32,12 +31,18 @@
    
     text-transform: capitalize;
 }
+.allp
+{
+    font-weight: 100 !important;
+    font-size: 16px !important;
+}
 .allp.slidep {
     font-size: 20px;
     color: white;
     margin: 14px 0 38px 0;
     max-width: 61%;
     text-align: center;
+
 }
 .swiper-button-prev, .swiper-button-next{
     color: #FD5D02 !important;

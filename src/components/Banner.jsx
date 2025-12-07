@@ -16,7 +16,7 @@ function Banner({ title, subtitleba, bannerImage }) {
             <div className="banner-text">
               <h3>{title}</h3>
               <h4>{subtitleba}</h4>
-              <button className='all-button'>booking <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /></button>
+              <button className='all-button'>contact us<FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /></button>
             </div>
           </div>
         </div>

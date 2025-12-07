@@ -6,10 +6,13 @@ import Service from "../Service";
 import Whyus from "../Whyus";
 import Cta from "../Cta";
 
+
 function Home() {
   return (
     <>
-    <Slider />
+
+
+      <Slider />
       <Cards />
       <Who />
       <Service />

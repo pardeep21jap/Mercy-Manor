@@ -20,7 +20,7 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                  <img src="./src/assets/Images/housekeeping.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +35,7 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser2.jpg" alt="" />
+                  <img src="./src/assets/Images/laundry.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +50,7 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/pro3.png" alt="" />
+                  <img src="./src/assets/Images/trash.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -65,7 +65,7 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                  <img src="./src/assets/Images/shopping.png" alt="" />
 
 
                   <div className="ser-text innerpage texted">

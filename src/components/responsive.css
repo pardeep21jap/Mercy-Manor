@@ -1,9 +1,31 @@
 @media screen and (min-width:0px) and (max-width:767px) {
+   .get-quote {
+        margin-left: 12px;
+        display: none;
+    }
+   .navbar {
+    width: 100% !important;
+
+}
+.header-logo {
+    width: 33% !important;
+}
     .inner-main-header .navbar-brand img {
     height: 117px !important;
 }
 .navbar-toggler {
     margin-right: 21px;
+}
+#navbarSupportedContent {
+    width: 90% !important;
+    margin: 0 10px;
+}
+.inner-main-header .navbar-nav .nav-item a {
+        font-size: 19px !important;
+        margin: 8px 13px 8px 11px;
+    }
+    .inner-main-header .navbar-nav .nav-item {
+    margin: 0px 0px 0 0;
 }
       .slider-text {
         height: auto;
@@ -269,12 +291,27 @@
     width: 100%;
     height: 116px !important;
 }
+
+ .get-quote {
+        margin-left: 12px;
+        display: none;
+    }
+   .navbar {
+    width: 100% !important;
+
+}
+.header-logo {
+    width: 33% !important;
+}
     .slider-text h2
      {
     font-size: 37px;
 }
 .swiper-slide img {
     height: 100%;
+}
+.ser-text .allp.serp {
+    height: 130px;
 }
 .allp.slidep {
     font-size: 17px;
@@ -425,6 +462,21 @@
 }
 
 @media screen and (min-width:992px) and (max-width:1024px) {
+
+    .get-quote
+    {
+        display: none;
+    }
+    .navbar {
+    width: 100% !important;
+
+}
+.header-logo {
+    width: 33% !important;
+}
+.nav-toggle {
+        right: -276px !important;
+    }
    .banner-text {
     top: 35%;
     left: 45px;
@@ -434,6 +486,15 @@
 }
 .allp.slidep {
     font-size: 17px;
+}
+#services-section {
+    margin: 0px 0 20px 0;
+}
+#why-us-section {
+    margin: 0 0px 50px 0;
+}
+.ser-text .allp.serp {
+    height: 152px;
 }
 #who-section {
     margin: 10px 0 90px 0;
@@ -482,7 +543,9 @@
 
 @media screen and (min-width:1025px) and (max-width:1200px) {
 
-
+.header-logo {
+        width: 16% !important;
+    }
 #who-section {
     margin: 0px 0 0px 0;
 }

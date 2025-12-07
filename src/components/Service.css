@@ -18,12 +18,18 @@
     border: 2px solid #FD5D02;
     position: relative;
 }
+.ser-text.innerpage.texted {
+    padding: 12px 10px;
+}
 .all-services img {
   width: 100%;
   height: auto;
   transition: 0.3s;
+   transition: transform 0.3s ease-in-out;
 }
-
+.all-services:hover img{
+   transform: scale(1.05); 
+}
 .main-services {
   margin-top: 40px !important;
   margin: auto !important;
@@ -33,17 +39,6 @@
   position: relative;
 }
 
-.ser-text {
- 
-
-  color: black;
-  background-color: transparent;
-  opacity: 0.8;
-  padding: 10px 15px;
-  border-radius: 0px;
-  width: 100%;
-  transition: all 0.4s ease-in-out !important;
-}
 .ser-text .allp.serp {
   font-size: 14px;
   color: black;
@@ -53,6 +48,7 @@
   text-transform: capitalize;
   font-size: 25px;
   margin: 0;
+  padding-bottom: 4px;
 }
 .all-services:hover .ser-text {
   display: block;
@@ -70,28 +66,7 @@ font-size: 11px;
 }
 #services-section {
     margin: 50px 0 50px 0;
-}
-.servicehover {
-    position: absolute;
-    top: 0%;
-    left: 0;
-    background-color: black;
-    height: 275px;
-    width: 100%;
-  display: none;
-  
-}
-.service-icons
-{
-  position: absolute;
- color: #FD5D02;
- font-size: 25px;
-  top: 40%;
-  left: 48%;
-  
-}
-.all-services:hover .servicehover
-{
-  display: block;
- 
+ }
+.main-services {
+    margin-top: 37px !important;
 }

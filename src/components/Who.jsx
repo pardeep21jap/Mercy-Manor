@@ -1,6 +1,9 @@
 import './Who.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
+import { faAward } from '@fortawesome/free-solid-svg-icons';
+import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 function Who() {
 
 
@@ -14,7 +17,7 @@ function Who() {
 
           <div className='row outer-who'>
             <div className="who-img col-6">
-              <img src="./src/assets/Images/about2.png" alt="" />
+              <img src="./src/assets/Images/about1.png" alt="" />
             </div>
             <div className="who-text col-6">
               <h2 className='all-heading'>About Us</h2>
@@ -25,25 +28,27 @@ function Who() {
               <div className="blue-div">
                 <ul>
                   <li>
-                    <FontAwesomeIcon icon={faUserCheck} className='usericon' />
+                    <FontAwesomeIcon icon={faAward} className='usericon' />
                     <h4>20 years of excellence</h4>
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faUserCheck} className='usericon' />
+                    <FontAwesomeIcon icon={faCertificate} className='usericon' />
                     <h4>professional expert</h4>
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faUserCheck} className='usericon' />
+                    <FontAwesomeIcon icon={faHeart} className='usericon' />
                     <h4>personal care services</h4>
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faUserCheck} className='usericon' />
+                    <FontAwesomeIcon icon={faPhone} className='usericon' />
                     <h4>reach us any time</h4>
                   </li>
                 </ul>
 
               </div>
-              <button className='all-button bluedivbtn'>booking</button>
+            
+                <button className='all-button bluedivbtn'>Read more...</button>
+             
             </div>
 
 

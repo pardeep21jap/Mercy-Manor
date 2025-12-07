@@ -13,7 +13,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                  <img src="./src/assets/Images/travel.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -27,7 +27,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser2.jpg" alt="" />
+                  <img src="./src/assets/Images/appointment.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -42,7 +42,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/pro3.png" alt="" />
+                  <img src="./src/assets/Images/outing.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -57,7 +57,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                  <img src="./src/assets/Images/peace.png" alt="" />
 
 
                   <div className="ser-text innerpage texted">

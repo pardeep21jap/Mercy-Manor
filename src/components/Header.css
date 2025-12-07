@@ -1,27 +1,34 @@
 
-.inner-main-header .navbar-brand img {
+/* .inner-main-header .navbar-brand img {
   width: 100%;
   height: 140px;
-}
-.inner-main-header   .bg-body-tertiary {
+} */
+/* .inner-main-header   .bg-body-tertiary {
   --bs-bg-opacity: 0;
   background-color: white;
-}
-.inner-main-header .navbar-expand-lg .navbar-nav {
+} */
+/* .inner-main-header .navbar-expand-lg .navbar-nav {
   margin: 0 auto;
   position: relative;
   z-index: 111111111111111;
   background-color: white;
-}
-.inner-main-header .navbar-nav .nav-item a {
+} */
+/* .inner-main-header .navbar-nav .nav-item a {
   font-size: 19px;
-  color: #FD5D02 !important;
+  color: #FD5D02;
   text-transform: capitalize;
   font-family: "Oswald", sans-serif;
-  margin: 0 20px 0 0;
-  padding: 0;
-}
-.inner-main-header .navbar
+  margin: 0 50px 0 0;
+  padding: 5px 0 0 0;
+  transition: 0.5s;
+} */
+/* .inner-main-header .navbar-nav .nav-item:hover a
+{
+ border-bottom: 2px solid #FD5D02;
+ 
+  transition: 0.5s;
+} */
+/* .inner-main-header .navbar
 {
 padding: 0;
 margin: 0;
@@ -32,9 +39,8 @@ height: 107px;
   padding: 0;
   margin: 0;
 }
-.inner-main-header .navbar-nav .nav-item
-{
-  margin: 24px 20px 0 0;
+.inner-main-header .navbar-nav .nav-item {
+    margin: 18px 0px 14px 10px;
 }
 .inner-main-header .navbar-nav .nav-item .nav-link.active {
   color: #FD5D02 !important;
@@ -43,11 +49,15 @@ height: 107px;
   color: #FD5D02!important;
 }
 .inner-main-header .dropdown-toggle::after {
-   
     position: relative !important;
-    top: -27px !important;
-    margin-left: 4.255em !important;
+    top: -24px !important;
+    margin-left: 3.255em !important;
+    font-size: 23px;
 }
+.nav-link.dropdown-toggle.own-dropdown {
+    height: 0;
+    border: none !important;
+} */
 /* Hide dropdown by default */
 .inner-main-header .nav-item .dropdown-menu {
     padding: 10px 10px 10px 10px;
@@ -75,7 +85,7 @@ height: 107px;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   transition: 0.3s;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 .all-button:hover  {
   background-color: transparent;
@@ -84,3 +94,19 @@ height: 107px;
 .all-button .svg-inline--fa {
  padding-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

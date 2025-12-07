@@ -19,24 +19,26 @@ import Escorting from "./components/pages/Escorting.jsx";
 import Homemaking from "./components/pages/Homemaking.jsx";
 import Mealprep from "./components/pages/Mealprep.jsx";
 import Nursingcare from "./components/pages/Nursingcare.jsx";
-
+import Blog from "./components/pages/Blog.jsx"
+import Navbar from "./components/navbar.jsx";
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Services" element={<Services />} />
+        <Route path="/Blog" element={<Blog />} />
         <Route path="/Booking" element={<Booking />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Dementia" element={<Dementia />} />
         <Route path="/Companion" element={<Companion />} />
         <Route path="/Escorting" element={<Escorting />} />
-        <Route path="/Homemaking" element={<Homemaking/>} />
-        <Route path="/Mealprep" element={<Mealprep/>} />
-        <Route path="/Nursingcare" element={<Nursingcare/>} />
+        <Route path="/Homemaking" element={<Homemaking />} />
+        <Route path="/Mealprep" element={<Mealprep />} />
+        <Route path="/Nursingcare" element={<Nursingcare />} />
       </Routes>
       <Footer />
     </BrowserRouter>

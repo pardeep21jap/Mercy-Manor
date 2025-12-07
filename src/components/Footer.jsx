@@ -19,9 +19,9 @@ function Footer() {
             <div className="row footer-main">
 
               <div className='col-3 mainlogo'>
-                <img src="./src/assets/Images/Logo-removebg-.png" alt="" />
+                <img src="./src/assets/Images/Logo.png" alt="" />
 
-                <p className='allp footp'>Providing compassionate, professional nursing care in the comfort of your home. Your health, my priority.</p>
+                <p className='allp footp'>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by Deepa Cheriyan, Pawandeep Kaur Sangar, and Manju Sebastian. Together, this dedicated team—comprising two registered nurses and a nurse currently. </p>
               </div>
 
 
@@ -43,7 +43,7 @@ function Footer() {
                 <ul>
                   <li><a href=""> <FontAwesomeIcon icon={faPhone} className='' /> + 604 613 1245</a>
                   </li>
-                  <li><a href=""> <FontAwesomeIcon icon={faSquareEnvelope} className='' /> info@mercyminor.com</a></li>
+                  <li><a href=""> <FontAwesomeIcon icon={faSquareEnvelope} className='' /> info@mercymanor.com</a></li>
                   <li><a href=""> <FontAwesomeIcon icon={faClock} className='' /> mon-fri: 8:30am - 5pm</a></li>
                   <li><a href=""> <FontAwesomeIcon icon={faMapPin} className='' /> 113, 13900, Hyland Road, Surrey, BC, V3W 1K4</a></li>
 

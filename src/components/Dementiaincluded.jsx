@@ -20,7 +20,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                  <img src="./src/assets/Images/medication.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +35,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser2.jpg" alt="" />
+                  <img src="./src/assets/Images/givefood.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +50,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/pro3.png" alt="" />
+                  <img src="./src/assets/Images/indooractivity.png" alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -68,7 +68,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/Images/ser1.jpeg" alt="" />
+                  <img src="./src/assets/Images/exercise.png" alt="" />
 
 
                   <div className="ser-text innerpage texted">

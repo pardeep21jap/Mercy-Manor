@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../Banner.jsx'
-import bannerImg from "../../assets/Images/banner.png";
+import bannerImg from "../../assets/Images/dementiabanner.png";
 import Cta from '../Cta';
 import Nursingcarep from '../Nursingcarep';
 import Benefitsnursingcare from '../Benefitsnursingcare';

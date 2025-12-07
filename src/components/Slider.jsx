@@ -13,12 +13,12 @@ function Slider() {
   return (
     <>
 
-      <Swiper navigation={true} pagination={false} autoplay={false} 
+      <Swiper navigation={true} pagination={false} autoplay={true}
         modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
         <SwiperSlide className='mainslider'>
 
-<img src="./src/assets/Images/Slides3.png" alt="1" />
+          <img src="./src/assets/Images/Slides05.png" alt="1" />
           <div className="opacity-div">
 
             <div className="slider-text">
@@ -29,7 +29,7 @@ function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slides1.png" alt="1" />
+        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slides06.png" alt="1" />
 
           <div className="opacity-div">
 
@@ -41,8 +41,8 @@ function Slider() {
 
             </div>
           </div>
-          </SwiperSlide>
-        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slides2.png" alt="1" />
+        </SwiperSlide>
+        <SwiperSlide className='mainslider'><img src="./src/assets/Images/Slides07.png" alt="1" />
           <div className="opacity-div">
 
             <div className="slider-text">
@@ -53,7 +53,7 @@ function Slider() {
 
             </div>
           </div>
-          </SwiperSlide>
+        </SwiperSlide>
 
       </Swiper>
 
