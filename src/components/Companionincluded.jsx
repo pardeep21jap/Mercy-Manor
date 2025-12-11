@@ -6,6 +6,11 @@ import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
+import support from '../assets/support.png';
+import monitoring from '../assets/monitoring.png';
+import household from '../assets/household.png';
+import transport from '../assets/transport.png';
+
 
 function Companionincluded() {
   return (
@@ -20,7 +25,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/support.png" alt="" />
+                  <img src={support} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +40,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/monitoring.png" alt="" />
+                  <img src={monitoring} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +55,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/household.png" alt="" />
+                  <img src={household} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -65,7 +70,7 @@ function Companionincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/transport.png" alt="" />
+                  <img src={transport} alt="" />
 
 
                   <div className="ser-text innerpage texted">

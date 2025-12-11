@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../Banner.jsx'
-import bannerImg from "../../assets/dementiabanner.png";
+import bannerImg from "../../assets/blogbanner.png";
+import Blogcon from '../Blogcon.jsx'
 import Cta from '../Cta.jsx';
 function Blog() {
   return (
@@ -9,7 +10,7 @@ function Blog() {
       <Banner title="Blog"
         subtitleba="Providing compassionate, skilled, and personalized nursing support for your loved ones."
         bannerImage={bannerImg} />
-
+      <Blogcon />
 
       <Cta />
     </>

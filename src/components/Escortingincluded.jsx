@@ -1,4 +1,8 @@
 import React from 'react'
+import travel from '../assets/travel.png';
+import appointment from '../assets/appointment.png';
+import outing from '../assets/outing.png';
+import peace from '../assets/peace.png';
 
 function Escortingincluded() {
   return (
@@ -13,7 +17,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/travel.png" alt="" />
+                  <img src={travel} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -27,7 +31,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/appointment.png" alt="" />
+                  <img src={appointment} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -42,7 +46,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/outing.png" alt="" />
+                  <img src={outing} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -57,7 +61,7 @@ function Escortingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/peace.png" alt="" />
+                  <img src={peace} alt="" />
 
 
                   <div className="ser-text innerpage texted">

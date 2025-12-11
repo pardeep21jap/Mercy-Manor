@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -28,13 +29,14 @@ function Footer() {
               <div className='col-3 mainft'>
                 <h4>Quick Links</h4>
                 <ul>
-                  <li><a href="">Home</a>
+
+                  <li><Link to="/">Home</Link>
                   </li>
-                  <li><a href="">About Us</a></li>
-                  <li><a href="">Services</a></li>
-                  <li><a href="">Booking</a></li>
-                  <li><a href="">Blog</a></li>
-                  <li><a href="">Contact Us</a></li>
+                  <li><Link to="/AboutUs">About Us</Link></li>
+                  <li><Link to="/Services">Services</Link></li>
+                  <li><a href="/booking">Booking</a></li>
+                  <li><a href="/blog">Blog</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </div>
 

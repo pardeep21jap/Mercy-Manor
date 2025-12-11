@@ -4,6 +4,7 @@ import Contactpara from "../Contactpara";
 import Cta from "../Cta";
 import Faq from "../Faq";
 import Contactinfo from "../Contactinfo";
+import Gmap from "../Gmap";
 
 function Contact() {
   return (
@@ -13,9 +14,10 @@ function Contact() {
         bannerImage={bannerImg} />
       <Contactpara />
       <Contactinfo />
+      <Gmap />
       <Cta />
     </>
 
   )
 }
-export default Contact;
+export default Contact

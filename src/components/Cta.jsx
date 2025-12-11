@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Cta.css"
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";  
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -17,11 +18,11 @@ function Cta() {
         <div className="container">
           <div className="row cta-inner">
 
-<div className="col-6 cta-text">
-  <h3>Book a Consultation You’re in Safe Hands</h3>
-   
+            <div className="col-6 cta-text">
+              <h3>Book a Consultation You’re in Safe Hands</h3>
 
-       {/* <ul>
+
+              {/* <ul>
         <li>
           <a href=""> <FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /> </a>
         </li>
@@ -33,12 +34,13 @@ function Cta() {
         </li>
        </ul> */}
 
-</div>
+            </div>
 
-<div className='col-6 cta-buttons'>
-  <button className='cta-button'>book appointment   <FontAwesomeIcon icon={faCalendarDays} className='' /></button>
-      
-</div>
+            <div className='col-6 cta-buttons'>
+              <Link to="/Booking">
+                <button className='cta-button'>book appointment   <FontAwesomeIcon icon={faCalendarDays} className='' /></button>
+              </Link>
+            </div>
 
           </div>
         </div>

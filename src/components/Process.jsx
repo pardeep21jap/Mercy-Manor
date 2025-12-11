@@ -84,7 +84,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src="./src/assets/pro2.jpeg" alt="" />
+                      <img src={pro2} alt="" />
                     </div>
 
                   </div>
@@ -100,7 +100,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src="./src/assets/pro4.jpeg" alt="" />
+                      <img src={pro4} alt="" />
                     </div>
 
                   </div>

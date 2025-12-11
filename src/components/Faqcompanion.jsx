@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Faqdementia.css"
 
+import faq from '../assets/faq.jpeg';
 function Faqcompanion() {
   return (
     <div>
@@ -13,7 +14,7 @@ function Faqcompanion() {
                 <div className="row faqcontet dementia-faq">
 
                   <div className="col-6 faq-image">
-                    <img src="./src/assets/faq.jpeg" alt="" />
+                    <img src={faq} alt="" />
                   </div>
 
                   <div className="col-6 faq-accordion">
@@ -21,7 +22,7 @@ function Faqcompanion() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                           What is companion care?
+                            What is companion care?
                           </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -33,13 +34,13 @@ function Faqcompanion() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                           Who can benefit from companion care?
+                            Who can benefit from companion care?
                           </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <p className='allp'>
-                             Anyone who needs companionship, support with daily activities, or help staying engaged can benefit. This includes seniors, people recovering from illness, individuals with disabilities, or anyone feeling isolated at home.
+                              Anyone who needs companionship, support with daily activities, or help staying engaged can benefit. This includes seniors, people recovering from illness, individuals with disabilities, or anyone feeling isolated at home.
                             </p>
                           </div>
                         </div>
@@ -47,13 +48,13 @@ function Faqcompanion() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           What services does companion care include?
+                            What services does companion care include?
                           </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <p className='allp'>
-                             Services typically include social interaction, light housekeeping, meal preparation, transportation to appointments, assistance with daily routines, safety monitoring, and encouragement for mental and physical activity.
+                              Services typically include social interaction, light housekeeping, meal preparation, transportation to appointments, assistance with daily routines, safety monitoring, and encouragement for mental and physical activity.
                             </p>
                           </div>
                         </div>
@@ -61,7 +62,7 @@ function Faqcompanion() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          Is companion care medical care?
+                            Is companion care medical care?
                           </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

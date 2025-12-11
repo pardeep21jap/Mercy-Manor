@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Faqdementia.css"
 
+import faq from '../assets/faq.jpeg';
 
 function Faqhomemaking() {
   return (
@@ -14,7 +15,7 @@ function Faqhomemaking() {
                 <div className="row faqcontet dementia-faq">
 
                   <div className="col-6 faq-image">
-                    <img src="./src/assets/faq.jpeg" alt="" />
+                    <img src={faq} alt="" />
                   </div>
 
                   <div className="col-6 faq-accordion">
@@ -22,7 +23,7 @@ function Faqhomemaking() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                           Who can benefit from homemaking services?
+                            Who can benefit from homemaking services?
                           </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -40,7 +41,7 @@ function Faqhomemaking() {
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <p className='allp'>
-                             No. Homemaking services focus on household tasks, while personal care involves hands-on assistance with activities like bathing, grooming, and mobility. Many clients use both services together.
+                              No. Homemaking services focus on household tasks, while personal care involves hands-on assistance with activities like bathing, grooming, and mobility. Many clients use both services together.
                             </p>
                           </div>
                         </div>
@@ -48,13 +49,13 @@ function Faqhomemaking() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          What tasks can a homemaking caregiver help with?
+                            What tasks can a homemaking caregiver help with?
                           </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <p className='allp'>
-                             Common tasks include light housekeeping, laundry, meal preparation, grocery shopping, trash removal, organization, and running errands. Some providers also offer basic pet care.
+                              Common tasks include light housekeeping, laundry, meal preparation, grocery shopping, trash removal, organization, and running errands. Some providers also offer basic pet care.
                             </p>
                           </div>
                         </div>
@@ -62,7 +63,7 @@ function Faqhomemaking() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                           Is homemaking care considered medical care?
+                            Is homemaking care considered medical care?
                           </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

@@ -7,6 +7,13 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
 
+
+import check from '../assets/check.png';
+import wound from '../assets/wound.png';
+import surgery from '../assets/surgery.png';
+import pain from '../assets/pain.png';
+
+
 function Nursingcareincluded() {
   return (
     <div>
@@ -20,7 +27,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/check.png" alt="" />
+                  <img src={check} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +42,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/wound.png" alt="" />
+                  <img src={wound} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +57,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/surgery.png" alt="" />
+                  <img src={surgery} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -65,7 +72,7 @@ function Nursingcareincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/pain.png" alt="" />
+                  <img src={pain} alt="" />
 
 
                   <div className="ser-text innerpage texted">

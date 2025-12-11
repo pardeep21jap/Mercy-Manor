@@ -7,11 +7,15 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
 
+import menu from '../assets/menu.png';
+import foodprep from '../assets/foodprep.png';
+import dietplan from '../assets/dietplan.png';
+import store from '../assets/store.png';
 
 function Mealprepinclude() {
   return (
     <div>
-        <section id='service-included'>
+      <section id='service-included'>
         <div className="container">
           <div className="outer-service-included">
             <div className="inner-service-included">
@@ -21,7 +25,7 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/menu.png" alt="" />
+                  <img src={menu} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -36,7 +40,7 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/foodprep.png" alt="" />
+                  <img src={foodprep} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -51,14 +55,14 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/dietplan.png" alt="" />
+                  <img src={dietplan} alt="" />
 
                   <div className="ser-text innerpage texted">
 
                     <h3>Special Diet Accommodation</h3>
                     <p className='allp serp'>We cater to specific dietary needs such as diabetic-friendly, low-sodium, soft foods, or allergy-sensitive meals. This helps clients maintain their health without sacrificing flavor or variety.
                     </p>
-                   
+
                   </div>
 
 
@@ -66,14 +70,14 @@ function Mealprepinclude() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/store.png" alt="" />
+                  <img src={store} alt="" />
 
 
                   <div className="ser-text innerpage texted">
 
                     <h3>Portioning and Storage</h3>
                     <p className='allp serp'>Leftovers are safely stored and properly labeled, so clients have easy access to meals later, reducing food waste and maintaining freshness.</p>
-                    
+
                   </div>
 
 

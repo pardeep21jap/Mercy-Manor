@@ -7,6 +7,11 @@ import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
+import medication from '../assets/medication.png';
+import givefood from '../assets/givefood.png';
+import indooractivity from '../assets/indooractivity.png';
+import exercise from '../assets/exercise.png';
+
 function Dementiaincluded() {
   return (
     <div>
@@ -20,7 +25,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/medication.png" alt="" />
+                  <img src={medication} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +40,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/givefood.png" alt="" />
+                  <img src={givefood} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,7 +55,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/indooractivity.png" alt="" />
+                  <img src={indooractivity} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -68,7 +73,7 @@ function Dementiaincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/exercise.png" alt="" />
+                  <img src={exercise} alt="" />
 
 
                   <div className="ser-text innerpage texted">

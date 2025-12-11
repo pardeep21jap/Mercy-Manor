@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Faq.css"
-
+import faq from '../assets/faq.jpeg';
 function Faq() {
   return (
     <div>
@@ -14,7 +14,7 @@ function Faq() {
             <div className="row faqcontet">
 
               <div className="col-6 faq-image">
-                <img src="./src/assets/faq.jpeg" alt="" />
+                <img src={faq} alt="" />
               </div>
 
               <div className="col-6 faq-accordion">

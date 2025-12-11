@@ -7,10 +7,16 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
 
+import housekeeping from '../assets/housekeeping.png';
+import laundry from '../assets/laundry.png';
+import trash from '../assets/trash.png';
+import shopping from '../assets/shopping.png';
+
+
 function Homemakingincluded() {
   return (
     <div>
-       <section id='service-included'>
+      <section id='service-included'>
         <div className="container">
           <div className="outer-service-included">
             <div className="inner-service-included">
@@ -20,7 +26,7 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/housekeeping.png" alt="" />
+                  <img src={housekeeping} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -35,7 +41,7 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/laundry.png" alt="" />
+                  <img src={laundry} alt="" />
 
                   <div className="ser-text innerpage texted">
 
@@ -50,14 +56,14 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/trash.png" alt="" />
+                  <img src={trash} alt="" />
 
                   <div className="ser-text innerpage texted">
 
                     <h3>Trash & Recycling Removal</h3>
                     <p className='allp serp'>Caregivers assist with taking out trash and recycling on schedule, helping maintain cleanliness and preventing odors or clutter from building up.
                     </p>
-                   
+
                   </div>
 
 
@@ -65,14 +71,14 @@ function Homemakingincluded() {
 
                 <div className="col-3 all-services dementiasser">
 
-                  <img src="./src/assets/shopping.png" alt="" />
+                  <img src={shopping} alt="" />
 
 
                   <div className="ser-text innerpage texted">
 
                     <h3>Grocery Shopping & Errands</h3>
                     <p className='allp serp'>Our team can handle grocery shopping, picking up prescriptions, and running essential errands. This ensures clients always have what they need without the stress of leaving home.</p>
-                    
+
                   </div>
 
 

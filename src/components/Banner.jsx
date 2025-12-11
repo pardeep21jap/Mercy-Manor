@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Banner.css"
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import defaultBannerImage from "../assets/banner.png";
@@ -17,12 +18,14 @@ function Banner({ title, subtitleba, bannerImage }) {
             <div className="banner-text">
               <h3>{title}</h3>
               <h4>{subtitleba}</h4>
-              <button className='all-button'>contact us<FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /></button>
+              <Link to="/Contact">
+                <button className='all-button'>contact us<FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /></button>
+              </Link>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   )
 }
 

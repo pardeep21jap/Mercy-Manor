@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Faqdementia.css"
+
+import faq from '../assets/faq.jpeg';
+
 function Faqdementia() {
   return (
     <div>
@@ -13,7 +16,7 @@ function Faqdementia() {
                 <div className="row faqcontet dementia-faq">
 
                   <div className="col-6 faq-image">
-                    <img src="./src/assets/faq.jpeg" alt="" />
+                    <img src={faq} alt="" />
                   </div>
 
                   <div className="col-6 faq-accordion">
@@ -47,7 +50,7 @@ function Faqdementia() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           Can I request a caregiver with dementia experience?
+                            Can I request a caregiver with dementia experience?
                           </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -61,7 +64,7 @@ function Faqdementia() {
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                           Do you help individuals with Alzheimer’s disease specifically?
+                            Do you help individuals with Alzheimer’s disease specifically?
                           </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

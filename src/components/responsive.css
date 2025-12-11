@@ -1,3 +1,9 @@
+a
+{
+    text-decoration: none !important;
+}
+
+
 @media screen and (min-width:0px) and (max-width:767px) {
    .get-quote {
         margin-left: 12px;
@@ -104,12 +110,6 @@
     margin: auto !important;
     display: table !important;
 }
-.mainft {
-        padding-left: 48px !important;
-        width: 35% !important;
-        margin-top: 0px !important;
-        margin-left: -56px !important;
-    }
 .blue-div {
     margin-top: 36px;
 }
@@ -372,13 +372,6 @@
 }
 #footer-section {
     background-color: white;
-}
-.mainft 
-{
-   padding-left: 48px !important;
-        width: 41% !important;
-        margin-top: 0px !important;
-        margin-left: -56px !important;
 }
 
 .who-text {

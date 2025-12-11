@@ -2,6 +2,8 @@
 
 import { SwiperSlide, Swiper } from 'swiper/react'
 import 'swiper/css';
+
+import { Link } from "react-router-dom";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
@@ -26,7 +28,14 @@ function Slider() {
             <div className="slider-text">
               <h2>Joyful Moments, Healthy Hearts</h2>
               <p className='allp slidep'>Joyful moments are the true heartbeat of life, and we believe good health is the foundation that makes them possible. Our care is dedicated to nurturing both your physical well-being and your emotional happiness, so every day becomes an opportunity to smile, connect, and live fully. With a healthy heart, every moment becomes a joyful one.</p>
-              <button className='all-button'>Contact US</button>
+
+
+
+              <Link to="/Contact">
+                <button className='all-button'>Contact US</button>
+              </Link>
+
+
 
             </div>
           </div>
@@ -38,8 +47,9 @@ function Slider() {
             <div className="slider-text">
               <h2>Trusted Nurse Care<br></br> at Your Doorstep</h2>
               <p className='allp slidep'>Our home nursing service ensures that you or your loved ones receive expert medical care without leaving the comfort of home. Our trained and certified nurses deliver personalized support, from daily assistance to advanced clinical care, ensuring safety, comfort, and peace of mind at every step.</p>
-              <button className='all-button'>Contact US</button>
-
+              <Link to="/Contact">
+                <button className='all-button'>Contact US</button>
+              </Link>
 
             </div>
           </div>
@@ -50,8 +60,9 @@ function Slider() {
             <div className="slider-text">
               <h2>Professional Health Care<br></br> Personalized for You</h2>
               <p className='allp slidep'>Everyone’s health journey is different, and that’s why we believe in personalized care that respects your individuality. Our healthcare professionals work closely with you to create treatment plans that fit your comfort.</p>
-              <button className='all-button'>Contact US</button>
-
+              <Link to="/Contact">
+                <button className='all-button'>Contact US</button>
+              </Link>
 
             </div>
           </div>

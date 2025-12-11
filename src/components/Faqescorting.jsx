@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Faqdementia.css"
 
+import faq from '../assets/faq.jpeg';
 function Faqescorting() {
   return (
     <div>
@@ -13,7 +14,7 @@ function Faqescorting() {
                 <div className="row faqcontet dementia-faq">
 
                   <div className="col-6 faq-image">
-                    <img src="./src/assets/faq.jpeg" alt="" />
+                    <img src={faq} alt="" />
                   </div>
 
                   <div className="col-6 faq-accordion">

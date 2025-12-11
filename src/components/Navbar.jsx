@@ -83,9 +83,12 @@ function Navbar() {
           </nav>
 
           <div className="get-quote col-2">
-            <button className="all-button">
-              Booking <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' />
-            </button>
+
+            <Link to="/booking">
+              <button className="all-button">
+                Booking <FontAwesomeIcon icon={faArrowRight} className='arrow-icon' />
+              </button>
+            </Link>
           </div>
 
         </div>

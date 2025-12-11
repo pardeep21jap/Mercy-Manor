@@ -6,13 +6,118 @@
     margin: 0;
     max-width: 100% !important;
   }
+  
+  /* NAVBAR - Mobile */
+  .inner-main-header .navbar {
+    padding: 10px 0;
+    height: auto;
+  }
+  .inner-main-header .navbar-brand img {
+    width: 80px;
+    height: auto;
+  }
+  .inner-main-header .navbar-toggler {
+    border: none;
+    padding: 5px;
+  }
+  .inner-main-header .navbar-toggler:focus {
+    box-shadow: none;
+  }
   .inner-main-header .navbar-nav .nav-item a {
+    font-size: 16px;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .inner-main-header .navbar-nav .nav-item:hover a {
+    border-bottom: 2px solid #FD5D02;
+  }
+  .inner-main-header .dropdown-menu {
+    background-color: #f8f8f8;
+    border: none;
+    padding-left: 20px;
+  }
+  .get-quote {
+    margin-left: 0;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .get-quote button {
+    font-size: 14px;
+    padding: 8px 20px;
+    width: 90%;
+  }
+  
+  /* SLIDER - Mobile */
+  .slider-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .slider-text p.slidep {
+    font-size: 14px;
+    max-width: 95%;
+    margin: 10px 0 20px 0;
+  }
+  .slider-text button {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+  
+  /* FOOTER - Mobile */
+  #footer-section {
+    padding: 30px 0 15px 0;
+  }
+  .mainlogo {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .mainlogo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .allp.footp {
+    font-size: 14px;
+    text-align: center;
+  }
+  .mainft h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .mainft h4::after {
+    margin: 10px auto 0;
+    width: 50px;
+  }
+  .mainft ul {
+    padding: 12px 0 0 0;
+  }
+  .mainft ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .mainft ul li a {
+    font-size: 14px;
+  }
+  .mediaicons {
+    justify-content: center;
+    gap: 15px;
+  }
+  .mainft .mediaicons li a {
     font-size: 28px;
-   
-    margin: 10px 20px 8px 11px;
-   
-    border-bottom: 1px solid black;
-}
+  }
+  .rightp {
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  
 .get-quote button {
   font-size: 21px;
 }
@@ -115,4 +220,220 @@
   border: none;
 }
 
+}
+
+/* Make images and iframes scale within their containers */
+img, iframe, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tablet styles: 768px - 991px */
+@media (min-width:768px) and (max-width:991px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* NAVBAR - Tablet */
+  .inner-main-header .navbar {
+    padding: 12px 0;
+  }
+  .inner-main-header .navbar-brand img {
+    width: 100px;
+    height: auto;
+  }
+  .inner-main-header .navbar-nav .nav-item a {
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 5px 0;
+  }
+  .get-quote button {
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+  
+  /* SLIDER - Tablet */
+  .slider-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .slider-text p.slidep {
+    font-size: 16px;
+    max-width: 80%;
+    margin: 12px 0 28px 0;
+  }
+  .slider-text button {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+  
+  /* FOOTER - Tablet */
+  #footer-section {
+    padding: 40px 15px 20px 15px;
+  }
+  .mainlogo {
+    text-align: center;
+  }
+  .mainlogo img {
+    width: 110px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .mainft {
+    margin-top: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .mainft h4 {
+    font-size: 20px;
+  }
+  .mainft h4::after {
+    width: 60px;
+  }
+  .mainft ul li {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .mainft ul li a {
+    font-size: 15px;
+  }
+  .mainft .mediaicons li a {
+    font-size: 32px;
+  }
+  
+  .item-info p {
+    font-size: 20px;
+  }
+  .service-detail h2 {
+    font-size: 30px;
+  }
+  .service-detail p, .about-para p {
+    font-size: 18px;
+  }
+  .window-image {
+    width: 75%;
+  }
+}
+
+/* Small desktops / large tablets: 992px - 1199px */
+@media (min-width:992px) and (max-width:1199px) {
+  /* NAVBAR - Small Desktop */
+  .inner-main-header .navbar {
+    padding: 15px 0;
+  }
+  .inner-main-header .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+  .inner-main-header .navbar-nav .nav-item a {
+    font-size: 18px;
+    margin: 0 18px;
+  }
+  .get-quote button {
+    font-size: 16px;
+    padding: 10px 26px;
+  }
+  
+  /* SLIDER - Small Desktop */
+  .slider-text h2 {
+    font-size: 48px;
+  }
+  .slider-text p.slidep {
+    font-size: 18px;
+    max-width: 65%;
+  }
+  
+  /* FOOTER - Small Desktop */
+  #footer-section {
+    padding: 45px 0 20px 0;
+  }
+  .mainlogo img {
+    width: 120px;
+  }
+  .mainft {
+    margin-top: 35px !important;
+    padding-left: 60px !important;
+  }
+  .mainft h4 {
+    font-size: 22px;
+  }
+  .mainft ul li {
+    font-size: 16px;
+  }
+  .mainft .mediaicons li a {
+    font-size: 34px;
+  }
+  
+  .service-detail h2 {
+    font-size: 36px;
+  }
+  .item-info p {
+    font-size: 18px;
+  }
+}
+
+/* Large desktops: 1200px and above */
+@media (min-width:1200px) {
+  /* NAVBAR - Large Desktop */
+  .inner-main-header .navbar {
+    padding: 18px 0;
+  }
+  .inner-main-header .navbar-brand img {
+    width: 140px;
+    height: auto;
+  }
+  .inner-main-header .navbar-nav .nav-item a {
+    font-size: 19px;
+    margin: 0 50px 0 0;
+    color: #FD5D02;
+  }
+  .inner-main-header .navbar-nav .nav-item:hover a {
+    border-bottom: 2px solid #FD5D02;
+  }
+  .get-quote button {
+    font-size: 16px;
+    padding: 10px 28px;
+  }
+  
+  /* SLIDER - Large Desktop */
+  .slider-text h2 {
+    font-size: 63px;
+  }
+  .slider-text p.slidep {
+    font-size: 20px;
+    max-width: 61%;
+  }
+  
+  /* FOOTER - Large Desktop */
+  #footer-section {
+    padding: 50px 0 20px 0;
+  }
+  .mainlogo img {
+    width: 130px;
+  }
+  .allp.footp {
+    font-size: 16px;
+  }
+  .mainft {
+    margin-top: 38px !important;
+    padding-left: 74px !important;
+  }
+  .mainft h4 {
+    font-size: 24px;
+  }
+  .mainft ul li {
+    font-size: 18px;
+  }
+  .mainft ul li a {
+    font-size: 18px;
+  }
+  .mainft .mediaicons li a {
+    font-size: 35px;
+  }
+  .rightp {
+    font-size: 16px;
+    margin-top: 30px;
+  }
 }

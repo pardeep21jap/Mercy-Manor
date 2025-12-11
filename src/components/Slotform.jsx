@@ -7,6 +7,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
+import services from '../assets/services.jpg';
 function Slotform() {
 
 
@@ -171,7 +172,7 @@ function Slotform() {
               </div>
 
               <div className="service-image">
-                <img src="./src/assets/services.jpg" alt="" />
+                <img src={services} alt="" />
               </div>
             </div>
 

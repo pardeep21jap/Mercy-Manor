@@ -1,9 +1,12 @@
 import './Who.css'
+
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward } from '@fortawesome/free-solid-svg-icons';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import about1 from '../assets/about1.png';
 function Who() {
 
 
@@ -17,7 +20,7 @@ function Who() {
 
           <div className='row outer-who'>
             <div className="who-img col-6">
-              <img src="./src/assets/about1.png" alt="" />
+              <img src={about1} alt="" />
             </div>
             <div className="who-text col-6">
               <h2 className='all-heading'>About Us</h2>
@@ -46,9 +49,12 @@ function Who() {
                 </ul>
 
               </div>
-            
+
+              <Link to="/AboutUs">
                 <button className='all-button bluedivbtn'>Read more...</button>
-             
+              </Link>
+
+
             </div>
 
 
