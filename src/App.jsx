@@ -21,6 +21,8 @@ import Mealprep from "./components/pages/Mealprep.jsx";
 import Nursingcare from "./components/pages/Nursingcare.jsx";
 import Blog from "./components/pages/Blog.jsx"
 import Navbar from "./components/navbar.jsx";
+import "./responsive.css";
+
 
 function App() {
   return (
