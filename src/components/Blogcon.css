@@ -7,8 +7,11 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: 0.4s;
     margin-bottom: 20px;
-    display: flex;
     align-items: center;
+}
+.numbering ul {
+    margin: auto;
+    display: table;
 }
 .main-blog:hover
 {
@@ -16,7 +19,6 @@
 }
 .main-blog img {
     width: 100%;
-    padding-left: 12px;
 }
 .blog-content
 {
@@ -31,12 +33,24 @@
   color: #FD5D02;
   font-weight: bold;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   transition: 0.3s;
 }
 .blog-content a:hover 
 {
   color: black;
+}
+.bold-title
+{
+  color: #FD5D02;
+  font-weight: 600;
+  font-size: 22px;
+}
+.blog-date {
+    display: block;
+    font-size: 13px;
+    padding-top: 7px;
+    color: #FD5D02;
 }
 .numbering
 {
@@ -50,8 +64,74 @@
   margin:  0 10px;
 
 }
-.numbering ul li a
+.numbering ul li a {
+    background-color: #FD5D02;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.right-blog-list h3
 {
-   color: #FD5D02;
-  font-size: 18px;
+  color: #FD5D02;
+  font-weight: 600;
+  font-size: 30px;
+
+}
+.right-blog-list ul{
+  margin: 0;
+  padding: 0;
+}
+.right-blog-list ul li {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 30px 0px;
+}
+.right-blog-list ul li img
+{
+ width: 150px;
+ margin-right: 10px;
+ border-radius: 10px;
+}
+.right-blog-list ul li a
+{
+  color: #FD5D02;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.right-blog-list ul li a:hover
+{
+  color: black;
+}
+
+.orange-blog-div {
+  background-image:  url("/src/assets/medical.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+    padding: 50px 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.orange-blog-div h3 {
+    font-size: 43px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+     font-family: "Oswald", sans-serif;
+}
+.orange-blog-div span {
+    display: block;
+    font-size: 40px;
+     font-family: "Oswald", sans-serif;
+     font-weight: 600;
+}
+.blogcall {
+    font-size: 50px;
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 49px;
+    margin: 30px 0px;
 }

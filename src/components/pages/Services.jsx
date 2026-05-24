@@ -1,23 +1,30 @@
 
+import { Helmet } from "react-helmet";
 import Banner from '../Banner'
-import Cards from '../Cards'
-import Services from '../Service'
 import Cta from '../Cta'
-import bannerImg from "../../assets/aboutbanner.png";
+import bannerImg from "../../assets/aboutbanner.webp";
 import Innerservices from '../Innerservices';
-import Allservices from '../Allservices';
+import Service from '../Service';
 
-function services() {
+function Services() {
   return (
     <>
-      <Banner title="Your Health, Our Priority"
-        subtitleba="Experience cutting-edge healthcare powered by innovation, delivered with compassion."
+      <Helmet>
+        <title>Senior Care Services in Surrey, BC | Mercy Manor Home Care</title>
+
+        <meta name="description" content="Mercy Manor offers trusted senior care services in Surrey, BC including dementia care, companion care, nursing care, and homemaking care tailored to your loved ones." />
+
+        <link rel="canonical" href="https://www.mercymanor.ca/Services" />
+
+      </Helmet>
+      <Banner title="Expert Services Designed for You"
+        subtitleba="From start to finish, Mercy Manor provides professional solutions that meet your unique needs with care and precision."
         bannerImage={bannerImg} />
       <Innerservices />
-      <Allservices />
+      <Service />
       <Cta />
     </>
   )
 }
 
-export default services;
+export default Services;

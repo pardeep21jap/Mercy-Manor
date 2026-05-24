@@ -7,10 +7,10 @@ import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
-import medication from '../assets/medication.png';
-import givefood from '../assets/givefood.png';
-import indooractivity from '../assets/indooractivity.png';
-import exercise from '../assets/exercise.png';
+import medication from '../assets/medication.webp';
+import givefood from '../assets/givefood.webp';
+import indooractivity from '../assets/indooractivity.webp';
+import exercise from '../assets/exercise.webp';
 
 function Dementiaincluded() {
   return (
@@ -21,13 +21,13 @@ function Dementiaincluded() {
             <div className="inner-service-included">
               <h2 className='all-heading cen-heading'>Our Dementia Care Services Include</h2>
 
-              <div className="row main-services own-dementiaincluded">
+              <div className="main-services own-dementiaincluded">
 
-                <div className="col-3 all-services dementiasser">
+                <div className="all-services dementiasser">
 
-                  <img src={medication} alt="" />
+                  <img src={medication} alt="Mercy Manor Home Care dementia service helping clients take medications on time" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
 
                     <h3>Medication reminder </h3>
@@ -38,11 +38,11 @@ function Dementiaincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="all-services dementiasser">
 
-                  <img src={givefood} alt="" />
+                  <img src={givefood} alt="Assisting seniors with healthy meals and dietary needs at home" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
 
                     <h3>Assisting with diet</h3>
@@ -53,11 +53,11 @@ function Dementiaincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="all-services dementiasser">
 
-                  <img src={indooractivity} alt="" />
+                  <img src={indooractivity} alt="Senior engaging in puzzles and games as part of dementia care activities" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
                     <h3>Indoor recreational activities</h3>
                     <p className='allp serp'>In the context of dementia care, maintaining client engagement and minimizing exposure to potential stressors is paramount. To this end, we provide gentle,
@@ -71,12 +71,12 @@ function Dementiaincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="all-services dementiasser">
 
-                  <img src={exercise} alt="" />
+                  <img src={exercise} alt="Trained caregiver assisting elderly client with safe physical activity" />
 
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
                     <h3>Light exercise</h3>
                     <p className='allp serp'>Engaging in light physical exercise is equally essential in dementia care, as it helps keep the individual active, enhances overall well-being, and supports both physical and cognitive health-Mercy manor team is trained to assist the clients to do light exercise</p>

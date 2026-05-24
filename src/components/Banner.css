@@ -1,5 +1,7 @@
 .banner-inner img{
   width: 100%;
+  height: auto;
+  display: block;
 }
 .container-fluid
 {
@@ -9,28 +11,39 @@
 .banner-inner
 {
   position: relative;
-}
-.banner-text {
+ }
+.banner-text
+{
     position: absolute;
-    top: 40%;
-    left: 321px;
-    right: 0;
-    bottom: 0;
-    padding: 0 0 30px 0;
+    top: 0;
+    left: 0;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%
 }
-.banner-text h3
+.banner-text h1
 {
   color: #FD5D02;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
-  font-size: 50px;
+  font-size: 44px;
   padding-bottom: 10px;
+  text-align: center;
 }
-.banner-text h4
+.banner-text h2
 {
-   color: #FD5D02;
+   color: white;
   font-weight: light;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   padding-bottom: 13px;
+  text-align: center;
+}
+.all-button .svg-inline--fa {
+    padding-left: 0px;
+    padding-right: 7px;
 }

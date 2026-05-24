@@ -1,3 +1,4 @@
+
 #footer-section
 {
     background-color: white;
@@ -24,6 +25,19 @@
   margin-bottom: 14px;
   position: relative;
   font-size: 18px;
+  font-weight: 500;
+}
+
+.mainft ul li a
+{
+  text-decoration: none;
+  color: black !important;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.mainft ul .maillistspace a
+{padding-left: 8px;
+
 }
 .mainft h4
 {
@@ -40,16 +54,9 @@
     margin-bottom: 0;
     margin-top: 7px;
 }
-.mainft ul li a
-{
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  transition: 0.3s;
-}
 .mainft ul li:hover a
 {
-  color: #FD5D02;
+  color: #FD5D02 !important;
 }
 .rightp
 {

@@ -1,0 +1,35 @@
+.all-services-cards
+{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+}
+.explore-card img
+{
+ width: 150px;
+ margin: auto;
+ display: block;
+}
+.explore-card h3
+{
+  text-align: center;
+  margin-top: 20px;
+}
+.explore-btn
+{
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #FD5D02;
+  color: #FD5D02;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: auto;
+  display: block;
+}
+ #explore-section
+ {
+  margin: 50px 0px;
+ }

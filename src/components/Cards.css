@@ -17,7 +17,7 @@
 .outer-card .main-card:last-child {
     border-right: none;
 }
-.main-card h3 {
+.main-card h2 {
     font-family: "Oswald", sans-serif;
     font-size: 21px;
     margin: 20px 0 20px 0;
@@ -26,11 +26,11 @@
 }
 .allp {
     font-family: "Oswald", sans-serif;
-    font-size: 15px;
-    color: #555555;
+    font-size: 18px;
+    color: black;
     line-height: 1.5;
-    font-weight: 600;
     text-align: justify;
+    font-weight: bold;
 }
 .main-card img {
     width: 70px;

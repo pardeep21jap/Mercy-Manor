@@ -1,0 +1,37 @@
+#hc-services
+{
+
+  margin-bottom: 20px;
+}
+.hc-card {
+    background-color: #F7F7F7;
+    color: #FD5D02;
+    font-size: 20px;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hc-services-cards-outer
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.hc-card h4
+{
+  text-transform: capitalize;
+}
+.hc-card span
+{
+  text-align: justify;
+  line-height: normal;
+  font-size: 19px;
+  padding-bottom: 20px;
+  
+}
+.hc-card .hc-icons
+{
+  font-size: 25px;
+}

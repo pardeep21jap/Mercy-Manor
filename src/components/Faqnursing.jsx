@@ -1,6 +1,6 @@
 import React from 'react'
 
-import faq from '../assets/faq.jpeg';
+import faq from '../assets/faq.webp';
 function Faqnursing() {
   return (
     <div>
@@ -10,13 +10,14 @@ function Faqnursing() {
             <div className="faqdementia-inner">
               <h2 className='all-heading cen-heading'>Frequently Asked Questions</h2>
               <div className="main-faqdementia">
+
                 <div className="row faqcontet dementia-faq">
 
-                  <div className="col-6 faq-image">
-                    <img src={faq} alt="" />
+                  <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-image">
+                    <img src={faq} alt="FAQ about in home nursing care for seniors covering medical assessments wound dressing rehabilitation and symptom management" />
                   </div>
 
-                  <div className="col-6 faq-accordion">
+                  <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-accordion">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -26,7 +27,7 @@ function Faqnursing() {
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
-                            <p className='allp'>At Mercy Manor Health Care Limited Seniors, iSeniors, individuals with chronic illnesses, post-surgery patients, people with disabilities, or anyone requiring skilled medical care can benefit from nursing services.</p>
+                            <p className='allp'>At Mercy Manor Health Care Limited Seniors individuals with chronic illnesses, post-surgery patients, people with disabilities, or anyone requiring skilled medical care can benefit from nursing services.</p>
                           </div>
                         </div>
                       </div>
@@ -39,25 +40,12 @@ function Faqnursing() {
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <p className='allp'>
-                              Yes. Nursing care can be provided at home, allowing clients to receive professional medical support in a familiar and comfortable environment.
+                              Yes. Nursing care can be provided at home, allowing clients to receive professional nursing support in a familiar and comfortable environment.
                             </p>
                           </div>
                         </div>
                       </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What tasks do nurses perform in home care?
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <p className='allp'>
-                              Nurses can administer medications, monitor vital signs, manage chronic conditions, provide wound care, assist with mobility, support rehabilitation, and educate clients and families on health management.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -91,6 +79,7 @@ function Faqnursing() {
 
 
                 </div>
+
               </div>
 
 

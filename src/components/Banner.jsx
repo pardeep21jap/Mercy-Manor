@@ -2,8 +2,8 @@ import React from 'react'
 import "./Banner.css"
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import defaultBannerImage from "../assets/banner.png";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import defaultBannerImage from "../assets/aboutbanner.webp";
 
 // function Banner() {
 function Banner({ title, subtitleba, bannerImage }) {
@@ -16,10 +16,10 @@ function Banner({ title, subtitleba, bannerImage }) {
           <div className="banner-inner">
             <img src={imgSrc} alt="banner" />
             <div className="banner-text">
-              <h3>{title}</h3>
-              <h4>{subtitleba}</h4>
-              <Link to="/Contact">
-                <button className='all-button'>contact us<FontAwesomeIcon icon={faArrowRight} className='arrow-icon' /></button>
+              <h1>{title}</h1>
+              <h2>{subtitleba}</h2>
+              <Link to="/contact">
+                <button className='all-button'><FontAwesomeIcon icon={faPhone} className='' />contact us</button>
               </Link>
             </div>
           </div>

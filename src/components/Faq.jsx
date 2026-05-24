@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Faq.css"
-import faq from '../assets/faq.jpeg';
+import faq from '../assets/faq.webp';
 function Faq() {
   return (
     <div>
@@ -13,30 +13,30 @@ function Faq() {
 
             <div className="row faqcontet">
 
-              <div className="col-6 faq-image">
-                <img src={faq} alt="" />
+              <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-image">
+                <img src={faq} alt="FAQ section for home health care services in British Columbia" />
               </div>
 
-              <div className="col-6 faq-accordion">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-accordion">
+                <div className="accordion" id="accordionExample">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Who are we?
                       </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                    </h3>
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
                         <p className='allp'>At Mercy Manor Health Care Limited We provide compassionate healthcare and home care services, supporting seniors and individuals who need assistance with daily living.</p>
                       </div>
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <h3 class="accordion-header">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         What services do you offer?
                       </button>
-                    </h2>
+                    </h3>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <p className='allp'>
@@ -46,11 +46,11 @@ function Faq() {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <h3 class="accordion-header">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         What makes your care different?
                       </button>
-                    </h2>
+                    </h3>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <p className='allp'>
@@ -60,11 +60,11 @@ function Faq() {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <h3 class="accordion-header">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Are your caregivers trained?
                       </button>
-                    </h2>
+                    </h3>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <p className='allp'>
@@ -74,11 +74,11 @@ function Faq() {
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <h3 class="accordion-header">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         How can I get in touch or schedule a consultation?
                       </button>
-                    </h2>
+                    </h3>
                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <p className='allp'>

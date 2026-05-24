@@ -1,8 +1,28 @@
-.all-services.dementiasser {
-    width: 24% !important;
-    margin: 0 12px 0 0 !important;
-}
+
 .main-services.own-dementiaincluded
 {
-  margin: 50px 0px !important;
+  margin: 50px 0px;
+  display: flex;
+  align-items: stretch; /* ⭐ MUST */
+  gap: 20px;
+}
+.all-services.dementiasser
+{
+      flex: 1 1 0;       /* ⭐ CRITICAL */
+  display: flex;     
+  flex-direction: column;
+  border: 1px solid #FD5D02;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+/* }
+.all-services.dementiasser img
+{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+} */
+.ser-text.innerpage.texted.noborder
+{
+  border: none;
 }

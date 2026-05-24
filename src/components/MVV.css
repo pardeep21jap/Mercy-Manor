@@ -13,10 +13,15 @@
 {
     background-color: #1EA185;
 }
+.mission-outer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .missioncard {
     padding: 40px 15px 2px 15px !important;
-    margin: 0 10px;
-    width: 31.7% !important;
+    margin: 0 5px;
     border-radius: 7px;
 }
 .missioncard h3,p
@@ -28,7 +33,7 @@ font-family: "Oswald", sans-serif;
 .cardicon {
     color: white;
     border: 8px solid white;
-    width: 30%;
+    width: 120px;
     margin: auto;
     text-align: center;
     border-radius: 60px;

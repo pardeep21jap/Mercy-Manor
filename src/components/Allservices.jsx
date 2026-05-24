@@ -1,16 +1,13 @@
 import React from 'react'
+import "./Allservices.css"
 import "./Service.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBrain } from "@fortawesome/free-solid-svg-icons";
-import { faPills } from "@fortawesome/free-solid-svg-icons";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
-import { faChessBoard } from "@fortawesome/free-solid-svg-icons";
-import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
-import { faHandshake } from "@fortawesome/free-solid-svg-icons";
-import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
-import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
-import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import indooractivity from '../assets/indooractivity.webp';
+import support from '../assets/support.webp';
+import appointment from '../assets/appointment.webp';
+import housekeeping from '../assets/housekeeping.webp';
+import store from '../assets/store.webp';
+import wound from '../assets/wound.webp';
 
 
 
@@ -27,166 +24,92 @@ function Allservices() {
           <div className="service-inner">
 
 
-            <div className="row main-services">
+            <div className="main-services">
 
-              <div className="col-4 all-services">
+              <div className="all-services">
 
-                <img src="./src/assets/ser1.jpeg" alt="" />
+                <img src={indooractivity} alt="Mercy Manor Home Care dementia support for seniors living at home" />
 
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faBrain} className='service-icons' />
-                  </div>
+                <div className="ser-text innerpage texted noborder">
+
                   <h3>Dementia Care </h3>
-                  <p className='allp serp'>s on helping the person maintain safety </p>
-                  <button className='all-button servbtn'>Read More...</button>
+                  <p className='allp serp'>Dementia care is a specialized type of support designed for individuals living with dementia, including Alzheimer’s disease and other memory-related conditions. </p>
+                  <Link to="/dementia-care"> <button className='all-button servbtn'>Read More...</button> </Link>
                 </div>
 
 
               </div>
 
-              <div className="col-4 all-services">
+              <div className="all-services">
 
-                <img src="./src/assets/ser1.jpeg" alt="" />
+                <img src={support} alt="Companion care services for seniors by Mercy Manor Home Care" />
 
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faPills} className='service-icons' />
-                  </div>
-                  <h3>Medication reminder </h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
+                <div className="ser-text innerpage texted noborder">
+
+                  <h3>Companion care </h3>
+                  <p className='allp serp'>At Mercy Manor Health Care, we understand that emotional well-being is just as important as physical health—especially for our elderly clients. </p>
+                  <Link to="/companion-care"> <button className='all-button servbtn'>Read More...</button> </Link>
                 </div>
 
 
               </div>
 
-              <div className="col-4 all-services">
+              <div className="all-services">
 
-                <img src="./src/assets/ser1.jpeg" alt="" />
+                <img src={appointment} alt="Trusted escort care services for seniors in Surrey, Abbotsford, Chilliwack and Agassiz" />
 
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faUtensils} className='service-icons' />
-                  </div>
-                  <h3>Assisting with diet </h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
+                <div className="ser-text innerpage texted noborder">
+
+                  <h3>Escorting Client Care </h3>
+                  <p className='allp serp'>At Mercy Manor Health Care, we understand that getting to and from appointments can sometimes be challenging for our clients.  </p>
+                  <Link to="/escorting-care"> <button className='all-button servbtn'>Read More...</button> </Link>
                 </div>
 
 
               </div>
-              <div className="col-4 all-services">
+              <div className="all-services">
 
-                <img src="./src/assets/ser1.jpeg" alt="" />
+                <img src={housekeeping} alt="Professional homemaking services for seniors by Mercy Manor Home Care in Surrey BC" />
 
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faChessBoard} className='service-icons' />
-                  </div>
-                  <h3>Indoor recreational activities </h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
-                </div>
+                <div className="ser-text innerpage texted noborder">
 
-
-              </div>
-
-              <div className="col-4 all-services">
-
-                <img src="./src/assets/ser1.jpeg" alt="" />
-
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faDumbbell} className='service-icons' />
-                  </div>
-                  <h3>Light Exercise </h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
+                  <h3>Home Making Service </h3>
+                  <p className='allp serp'>Homemaking service is a non-medical support service that helps individuals maintain a clean, safe, and comfortable home environment. It is especially helpful for seniors, people with disabilities, or anyone who may have difficulty managing daily household tasks. </p>
+                  <Link to="/homemaking"> <button className='all-button servbtn'>Read More...</button> </Link>
                 </div>
 
 
               </div>
 
-              <div className="col-4 all-services">
+              <div className="all-services">
 
-                <img src="./src/assets/ser2.jpg" alt="" />
+                <img src={store} alt="In-home meal preparation services for seniors in British Columbia" />
 
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faHandshake} className='service-icons' />
-                  </div>
-                  <h3>Companion care</h3>
-                  <p className='allp serp' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
+                <div className="ser-text innerpage texted noborder">
+
+                  <h3>Meal Preparation Service </h3>
+                  <p className='allp serp'>Meal Preparation Service is a non-medical support service designed to help individuals maintain a healthy and balanced diet, especially when they are unable to cook for themselves due to age, illness, disability, or a busy lifestyle.</p>
+                  <Link to="/mealprep"> <button className='all-button servbtn'>Read More...</button> </Link>
                 </div>
 
 
               </div>
 
-              <div className="col-4 all-services">
+              <div className="all-services">
 
-                <img src="./src/assets/pro3.png" alt="" />
+                <img src={wound} alt="Professional nursing care services in Surrey BC" />
 
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faPersonWalkingWithCane} className='service-icons' />
-                  </div>
-                  <h3>Escorting client to appointments</h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
+                <div className="ser-text innerpage texted noborder">
+
+                  <h3>Nursing Care Service </h3>
+                  <p className='allp serp' >Nursing Care Service is a professional healthcare service provided by licensed nurses to support individuals with medical needs, chronic conditions, post-surgery recovery, or age-related health challenges.</p>
+                  <Link to="/nursing-care"> <button className='all-button servbtn'>Read More...</button> </Link>
                 </div>
 
 
               </div>
 
-              <div className="col-4 all-services">
 
-                <img src="./src/assets/ser1.jpeg" alt="" />
-
-
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faHouse} className='service-icons' />
-                  </div>
-                  <h3>Home making</h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
-                </div>
-
-
-              </div>
-              <div className="col-4 all-services">
-
-                <img src="./src/assets/ser1.jpeg" alt="" />
-
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faBowlFood} className='service-icons' />
-                  </div>
-                  <h3>Meal preparation</h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
-                </div>
-
-
-              </div>
-
-              <div className="col-4 all-services">
-
-                <img src="./src/assets/ser1.jpeg" alt="" />
-
-                <div className="ser-text innerpage texted">
-                  <div className="servicehover">
-                    <FontAwesomeIcon icon={faUserNurse} className='service-icons' />
-                  </div>
-                  <h3>Nursing Care</h3>
-                  <p className='allp serp'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
-                  <button className='all-button servbtn'>Read More...</button>
-                </div>
-
-
-              </div>
 
             </div>
 

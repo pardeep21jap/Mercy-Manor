@@ -6,10 +6,10 @@ import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
-import support from '../assets/support.png';
-import monitoring from '../assets/monitoring.png';
-import household from '../assets/household.png';
-import transport from '../assets/transport.png';
+import support from '../assets/support.webp';
+import monitoring from '../assets/monitoring.webp';
+import household from '../assets/household.webp';
+import transport from '../assets/transport.webp';
 
 
 function Companionincluded() {
@@ -23,11 +23,11 @@ function Companionincluded() {
 
               <div className="row main-services own-dementiaincluded">
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12 all-services dementiasser">
 
-                  <img src={support} alt="" />
+                  <img src={support} alt="Caregiver providing daily routine support and companionship to senior at home in BC" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
 
                     <h3>Daily Routine Support </h3>
@@ -38,11 +38,11 @@ function Companionincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12  all-services dementiasser">
 
-                  <img src={monitoring} alt="" />
+                  <img src={monitoring} alt="Home care caregiver checking blood pressure and monitoring senior health at home" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
 
                     <h3>Safety & Monitoring</h3>
@@ -53,11 +53,11 @@ function Companionincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12  all-services dementiasser">
 
-                  <img src={household} alt="" />
+                  <img src={household} alt="Caregiver helping senior with light housekeeping and laundry in home care service" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
                     <h3>Light Household Assistance</h3>
                     <p className='allp serp'>Light household assistance in companion care helps individuals maintain a clean, comfortable, and well-organized living environment. Caregivers support with light housekeeping tasks such as dusting, tidying up, and doing laundry, ensuring the home remains pleasant and safe. They also assist with meal planning and simple meal preparation to promote healthy eating habits and daily comfort.
@@ -68,12 +68,12 @@ function Companionincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12  all-services dementiasser">
 
-                  <img src={transport} alt="" />
+                  <img src={transport} alt="Caregiver helping senior with light housekeeping and laundry in home care service" />
 
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
                     <h3>Transportation & Mobility Support</h3>
                     <p className='allp serp'>Transportation and mobility support in companion care ensures individuals can move safely and stay connected with their community. Caregivers provide reliable escort services to doctor visits, social gatherings, and other appointments, helping clients stay engaged and active outside the home. They also offer gentle, non-medical assistance with walking around the home or outdoors, giving clients the confidence to move safely and comfortably.</p>

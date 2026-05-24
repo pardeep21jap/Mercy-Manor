@@ -1,20 +1,30 @@
-import Banner from "../Banner";
-import bannerImg from "../../assets/contactbanner.png";
+
+import { Helmet } from "react-helmet";
+import bannerImg from "../../assets/contactbanner.webp";
+import Banner from '../Banner.jsx'
 import Contactpara from "../Contactpara";
 import Cta from "../Cta";
-import Faq from "../Faq";
 import Contactinfo from "../Contactinfo";
-import Gmap from "../Gmap";
 
 function Contact() {
   return (
     <>
-      <Banner title="We’re Here to Help"
+      <Helmet>
+        <title>Contact Mercy Manor – We’re Here to Help</title>
+
+        <meta
+          name="description"
+          content="Get in touch with Mercy Manor for questions, guidance, or to schedule home care services in Surrey, BC."
+        />
+
+        <link rel="canonical" href="https://www.mercymanor.ca/contact" />
+
+      </Helmet>
+      <Banner title="Contact Mercy Manor – We’re Here to Help"
         subtitleba="Connect with our team for guidance, questions, or medical assistance."
-        bannerImage={bannerImg} />
+        bannerImage={bannerImg} alt="Contact our home care team for professional senior care support" />
       <Contactpara />
       <Contactinfo />
-      <Gmap />
       <Cta />
     </>
 

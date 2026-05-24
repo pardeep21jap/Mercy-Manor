@@ -8,9 +8,9 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
 import './Slider.css'
-import Slide05 from '../assets/Slides05.png';
-import Slide06 from '../assets/Slides06.png';
-import Slide07 from '../assets/Slides07.png';
+import Slide05 from '../assets/Slides05.webp';
+import Slide06 from '../assets/Slides06.webp';
+import Slide07 from '../assets/Slides07.webp';
 
 function Slider() {
 
@@ -21,13 +21,14 @@ function Slider() {
       <Swiper navigation={true} pagination={false} autoplay={true}
         modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
+
         <SwiperSlide className='mainslider'>
           <img src={Slide05} alt="1" />
           <div className="opacity-div">
 
             <div className="slider-text">
-              <h2>Joyful Moments, Healthy Hearts</h2>
-              <p className='allp slidep'>Joyful moments are the true heartbeat of life, and we believe good health is the foundation that makes them possible. Our care is dedicated to nurturing both your physical well-being and your emotional happiness, so every day becomes an opportunity to smile, connect, and live fully. With a healthy heart, every moment becomes a joyful one.</p>
+              <h1>Welcome To Mercy Manor<br></br>Homecare BC</h1>
+              <p className='allp slidep'>Your trusted provider of professional in-home care services for seniors and individuals in need. We proudly serve families across Surrey, Abbotsford, Chilliwack, and Agassiz, delivering compassionate, personalized care that supports independence, dignity, and comfort at home.</p>
 
 
 
@@ -40,6 +41,7 @@ function Slider() {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className='mainslider'><img src={Slide06} alt="1" />
 
           <div className="opacity-div">
@@ -54,6 +56,7 @@ function Slider() {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className='mainslider'><img src={Slide07} alt="1" />
           <div className="opacity-div">
 

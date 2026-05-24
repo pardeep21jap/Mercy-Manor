@@ -26,10 +26,15 @@
     text-transform: capitalize;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
+.blue-div ul{
+    margin: 0;
+    padding: 0;
+}
 .blue-div li {
     display: inline-block;
-    padding: 15px 0 20px 25px;
+    padding: 15px 58px 20px 0;
     text-align: center;
+    width: 50%;
 }
 .bluedivbtn {
     margin: auto;
@@ -48,11 +53,6 @@
 .blue-div ul li h4{
   text-transform: capitalize;
   font-size: 20px;
-}
-.allp
-{
-    margin-top: 30px;
-    color: black;
 }
 
 .subtitle {

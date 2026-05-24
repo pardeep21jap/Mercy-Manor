@@ -1,18 +1,55 @@
 import React from 'react'
+import map from '../assets/map.png';
 import "./Gmap.css"
 function Gmap() {
+
+
   return (
     <div>
-      <iframe
-        title="Mercy Manor location"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.354973234496!2d-122.8397248231067!3d49.12456348193759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485da4aa9c013af%3A0x3fb439530e088594!2s13900%20Hyland%20Rd%20%23113%2C%20Surrey%2C%20BC%20V3W%201K4!5e1!3m2!1sen!2sca!4v1765398671037!5m2!1sen!2sca"
-        width="100%"
-        height="100%"
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <section id='gmap-section'>
+        <div className="container">
+          <div className='gmap-outer'>
+            <h2 className='all-heading'>Areas We Serve</h2>
+            <h3 className='subtitle'>Supporting your loved ones across the communities we serve</h3>
+
+            <div className='row area-content'>
+              <div className='col-8 gmap-image'>
+                <img src={map} alt="Mercy Manor Home Care providing professional home care services in Surrey, BC" />
+              </div>
+              <div className='col-4 serve-area'>
+                <ul>
+                  <li>
+                    <h4>Surrey</h4>
+                    <p>Comprehensive home care services in Surrey, including companionship, personal care, and specialized support for seniors.</p>
+                  </li>
+                  <li>
+                    <h4 className="blue-abbotsford">Abbotsford</h4>
+                    <p>Trusted home care in Abbotsford, offering personalized care plans, companionship, and assistance with daily living activities.</p>
+                  </li>
+                  <li>
+                    <h4 className="red-chilli">Chilliwack</h4>
+                    <p>Reliable home care services in Chilliwack, providing compassionate support for seniors with companionship, personal care, and more.</p>
+                  </li>
+                  <li>
+                    <h4 className="green-agga">Agassiz</h4>
+                    <p>Dedicated home care in Agassiz, offering personalized care plans, companionship, and assistance with daily living activities for seniors.</p>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+
+
+
+
+            {/* <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1v8m560MAd1UscOue7zUWXJMj_W1ZHDA&ehbc=2E312F&noprof=1" width="100%" height="700"></iframe> */}
+
+          </div>
+        </div>
+      </section>
+
+
     </div>
   )
 }

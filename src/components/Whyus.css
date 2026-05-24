@@ -1,6 +1,9 @@
 #why-us-section{
 margin: 50px 0px;
 }
+.outer-whyus {
+    display: flex;
+}
 .why-list ul li {
     list-style-type: none;
     background-color: transparent;
@@ -13,7 +16,7 @@ margin: 50px 0px;
 }
 .why-list ul {
     margin: 0;
-    padding: 0px;
+    padding: 0 0 0 53px;
 }
 .why-list ul li h3
 {
@@ -23,6 +26,7 @@ margin: 50px 0px;
     margin: 0;
     padding-left: 5px;
     color: black;
+    width: 90%;
 }
 .usericon.whyicon {
     font-size: 20px;

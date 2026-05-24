@@ -1,5 +1,30 @@
-iframe
+
+.gmap-image img
 {
-margin-bottom: -6px !important;
-height: 500px !important;
+width: 100%;
+border: 1px solid #FD5D02;
+border-radius: 5px;
+
 }
+.serve-area ul li
+{
+   list-style-type: none;
+}
+.serve-area ul li p{
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      color: black;
+      text-align: justify;
+}
+.orange-surrey h4 {
+  color: #FD5D02 !important;
+}
+.area-content
+{
+  margin-top: 40px !important;
+}
+.serve-area ul li:nth-child(1)
+ { color: #E98125; }
+.serve-area ul li:nth-child(2) { color: #252F7D; }
+.serve-area ul li:nth-child(3) { color: #B9231E; }
+.serve-area ul li:nth-child(4) { color: #218846; }

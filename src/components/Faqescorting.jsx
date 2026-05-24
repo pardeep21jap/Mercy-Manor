@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Faqdementia.css"
 
-import faq from '../assets/faq.jpeg';
+import faq from '../assets/faq.webp';
 function Faqescorting() {
   return (
     <div>
@@ -13,11 +13,11 @@ function Faqescorting() {
               <div className="main-faqdementia">
                 <div className="row faqcontet dementia-faq">
 
-                  <div className="col-6 faq-image">
+                  <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-image">
                     <img src={faq} alt="" />
                   </div>
 
-                  <div className="col-6 faq-accordion">
+                  <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-accordion">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header">

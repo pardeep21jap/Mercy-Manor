@@ -7,10 +7,10 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faPersonWalkingWithCane } from "@fortawesome/free-solid-svg-icons";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
 
-import housekeeping from '../assets/housekeeping.png';
-import laundry from '../assets/laundry.png';
-import trash from '../assets/trash.png';
-import shopping from '../assets/shopping.png';
+import housekeeping from '../assets/housekeeping.webp';
+import laundry from '../assets/laundry.webp';
+import trash from '../assets/trash.webp';
+import shopping from '../assets/shopping.webp';
 
 
 function Homemakingincluded() {
@@ -24,11 +24,11 @@ function Homemakingincluded() {
 
               <div className="row main-services own-dementiaincluded">
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12 all-services dementiasser">
 
-                  <img src={housekeeping} alt="" />
+                  <img src={housekeeping} alt="Caregiver providing light housekeeping service for senior including cleaning and home organization" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
 
                     <h3>Light Housekeeping</h3>
@@ -39,26 +39,26 @@ function Homemakingincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12 all-services dementiasser">
 
-                  <img src={laundry} alt="" />
+                  <img src={laundry} alt="Home caregiver assisting senior with laundry and fresh linen care at home" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
 
                     <h3>Laundry & Linen Care</h3>
-                    <p className='allp serp' >At Mercy Manor, We take care of washing, drying, folding, and putting away laundry, as well as changing bed linens regularly. This keeps clothing and bedding fresh, clean, and ready for daily use.</p>
+                    <p className='allp serp' >At Mercy Manor, We take care of washing, drying and putting away laundry, as well as changing bed linens regularly. This keeps clothing and bedding fresh, clean, and ready for daily use.</p>
 
                   </div>
 
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12 all-services dementiasser">
 
-                  <img src={trash} alt="" />
+                  <img src={trash} alt="Caregiver helping senior with trash and recycling removal to maintain a clean home" />
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
                     <h3>Trash & Recycling Removal</h3>
                     <p className='allp serp'>Caregivers assist with taking out trash and recycling on schedule, helping maintain cleanliness and preventing odors or clutter from building up.
@@ -69,12 +69,12 @@ function Homemakingincluded() {
 
                 </div>
 
-                <div className="col-3 all-services dementiasser">
+                <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12 all-services dementiasser">
 
-                  <img src={shopping} alt="" />
+                  <img src={shopping} alt="Caregiver assisting elderly client with grocery shopping and daily errands" />
 
 
-                  <div className="ser-text innerpage texted">
+                  <div className="ser-text innerpage texted noborder">
 
                     <h3>Grocery Shopping & Errands</h3>
                     <p className='allp serp'>Our team can handle grocery shopping, picking up prescriptions, and running essential errands. This ensures clients always have what they need without the stress of leaving home.</p>

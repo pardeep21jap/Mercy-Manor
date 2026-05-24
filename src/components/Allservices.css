@@ -1,0 +1,16 @@
+.main-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.all-services {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #FD5D02;
+  padding: 16px;
+  background: #fff;
+}
+.noborder
+{
+  border: none;
+}

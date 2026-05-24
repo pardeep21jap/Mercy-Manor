@@ -2,666 +2,1091 @@ a
 {
     text-decoration: none !important;
 }
-@media (max-width:360px)
-{
-      .slider-text h2 {
-        font-size: 20px !important;
-    }
-    .allp.slidep
-    {
-      display: none;
-    }
-.cta-text
-{
-  width: 100% !important;
-}
-.cta-buttons
-{
-  width: 100% !important;
-}
-.why-list
-{
-  width: 100% !important;
-}
-.whyus-img
-{
-  width: 100% !important;
-}
-    .allp.footp {
-        padding-left: 0px !important;
-    }
-.mainlogo {
-    padding: 0px !important;
-}
-.mainft {
-    width: 100% !important;
-    padding-left: 0px !important;
-}
-}
-@media (max-width:480px)
-{
- .slider-text h2 {
-        font-size: 20px !important;
-    }
-    .allp.slidep
-    {
-      display: none;
-    }
-.cta-text
-{
-  width: 100% !important;
-}
-.cta-buttons
-{
-  width: 100% !important;
-}
-.why-list
-{
-  width: 100% !important;
-}
-.whyus-img
-{
-  width: 100% !important;
-}
-    .allp.footp {
-        padding-left: 0px !important;
-    }
-.mainlogo {
-    padding: 0px !important;
-}
-.mainft {
-    width: 100% !important;
-    padding-left: 0px !important;
-}
-}
 
-
-@media screen and (min-width:0px) and (max-width:767px) {
-   .get-quote {
-        margin-left: 12px;
-        display: none;
+@media (min-width:0px) and (max-width:350px){
+    .container, .container-sm {
+        max-width: 100% !important;
     }
-   .navbar {
-    width: 100% !important;
-
-}
-    .nav-toggle {
-        float: right;
-        right: 0;
-    }
-    .nav-toggle span {
-background-color: #FD5D02;
-    }
-    .nav-container
+    .hero-cta
     {
-      margin: 0;
+        display: none !important;
     }
-.header-logo {
-    width: 33% !important;
 }
-    .inner-main-header .navbar-brand img {
-    height: 117px !important;
-}
-.navbar-toggler {
-    margin-right: 21px;
-}
-#navbarSupportedContent {
-    width: 90% !important;
-    margin: 0 10px;
-}
-.inner-main-header .navbar-nav .nav-item a {
-        font-size: 19px !important;
-        margin: 8px 13px 8px 11px;
+@media (min-width:0px) and (max-width:500px)
+ {
+
+.container, .container-sm {
+        max-width: 100% !important;
     }
-    .inner-main-header .navbar-nav .nav-item {
-    margin: 0px 0px 0 0;
-}
-      .slider-text {
-        height: auto;
-        left: 0;
-        width: 100%;
-        padding: 0 40px;
-        top: 8%;
-    }
-    .swiper-slide img {
-    height: auto;
-}
-    .slider-text h2 {
-    font-size: 40px;
-}
-        
-.allp.slidep 
-{
-        font-size: 18px;
-        padding: 0 38px;
-        max-width: 92%;
-    }
-.main-card {
-    
-    width: 100% !important;
-    border: none;
-    margin: 10px 0px !important;
-}
-.main-card h3 {
-    font-size: 28px;
-}
-.allp {
-    font-size: 15px;
-}
-.who-img{
-    width: 100% !important;
-    margin-bottom: 30px;
-}
-    .who-text {
-        width: 100% !important;
-        padding: 0 14px !important;
-    }
-#who-section {
-    margin: 0 0 0px 0;
-}
 .all-heading {
     font-size: 30px;
 }
-.subtitle {
-    font-size: 33px;
-}
-.all-services {
-    width: 100% !important;
-    margin: 17px 0px !important;
-}
-.ser-text h3 {
-    font-size: 25px;
-}
-.ser-text .allp.serp {
-    font-size: 16px;
-}
-.all-button.servbtn {
-    border-color: #FD5D02;
-    font-size: 14px;
-}
-#footer-section {
-    padding: 0 0px 20px 0px !important;
-}
-.mainlogo {
-    width: 100% !important;
-}
-.allp.footp {
-    padding-left: 5px !important;
-}
-.mainlogo img {
-    width: 150px !important;
-    margin: auto !important;
-    display: table !important;
-}
-.blue-div {
-    margin-top: 36px;
-}
-#services-section {
-    margin: 0 0 0px 0;
-}
-#why-us-section {
-    margin: 0 0px;
-}
-.why-list {
-    width: 100% !important ;
-}
-.usericon.whyicon {
-    font-size: 15px;
-    left: -59px;
-}
-.why-list ul li {
-    padding: 0px 17px 0px 70px;
-    height: auto;
-}
-.why-list ul li h3 {
-    font-size: 25px;
-}
-.whyus-img {
-    width: 100% !important;
-}
-    .cta-text h3 {
-        font-size: 31px;
-    }
-.blue-div ul {
-    margin-left: 0;
-    padding-left: 0;
-}
-.blue-div li {
-    width: 50%;
-    padding: 15px 0 20px 13px;
-}
+/* home-page */
 
-.who-text {
-    margin-top: 40px !important;
+.main-services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 20px;
 }
-
-
-/* about-page */
-.banner-text {
-    top: 26%;
-    left: 26px;
-}
-#story-section {
-    margin: 50px 16px 50px 16px;
-}
-    .missioncard {
-        padding: 40px 15px 2px 15px !important;
-        margin: 60px 0;
-        width: 100% !important;
-    }
-.cardicon {
-    width: 16%;
-}
-
-#pills-tabContent {
-    margin: 0 8px 0 10px;
-}
-      #process-section {
-    margin: 50px 0px 50px 0px;
-} 
-.protext {
-    width: 100%;
-    float: right;
-}
-.proimage {
-    width: 100%;
-    float: left;
-}
-.protext p {
-    padding: 14px 0px;
-    margin: 0;
-}
-
-/* services-page */
-.storytext p {
-    margin: 24px 15px 0 15px;
-    font-size: 17px;
-}
-#innerpara {
-    margin: 60px 0px 0px 0px;
-}
-
-/* booking-page */
-#slotpara-section {
-    margin: 50px 14px 50px 14px;
-}
-.formcontent {
-    width: 90% !important;
-    margin: 0 41px;
-}
-.service-image {
+.get-quote
+{
     display: none;
 }
-.mainform {
-    width: 90% !important;
-    margin: 25px 30px !important;
-}
-#slotpara-section {
-    margin: 50px 15px 50px 15px !important;
-}
-
-
-/* contact-page */
-.contact-icons {
-    width: 100% !important;
-}
-.contact-icons ul li {
-    margin: 0 48px !important;
-    display: inline-block;
-}
-.contact-form {
-    width: 100% !important;
-}
-#coninfo-section {
-    margin: 0 32px;
-}
-#faq-section {
-    margin: 50px 15px 50px 15px;
-}
-    .subtitle {
-        font-size: 25px;
+.nav-toggle span {
+        background: #FD5D02;
     }
 
-
-
-/* dementia-care */
-
-
-/* benefits */
-.benefits-cards ul li {
-    width: 92% !important;
-}
-   /* faq-section */
-
-.faq-image {
+.navbar
+{
     width: 100% !important;
 }
-.faq-accordion {
-    width: 100% !important;
+.nav-container
+{
+    margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-toggle
+{
+    right: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:768px) and (max-width:991px){
-
- .inner-main-header .navbar-brand img {
-    width: 100%;
-    height: 116px !important;
+/* hero-section */
+.hero-image {
+    height: auto;
 }
-
- .get-quote {
-        margin-left: 12px;
-        display: none;
+.hero-text {
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding: 0 15px;
+        z-index: 0;
     }
-   .navbar {
-    width: 100% !important;
-
+.hero-text h1 {
+    font-size: 18px;
 }
-.header-logo {
-    width: 33% !important;
+.hero-text h2 {
+    font-size: 20px;
+    display: none;
 }
-    .slider-text h2
-     {
-    font-size: 37px;
+.hero-cta {
+    display: block;
 }
-.swiper-slide img {
-    height: 100%;
+.hero-cta button
+{
+    font-size: 10px;
+    padding: 5px 5px;
+    margin: 5px 5px;
 }
-.ser-text .allp.serp {
-    height: 130px;
+.all-button .svg-inline--fa {
+    padding-left: 2px;
 }
-.allp.slidep {
-    font-size: 17px;
+.slider-text h2 {
+    font-size: 18px;
+}
+.allp.slidep
+{
+    display: none;
+}
+.outer-card {
+    margin-top: 10px !important;
+}
+.main-card {
+        border: none;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+.slider-text .all-button
+{
+    display: none;
 }
 #who-section {
-    margin: 8px 0 37px 0;
+    margin: 5px 0 25px 0;
 }
-.who-img {
-    width: 100% !important;
+.who-img
+{
+    padding-bottom: 20px;
 }
 .who-text {
-    padding: 0px 0 0 0 !important;
-    width: 100% !important;
+    padding: 0px 0 0 0px !important;
 }
-.blue-div ul {
-    margin-left: 0;
-    padding-left: 0;
+.blue-div ul 
+{
+    margin: 0;
+    padding: 0
 }
 .blue-div li {
-    padding: 15px 0 20px 17px;
+    padding: 15px 0 20px 0px;
+    text-align: center;
     margin: auto;
-    width: 50%;
+    display: block;
 }
-#services-section {
-    margin: 24px 0 50px 0;
+.outer-whyus {
+    display: flex;
+    flex-direction: column;
 }
-.all-services {
-    width: 48% !important;
-    margin: 6px 6px;
+.why-list ul {
+    margin: 0;
+    padding: 0 0 0 14px;
 }
-#why-us-section {
-    margin: 0 0px;
+.why-list ul li 
+{
+    height: auto;
+    padding: 10px 0 0 0;
+    text-align: center;
 }
-.why-list {
-    width: 100% !important;
+.why-list ul li h3 {
+    font-size: 20px;
+    padding-top: 11px;
 }
 .usericon.whyicon {
-    font-size: 16px !important;
-    top: 45px;
-    left: -52px;
-}
-.whyus-img {
-    width: 100% !important;
-}
-#cta-section {
-    background-color: #FD5D02;
-    padding: 43px 0 40px 0;
-}
-.cta-text h3 {
-    font-size: 31px;
-}
-.mainlogo {
-    width: 100% !important;
-}
-.mainlogo img {
+    font-size: 20px;
+    position: static;
     margin: auto;
-    display: table;
+    display: block;
+}
+#services-section {
+    margin: 20px 0 0 0;
+}
+.ser-text .allp.serp {
+    font-size: 18px;
+}
+.all-services-cards {
+    grid-template-columns: repeat(1, 1fr);
+}
+/* gmap-section */
+#gmap-section {
+    margin: 25px 0 0 0;
+}
+.gmap-image {
+    width: 100% !important;
+}
+.serve-area {
+    width: 100% !important;
+}
+.serve-area ul {
+    padding: 0;
+    margin: 23px 0 0 0;
+}
+.blog-content {
+    height: auto;
+}
+.cta-text h2 {
+    font-size: 33px;
 }
 #footer-section {
     background-color: white;
+    padding: 6px 0px 16px 0px;
 }
+.mainlogo img {
+    width: 130px;
+    margin: auto;
+    display: block;
+}
+.mainft {
+    margin-top: 18px !important;
+    padding-left: 16px !important;
+}
+.main-services.own-dementiaincluded {
+   display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 20px;
+}
+/* about-page */
+#story-section {
+    margin: 30px 0 0 0;
+}
+.banner-inner {
+    min-height: auto;
+}
+    .banner-text {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-text h1 {
+    font-size: 25px;
+}
+.banner-text h2 {
+    display: none;
+}
+   .storytext p {
+    color: black;
+    margin: 24px 0 0 0;
+    font-size: 18px;
+}
+.banner-text h4 {
+    display: none;
+}
+.banner-text .all-button
+{
+    display: none;
+}
+.mission-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 65px;
+}
+#process-section {
+    margin: 0 0px 50px 0px;
+}
+.process-tabs .nav-item
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.process-tabs .nav-link
+{
+    width: 100%;
 
-.who-text {
-    margin-top: 40px !important;
-}
+margin: 0;
 
-/* about-pge */
-.banner-text {
-    top: 40%;
-    left: 46px;
-}
-.missioncard {
-    margin: 0 5px;
-}
-.cardicon {
-    width: 64%;
 }
 #pills-tabContent {
-    border: 2px solid #FD5D02;
-    padding: 20px;
-    margin: 0 9px 0 10px;
+    padding: 8px;
 }
-.process-tabs ul li button {
-    margin: 0px 6px;
-    font-size: 15px;
-    border-radius: 0px;
-    border: 2px solid #FD5D02;
-    font-family: "Oswald", sans-serif;
-    border-radius: 0px !important;
+.protext
+{
+    width: 100%;;
+}
+.protext p 
+{
+    padding: 0;
+}
+.proimage
+{
+    width: 100%;
+
 }
 
-.protext {
-    width: 100%;
-    float: none;
-}
-.proimage {
-    width: 100%;
-    float: none;
-}
-.protext p {
-    padding: 13px 0;
-    margin: 0;
-}
-.faq-image {
-    width: 100%;
-}
-.faq-accordion {
-    width: 100%;
-    margin-top: 10px;
+/* location-pages */
+.hc-services-cards-outer {
+    grid-template-columns: repeat(1, 1fr);
 }
 
-/* service-page */
-           .banner-text {
-        top: 22%;
-        left: 67px;
-    }
 
+
+
+
+
+/* blog-page */
+.main-blog {
+    display: block;
+}
+.blog-image img 
+{
+    padding-left: 0px;
+}
+.left-blog-content {
+    width: 100% !important;
+    padding: 0;
+}
+.right-blog-list {
+    width: 100% !important;
+}
+.orange-blog-div h4 {
+    font-size: 32px;
+}
+.numbering {
+    padding-top: 27px;
+}
 /* booking-page */
-.formcontent {
-    width: 100% !important;
-}
-.mainform {
-    width: 100% !important;
-}
 .service-image {
     display: none;
 }
-#footer-section {
-    padding: 0 0px 20px 0px !important;
-}
-
-.benefits-cards ul li {
-    width: 91% !important;
-}
-.faq-image {
-    width: 100% !important;
-}
-.faq-accordion {
-    width: 100% !important;
-}
-}
-
-@media screen and (min-width:992px) and (max-width:1024px) {
-
-    .get-quote
-    {
-        display: none;
-    }
-    .navbar {
-    width: 100% !important;
-
-}
-.header-logo {
-    width: 33% !important;
-}
-.nav-toggle {
-        right: -276px !important;
-    }
-   .banner-text {
-    top: 35%;
-    left: 45px;
-}
-.slider-text h2 {
-    font-size: 45px;
-}
-.allp.slidep {
-    font-size: 17px;
-}
-#services-section {
-    margin: 0px 0 20px 0;
-}
-#why-us-section {
-    margin: 0 0px 50px 0;
-}
-.ser-text .allp.serp {
-    height: 152px;
-}
-#who-section {
-    margin: 10px 0 90px 0;
-}
-.blue-div li {
-    padding: 0px 0 20px 19px;
-    width: 49%;
-}
-    .all-services {
-        margin: 0 0 19px 19px;
-        width: 31.2% !important;
-    }
-.usericon.whyicon {
-    font-size: 16px !important;
-    padding: 9px;
-    top: 43px;
-    left: -45px;
-    font-size: 25px;
-}
-.cta-text h3 {
-    font-size: 43px;
-}
-.missioncard {
-    width: 30.7% !important;
-}
-.cardicon {
-    width: 47%;
-}
-.who-img img {
-    width: 100%;
-}
-
-/* about-us-page */
-.faq-image {
-    width: 50%;
-}
-.faq-accordion {
-    width: 50%;
-    margin-top: 10px;
-}
-/* booking-page */
 .mainform ul li {
     width: 100%;
-}
+    margin: 0 0px;
 }
 
-@media screen and (min-width:1025px) and (max-width:1200px) {
+.own-checkitems {
+    padding: 22px 0 0 0px;
+}
+.formcontent
+{
+    display: none;
+}
+/* contact-page */
+#slotpara-section {
+    margin: 19px 0px 0 0px;
+}
+.coninfo-outer {
+    margin: 0 0 50px 0;
+}
+.contact-icons ul li {
+    display: block;
+    width: 50%;
+}
+.contact-icons .con-icon {
+    font-size: 20px;
+}
+.contact-icons .con-icon {
+    left: -34px;
+    top: 23px;
+}
+.contact-icons ul li h4 {
+    font-size: 20px;
+}
+.benefits-cards ul 
+{
+    margin: 0;
+    padding: 0;;
+}
+.benefits-cards ul li {
+    width: 100%;
+    margin: 18px 0px 0 0;
+}
+.scroll-to-top {
+   
+    right: 39px;
+}
 
-.header-logo {
-        width: 16% !important;
+}
+
+
+
+@media (min-width:501px) and (max-width:767px)
+ {
+
+.container, .container-sm {
+        max-width: 100% !important;
+    }
+.all-heading {
+    font-size: 30px;
+}
+/* home-page */
+
+.get-quote
+{
+    display: none;
+}
+.nav-toggle span {
+        background: #FD5D02;
+    }
+
+.navbar
+{
+    width: 100% !important;
+}
+.nav-container
+{
+    margin: 0;
+}
+.nav-toggle
+{
+    right: 0;
+}
+/* hero-section */
+.hero-image {
+    height: auto;
+}
+.hero-text {
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding: 0 15px;
+    }
+.hero-text h1 {
+    font-size: 27px;
+}
+.hero-text h2 {
+    font-size: 20px;
+}
+.hero-cta {
+    display: none;
+}
+
+.slider-text h2 {
+    font-size: 30px;
+}
+.all-services-cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+/* gmap-section */
+#gmap-section {
+    margin: 25px 0 0 0;
+}
+.gmap-image {
+    width: 100% !important;
+}
+.serve-area {
+    width: 100% !important;
+}
+.serve-area ul {
+    padding: 0;
+    margin: 23px 0 0 0;
+}
+.allp.slidep
+{
+    display: table;
+}
+.outer-card {
+    margin-top: 10px !important;
+}
+.main-card {
+        border: none;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+.slider-text .all-button
+{
+    display: none;
+}
+    .main-services {
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 #who-section {
-    margin: 0px 0 0px 0;
+    margin: 5px 0 25px 0;
 }
-.blue-div ul
+.who-img
+{
+    padding-bottom: 20px;
+}
+.who-text {
+    padding: 0px 0 0 0px !important;
+}
+.blue-div ul 
+{
+    margin: 0;
+    padding: 0
+}
+.blue-div li {
+   
+    display: inline-block;
+    width: 50%;;
+}
+.outer-whyus {
+    display: flex;
+    flex-direction: column;
+}
+.why-list ul li 
+{
+    height: auto;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+.why-list ul li h3 {
+    font-size: 20px;
+    padding-top: 11px;
+}
+.usericon.whyicon {
+    font-size: 20px;
+    position: static;
+    margin: auto;
+    display: block;
+}
+.allp.whyp
+{
+    text-align: center;
+}
+#services-section {
+    margin: 20px 0 0 0;
+}
+.main-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.main-services.own-dementiaincluded {
+   display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 20px;
+}
+.cta-text h3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: oswald, sans-serif;
+}
+#footer-section {
+    background-color: white;
+    padding: 6px 0px 16px 0px;
+}
+.mainlogo img {
+    width: 130px;
+    margin: auto;
+    display: block;
+}
+.mainft {
+    margin-top: 18px !important;
+    padding-left: 16px !important;
+}
+
+/* about-page */
+#story-section {
+    margin: 30px 0 0 0;
+}
+.banner-inner {
+    min-height: auto;
+}
+    .banner-text {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-text h1 {
+    font-size: 25px;
+}
+.banner-text h2 {
+    display: none;
+}
+.hc-services-cards-outer {
+    grid-template-columns: repeat(1, 1fr);
+}
+.formcontent
+{
+    display: none !important;
+}
+   .storytext p {
+    color: black;
+    margin: 24px 0 0 0;
+    font-size: 18px;
+}
+.banner-text .all-button
+{
+    display: none;
+}
+.mission-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 65px;
+}
+#process-section {
+    margin: 0 0px 50px 0px;
+}
+.process-tabs .nav-item
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.process-tabs .nav-link
+{
+    width: 100%;
+
+margin: 0;
+
+}
+#pills-tabContent {
+    padding: 8px;
+}
+.protext
+{
+    width: 100%;;
+}
+.protext p 
+{
+    padding: 0;
+}
+.proimage
+{
+    width: 100%;
+
+}
+
+/* blog-page */
+.main-blog {
+    display: block;
+}
+.blog-image img 
+{
+    padding-left: 0px;
+}
+.left-blog-content {
+    width: 100% !important;
+    padding: 0;
+}
+.right-blog-list {
+    width: 100% !important;
+}
+.numbering {
+    padding-top: 27px;
+}
+/* booking-page */
+.service-image {
+    display: none;
+}
+.mainform ul li {
+    width: 100%;
+    margin: 0 0px;
+}
+
+.own-checkitems {
+    padding: 22px 0 0 0px;
+}
+
+/* contact-page */
+#slotpara-section {
+    margin: 19px 0px 0 0px;
+}
+.coninfo-outer {
+    margin: 0 0 50px 0;
+}
+.contact-icons ul {
+    margin: 0 0 0 34px;
+    padding: 0;
+}
+.contact-icons ul li {
+    display: block;
+    width: 50%;
+}
+.contact-icons .con-icon {
+    font-size: 20px;
+}
+    .contact-icons .con-icon {
+        left: -23px;
+        top: 23px;
+    }
+.contact-icons ul li h4 {
+    font-size: 20px;
+}
+.benefits-cards ul 
+{
+    margin: 0;
+    padding: 0;;
+}
+.benefits-cards ul li {
+    width: 100%;
+    margin: 18px 0px 0 0;
+}
+
+
+/* inner-service-pages */
+    .banner-text h4 {
+        display: block;
+        text-align: center;
+    }
+.ser-text h3 {
+    font-size: 18px;
+}
+.allp{
+    font-size: 15px;
+}
+
+
+
+}
+
+
+@media (min-width:650px) and (max-width:767px)
+{
+.hero-cta
+{
+    display: inline-block;
+    margin: 0 8px 0 6px;
+}
+}
+
+
+@media (min-width:768px) and (max-width:992px)
+{
+
+.container, .container-sm {
+        max-width: 100% !important;
+    }
+    .get-quote
+{
+    display: none;
+}
+.nav-toggle span {
+        background: #FD5D02;
+    }
+
+.navbar
+{
+    width: 100% !important;
+}
+.nav-container
+{
+    margin: 0;
+}
+.nav-toggle
+{
+    right: 0;
+}
+.hero-text h1 {
+    font-size: 35px;
+}
+.hero-text h2 {
+    font-size: 20px;
+}
+
+.hero-image {
+    height: auto;
+}
+.hero-text {
+    left: 0;
+    top: 0;
+}
+.slider-text h2 {
+    font-size: 30px;
+    margin-bottom: -4px;
+}
+#who-section {
+    margin: 0px 0 38px 0;
+}
+.who-text
+{
+    padding: 0px 0 0 0px !important;;
+}
+.who-text {
+    margin-top: 23px;
+}
+    .banner-text {
+        text-align: center;
+        left: 0;
+        top: 0;
+    }
+    .banner-text h1 {
+    font-size: 24px;
+}
+.banner-text h2 {
+        display: block;
+    }
+.process-tabs ul li button {
+    font-size: 16px;
+}
+.why-list ul li {
+    text-align: center !important;
+    height: 148px;
+}
+.hc-services-cards-outer {
+    grid-template-columns: repeat(2, 1fr);
+}
+.protext
+{
+    width: 100%;;
+}
+.proimage
+{
+    width: 100%;
+}
+.protext p 
+{
+    padding: 0;
+;
+}
+.all-services-cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+.blue-div li {
+  
+    width: 45%;
+}
+.allp.whyp {
+   text-align: center;
+}
+.benefits-cards ul 
 {
     margin: 0;
     padding: 0;
 }
-.blue-div li {
-    padding: 0px 0 20px 19px;
-    width: 49%;
+.gmap-image {
+    width: 100% !important;
 }
-.all-services {
-        margin: 0 0 19px 19px;
-        width: 31.2% !important;
+.serve-area {
+    width: 100% !important;
+}
+.serve-area ul {
+    padding: 0;
+    margin: 23px 0 0 0;
+}
+.who-text
+{
+    margin-top: 30px;
+}
+.outer-whyus {
+    display: grid;
+}
+.benefits-cards ul li {
+    font-size: 16px;
+    display: inline-block;
+    width: 44% !important;
+    margin: 10px 0 0 30px;
+}
+.usericon.whyicon {
+    font-size: 20px;
+    position: static;
+    padding: 7px;
+    font-size: 22px;
+}
+.mission-outer {
+    gap: 12px;
+}
+.mainft {
+    margin-top: 10px !important;
+    padding-left: 18px !important;
+}
+.contact-icons ul {
+    margin: 0;
+    padding: 0 0 0 51px;
+    display: block;
+}
+.contact-icons ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin: 0;
+    display: inline-block;
+    width: 33%;
+}
+.contact-icons .con-icon {
+    font-size: 26px;
+    color: #FD5D02;
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+    left: -35px;
+    top: 28px;
+    display: flex;
+    align-items: center;
+}
+/* blog-page */
+.main-blog {
+    display: block;
+}
+.main-blog img {
+    width: 100%;
+    padding-left: 0;
+}
+.left-blog-content
+{
+    width: 100% !important;
+    padding: 0;
+}
+.numbering {
+    padding-top: 27px;
+}
+.right-blog-list {
+    width: 100% !important
+}
+.service-image {
+    display: none;
+}
+.main-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.formcontent {
+    height: 600px;
+}
+
+}
+
+
+@media (min-width:993px) and (max-width:1024px)
+{
+
+.container, .container-sm {
+        max-width: 100% !important;
     }
-    .usericon.whyicon {
-    padding: 8px;
-    top: 48px;
-    left: -55px;
+    .get-quote
+{
+    display: table;
 }
-.cta-text h3 {
-    font-size: 41px;
+.nav-toggle span {
+        background: #FD5D02;
+    }
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    padding: 12px 21px !important;
+}
+.nav-menu li a {
+    font-size: 16px;
+}
+.nav-menu li a, .dropdown-toggle{
+    font-size: 16px !important;
+}
+.navbar
+{
+    width: 83% !important;
+}
+.nav-container
+{
+    margin: auto;
+    padding-top: 10px;
+}
+.all-button
+{
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.nav-toggle
+{
+    right: 0;
+}
+.hero-text h1 {
+    font-size: 35px;
+}
+.slider-text h2 {
+    font-size: 30px;
+    margin-bottom: -4px;
+}
+#who-section {
+    margin: 0px 0 38px 0;
+}
+.who-text
+{
+    padding: 0px 0 0 0px !important;;
+}
+.gmap-image
+{
+    width: 100% !important;
+}
+.serve-area
+{
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+.banner-text
+{
+    text-align: center;
+    left: 0;
+    top: 0;
+}
+.banner-text h1 {
+    font-size: 35px;
+}   
+.why-list
+{
+    width: 100% !important;
 }
 
-/* about-page */
-
-.banner-text {
-    top: 33%;
-    left: 72px;
+    .why-list ul li {
+        text-align: center !important;
+        height: 180px;
+    }
+.blue-div li {
+  
+    width: 45%;
+}
+.allp.whyp {
+   text-align: center;
+}
+.benefits-cards ul 
+{
+    margin: 0;
+    padding: 0;
+}
+.who-text
+{
+    margin-top: 30px;
+}
+.benefits-cards ul li {
+    font-size: 16px;
+    display: inline-block;
+    width: 47% !important;
+    margin: 10px 0 0 11px;
+}
+.usericon.whyicon {
+    font-size: 20px;
+    position: static;
+    padding: 7px;
+    font-size: 22px;
+}
+.mission-outer {
+    gap: 12px;
+}
+.mainft {
+    margin-top: 10px !important;
+    padding-left: 18px !important;
+}
+.contact-icons ul {
+    margin: 0;
+    padding: 0 0 0 51px;
+    display: block;
+}
+.contact-icons ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin: 0;
+    display: block;
+    width: 33%;
+}
+.contact-icons .con-icon {
+    font-size: 26px;
+    color: #FD5D02;
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+    left: -35px;
+    top: 28px;
+    display: flex;
+    align-items: center;
+}
+/* blog-page */
+.main-blog {
+    display: block;
+}
+.main-blog img {
+    width: 100%;
+    padding-left: 0;
+}
+.service-image {
+    display: none;
+}
+.mainform ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.service-image {
+        display: block;
+    }
+.formcontent {
+    height: 580px;
+}
+.formcontent {
+    display: none;
+}
+.mainform {
+    width: 100%;
+}
 }
 
-.missioncard {
-    width: 30.7% !important;
+@media (min-width:1025px) and (max-width:1399px){
+    .nav-menu
+    {
+        gap: 30px;
+    }
+.nav-menu li a {
+    font-size: 16px;
+}
+.nav-menu li a, .dropdown-toggle{
+    font-size: 16px !important;
+}
+.hero-text h1
+{
+    font-size: 45px;
+
+}
+.why-list ul li {
+    height: 114px;
+}
+.benefits-cards ul {
+    margin: 0;
+    padding: 0;
+
+};
+.benefits-cards ul li {
+    width: 100%;
 }
 
-.cardicon {
-    width: 47%;
+
+
+
+
+
+
+
 }
-
-
-
-}               

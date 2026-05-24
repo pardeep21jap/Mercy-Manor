@@ -1,0 +1,26 @@
+.daily-list {
+    margin: auto;
+}
+.daily-list ul {
+    display: inline-block;
+    margin-top: 20px;
+}
+.daily-list ul li{
+  list-style-type: none;
+  padding-bottom: 17px;
+}
+.daily-list ul li span
+{
+  font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.daily-list ul li .acti-icon
+{
+  color: #FD5D02;
+  padding-right: 10px;
+}
+.main-dailylist {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,23 @@
+.why-points ul
+{
+  margin: 0 10px;
+  padding: 0;
+}
+.why-points ul li
+{
+  list-style-type: decimal;
+}
+.why-points ul li p{
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+.why-points {
+    margin: 50px 10px;
+}
+.why-points strong
+{
+  font-size: 18px;
+  color: #FD5D02;
+
+}

@@ -21,7 +21,7 @@
     text-align: center;
     z-index: 111111111111111 !important;
 }
-.slider-text h2 {
+.slider-text h1 {
     font-size: 63px;
     margin-bottom: 20px;
     font-family: "Oswald", sans-serif;
@@ -31,10 +31,16 @@
    
     text-transform: capitalize;
 }
-.allp
+.slider-text h2
 {
-    font-weight: 100 !important;
-    font-size: 16px !important;
+    font-size: 63px;
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: #FD5D02;
+    z-index: 1111111111111111111111111;
+   
+    text-transform: capitalize;
 }
 .allp.slidep {
     font-size: 20px;

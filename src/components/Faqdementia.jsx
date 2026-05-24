@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Faqdementia.css"
 
-import faq from '../assets/faq.jpeg';
+import faq from '../assets/faq.webp';
 
 function Faqdementia() {
   return (
@@ -15,11 +15,11 @@ function Faqdementia() {
               <div className="main-faqdementia">
                 <div className="row faqcontet dementia-faq">
 
-                  <div className="col-6 faq-image">
-                    <img src={faq} alt="" />
+                  <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-image">
+                    <img src={faq} alt="Helpful answers for families seeking dementia care services at home" />
                   </div>
 
-                  <div className="col-6 faq-accordion">
+                  <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 faq-accordion">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -42,7 +42,7 @@ function Faqdementia() {
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             <p className='allp'>
-                              Yes. We support early, middle, and late-stage dementia.
+                              Yes. We support early, and middle stage of dementia as per medical advise.
                             </p>
                           </div>
                         </div>

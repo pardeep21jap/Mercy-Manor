@@ -2,11 +2,11 @@ import './Who.css'
 
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAward } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import about1 from '../assets/about1.png';
+import about1 from '../assets/about1.webp';
 function Who() {
 
 
@@ -14,43 +14,42 @@ function Who() {
     <>
       <section id='who-section'>
 
-
         <div className="container">
 
-
           <div className='row outer-who'>
-            <div className="who-img col-6">
-              <img src={about1} alt="" />
+            <div className="who-img col-lg-6 col-xs-12 col-sm-12 col-md-12">
+              <img src={about1} alt="Personalized home care services for seniors and families in BC" />
             </div>
-            <div className="who-text col-6">
+            <div className="who-text col-lg-6 col-xs-12 col-sm-12 col-md-12">
               <h2 className='all-heading'>About Us</h2>
               <h3 className='subtitle'>Your Health Our Mission</h3>
-              <p className='allp'>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by Deepa Cheriyan, Pawandeep Kaur Sangar, and Manju Sebastian. Together, this dedicated team—comprising two registered nurses and a nurse currently in the process of obtaining her BC license—delivers holistic, client-centered care with a strong focus on ICBC clients and individuals in need of in-home health and companion services. </p>
+              <p className='allp'>Mercy Manor Health Care Limited is a comprehensive home health care provider serving the communities of Surrey, Abbotsford, Chilliwack, and Agassiz in British Columbia. Founded by a team of registered nurses, the organization is committed to delivering professional, compassionate, and high-quality care tailored to the needs of individuals and families in their homes. </p>
 
 
               <div className="blue-div">
                 <ul>
                   <li>
-                    <FontAwesomeIcon icon={faAward} className='usericon' />
-                    <h4>20 years of excellence</h4>
+                    <FontAwesomeIcon icon={faHeart} className='usericon' />
+                    <h4>personal care<br></br> services</h4>
                   </li>
                   <li>
                     <FontAwesomeIcon icon={faCertificate} className='usericon' />
-                    <h4>professional expert</h4>
-                  </li>
-                  <li>
-                    <FontAwesomeIcon icon={faHeart} className='usericon' />
-                    <h4>personal care services</h4>
+                    <h4>professional<br></br> expert</h4>
                   </li>
                   <li>
                     <FontAwesomeIcon icon={faPhone} className='usericon' />
-                    <h4>reach us any time</h4>
+                    <h4>reach us<br></br> any time</h4>
                   </li>
+                  <li>
+                    <FontAwesomeIcon icon={faCertificate} className='usericon' />
+                    <h4>Expertise in dementia<br></br> care</h4>
+                  </li>
+
                 </ul>
 
               </div>
 
-              <Link to="/AboutUs">
+              <Link to="/aboutUs">
                 <button className='all-button bluedivbtn'>Read more...</button>
               </Link>
 

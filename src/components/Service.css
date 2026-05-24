@@ -9,17 +9,25 @@
   
   padding: 15px 0px;
 }
-
-.all-services {
-    margin: 0px 14px 17px 0px;
-    transition: 0.3s;
-    padding: 0 !important;
-    width: 32.2% !important;
-    border: 2px solid #FD5D02;
-    position: relative;
+.main-services
+{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
+.all-services
+{
+      display: flex;
+  flex-direction: column;
+  border: 1px solid orange;
+  padding: 16px;
+  background: #fff;
+}
+
 .ser-text.innerpage.texted {
     padding: 12px 10px;
+    border: 1px solid #FD5D02;
+    margin-top: -1px;
 }
 .all-services img {
   width: 100%;
@@ -40,7 +48,7 @@
 }
 
 .ser-text .allp.serp {
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   margin-top: 5px;
 }
@@ -69,4 +77,8 @@ font-size: 11px;
  }
 .main-services {
     margin-top: 37px !important;
+}
+.noborder
+{
+  border: none;
 }

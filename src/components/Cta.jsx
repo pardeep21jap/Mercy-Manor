@@ -18,8 +18,8 @@ function Cta() {
         <div className="container">
           <div className="row cta-inner">
 
-            <div className="col-6 cta-text">
-              <h3>Book a Consultation You’re in Safe Hands</h3>
+            <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 cta-text">
+              <h2>Book a Consultation You’re in Safe Hands</h2>
 
 
               {/* <ul>
@@ -36,8 +36,8 @@ function Cta() {
 
             </div>
 
-            <div className='col-6 cta-buttons'>
-              <Link to="/Booking">
+            <div className='col-lg-6 col-xs-12 col-sm-12 col-md-12 cta-buttons'>
+              <Link to="/booking">
                 <button className='cta-button'>book appointment   <FontAwesomeIcon icon={faCalendarDays} className='' /></button>
               </Link>
             </div>

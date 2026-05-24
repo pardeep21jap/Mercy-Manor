@@ -5,10 +5,10 @@ import { fa1 } from "@fortawesome/free-solid-svg-icons";
 import { fa2 } from "@fortawesome/free-solid-svg-icons";
 import { fa3 } from "@fortawesome/free-solid-svg-icons";
 import { fa4 } from "@fortawesome/free-solid-svg-icons";
-import pro1 from '../assets/pro1.jpeg';
-import pro2 from '../assets/pro2.jpeg';
-import pro3 from '../assets/pro3.png';
-import pro4 from '../assets/pro4.jpeg';
+import pro1 from '../assets/pro1.webp';
+import pro2 from '../assets/pro2.webp';
+import pro3 from '../assets/pro3.webp';
+import pro4 from '../assets/pro4.webp';
 function Process() {
   return (
     <div>
@@ -41,13 +41,24 @@ function Process() {
 
                     <div className="protext">
                       <p className='allp'>
-                        At Mercy Manor Health Care, our process begins with a thorough assessment conducted by a registered nurse. During this initial evaluation, we carefully review the client’s specific needs, medical history, and personal preferences. This detailed assessment allows us to create a tailored care plan that ensures each individual receives the right support, attention, and medical oversight from the very beginning.Every client’s journey with us begins with a comprehensive assessment conducted by a registered nurse. During this process, the nurse carefully evaluates the client’s medical history, current health condition, and individual needs. This thorough assessment ensures that each care plan is tailored specifically to the client, providing the right support, attention, and guidance from the very start. Our goal is to create a strong foundation for safe, effective, and personalized care.
+                        At Mercy Manor Health Care, our process begins with a thorough assessment conducted by a registered nurse. During this initial evaluation, we carefully review the client’s specific needs, medical history, and personal preferences. This detailed assessment allows us to create a tailored care plan that ensures each individual receives the right support, attention, and medical oversight from the very beginning.<br></br>
+                        The assessment includes:<br></br>
+                        •	Review of medical history and current condition<br></br>
+                        •	 Checking vital signs<br></br>
+                        •	Medication and treatment review<br></br>
+                        •	Mobility and fall-risk evaluation<br></br>
+                        •	Personal care and daily living needs<br></br>
+                        •	Nutrition and hydration status<br></br>
+                        •	Home safety check<br></br>
+                        •	Emotional and cognitive well-being<br></br>
+                        •	Family and caregiver support<br></br>
+                        After the assessment, we develop a personalized care plan that clearly outlines the level of care, type of services, visit schedule, and any special nursing or therapy needs. This ensures the client receives the right support from the very first day.
                       </p>
                     </div>
 
                     <div className="proimage">
 
-                      <img src={pro1} alt="" />
+                      <img src={pro1} alt="In-home initial assessment for seniors by Mercy Manor caregivers" />
                     </div>
 
                   </div>
@@ -64,7 +75,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src={pro3} alt="" />
+                      <img src={pro3} alt="Mercy Manor Home Care offering tailored in-home support" />
                     </div>
 
 
@@ -84,7 +95,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src={pro2} alt="" />
+                      <img src={pro2} alt="Caregiver assignment for personalized senior home care services" />
                     </div>
 
                   </div>
@@ -100,7 +111,7 @@ function Process() {
 
                     <div className="proimage">
 
-                      <img src={pro4} alt="" />
+                      <img src={pro4} alt="Mercy Manor Home Care receiving excellent client reviews" />
                     </div>
 
                   </div>
@@ -116,51 +127,7 @@ function Process() {
       </section>
 
 
-      {/* 
-      <section id='new-process-section'>
-        <div className="conatiner">
-          <div className="newprocess-outer">
-            <div className="newprocess-inner">
 
-
-              <div className="newprocess-content">
-                <ul>
-                  <li>
-                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
-                    <span class="badge badge-pill badge-primary own-badge">1</span>
-                    <h3>step1</h3>
-                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
-                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
-                  </li>
-                   <li>
-                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
-                    <span class="badge badge-pill badge-primary own-badge">1</span>
-                    <h3>step1</h3>
-                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
-                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
-                  </li>
-                   <li>
-                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
-                    <span class="badge badge-pill badge-primary own-badge">1</span>
-                    <h3>step1</h3>
-                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
-                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
-                  </li>
-                   <li>
-                    <img src="./src/assets/Images/pro2.jpeg" alt="" />
-                    <span class="badge badge-pill badge-primary own-badge">1</span>
-                    <h3>step1</h3>
-                    <p className='allp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ut odit placeat esse tempore eaque sint pariatur nobis vel velit, ad ipsa repellendus incidunt nesciunt provident exercitationem architecto optio maiores.</p>
-                    <FontAwesomeIcon icon={faTurnDown} className='arrow-icon' />
-                  </li>
-                </ul>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section> */}
 
     </div>
   )

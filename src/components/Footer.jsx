@@ -1,15 +1,19 @@
 import React from 'react'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
+import Logo from "../assets/Logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
-import { faMapPin } from '@fortawesome/free-solid-svg-icons'
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
 
     <>
@@ -19,46 +23,63 @@ function Footer() {
           <div className="footer-inner">
             <div className="row footer-main">
 
-              <div className='col-3 mainlogo'>
-                <img src="./src/assets/Logo.png" alt="" />
+              <div className='col-lg-3 col-sm-12 col-md-12 col-xs-12 mainlogo'>
+                <Link to="/" onClick={scrollToTop}>
+                  <img src={Logo} alt="Mercy Manor Home Care – trusted home care provider in Surrey, Abbotsford, Chilliwack, and Agassiz" />
+                </Link>
 
-                <p className='allp footp'>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by Deepa Cheriyan, Pawandeep Kaur Sangar, and Manju Sebastian. Together, this dedicated team—comprising two registered nurses and a nurse currently. </p>
+                <p className='allp footp'>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by a team of registered nurses. </p>
               </div>
 
 
-              <div className='col-3 mainft'>
+              <div className='col-lg-3 col-sm-12 col-md-12 col-xs-12 mainft'>
                 <h4>Quick Links</h4>
                 <ul>
 
-                  <li><Link to="/">Home</Link>
+                  <li><Link to="/" onClick={scrollToTop}>Home</Link>
                   </li>
-                  <li><Link to="/AboutUs">About Us</Link></li>
-                  <li><Link to="/Services">Services</Link></li>
-                  <li><a href="/booking">Booking</a></li>
-                  <li><a href="/blog">Blog</a></li>
-                  <li><a href="/contact">Contact Us</a></li>
+                  <li><Link to="/aboutUs" onClick={scrollToTop}>About Us</Link></li>
+                  <li><Link to="/Services" onClick={scrollToTop}>Services</Link></li>
+                  <li><Link to="/home-care-abbotsford" onClick={scrollToTop}>locations</Link></li>
+                  <li><Link to="/booking" onClick={scrollToTop}>Booking</Link></li>
+                  <li><Link to="/blogs" onClick={scrollToTop}>Blogs</Link></li>
+                  <li><Link to="/contact" onClick={scrollToTop}>Contact Us</Link></li>
                 </ul>
               </div>
 
-              <div className='col-3 mainft'>
+              <div className='col-lg-3 col-sm-12 col-md-12 col-xs-12 mainft'>
                 <h4>Contact Us</h4>
                 <ul>
-                  <li><a href=""> <FontAwesomeIcon icon={faPhone} className='' /> + 604 613 1245</a>
+                  <li>
+                    <FontAwesomeIcon icon={faPhone} className='' />
+                    <a href="tel:+16046131245">
+                      +1 604 613 1245
+                    </a>
+
                   </li>
-                  <li><a href=""> <FontAwesomeIcon icon={faSquareEnvelope} className='' /> info@mercymanor.com</a></li>
-                  <li><a href=""> <FontAwesomeIcon icon={faClock} className='' /> mon-fri: 8:30am - 5pm</a></li>
-                  <li><a href=""> <FontAwesomeIcon icon={faMapPin} className='' /> 113, 13900, Hyland Road, Surrey, BC, V3W 1K4</a></li>
+
+                  <li><FontAwesomeIcon icon={faClock} className='' /> mon-fri: 8:30am - 5pm</li>
+                  <li className='maillistspace'><FontAwesomeIcon icon={faSquareEnvelope} className='' />
+                    <a href="mailto:info@mercymanor.ca?subject=Home Care Inquiry">
+                      info@mercymanor.ca
+                    </a>
+                  </li>
+
+
 
                 </ul>
               </div>
-              <div className="col-3 mainft">
+              <div className="col-lg-3 col-sm-12 col-md-12 col-xs-12 mainft">
                 <h4>Follow Us</h4>
                 <ul className='mediaicons'>
                   <li>
-                    <a href=""><FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /></a>
+                    <a href="https://www.facebook.com/profile.php?id=61589532728856"><FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /></a>
                   </li>
                   <li>
-                    <a href=""><FontAwesomeIcon icon={faSquareInstagram} className='' /></a>
+
+                    <a href="https://www.instagram.com/mercymanorhomecarebc/" >  <FontAwesomeIcon icon={faSquareInstagram} className='' />
+                    </a>
+
                   </li>
                   <li>
                     <a href=""><FontAwesomeIcon icon={faSquareEnvelope} className='mailicon' /></a>
@@ -67,7 +88,7 @@ function Footer() {
               </div>
 
             </div>
-            <p className='rightp'>© 2025 Mercy Minor. All rights reserved.</p>
+            <p className='rightp'>© 2026 Mercy Minor. All rights reserved.</p>
           </div>
         </div>
 

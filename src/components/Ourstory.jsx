@@ -12,11 +12,11 @@ function Ourstory() {
               <h3 className='subtitle'>Where expertise meets empathy — the foundation of our care</h3>
 
               <div className="storytext">
-                <p>Mercy Manor Health Care Limited, based in Surrey, British Columbia, is a comprehensive home health service provider founded by Deepa Cheriyan, Pawandeep Kaur Sangar, and Manju Sebastian. Together, this dedicated team—comprising two registered nurses and a nurse currently in the process of obtaining her BC license—delivers holistic, client-centered care with a strong focus on ICBC clients and individuals in need of in-home health and companion services.<br></br>
+                <p>Mercy Manor Health Care Limited is a comprehensive home health care provider serving the communities of Surrey, Abbotsford, Chilliwack, and Agassiz in British Columbia. Founded by a team of registered nurses, the organization is committed to delivering professional, compassionate, and high-quality care tailored to the needs of individuals and families in their homes.<br></br>
 
                   With extensive experience in dementia care, complex patient management across various hospital settings, and addiction support, the team at Mercy Manor is committed to enhancing quality of life through compassionate, evidence-based care.<br></br>
 
-                  The Mercy Manor care model, developed by Manju Sebastian, Deepa Cheriyan, and Pawandeep Kaur Sangar, seamlessly integrates medical support with daily living assistance, empowering clients to maintain independence, promote recovery, and experience overall well-being in the comfort of their own homes.</p><br></br>
+                  The Mercy Manor care model, seamlessly integrates nursing support with daily living assistance, empowering clients to maintain independence, promote recovery, and experience overall well-being in the comfort of their own homes.</p><br></br>
               </div>
 
             </div>

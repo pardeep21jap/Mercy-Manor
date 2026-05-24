@@ -4,10 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
-import services from '../assets/services.jpg';
+import services from '../assets/services.webp';
 function Slotform() {
 
 
@@ -31,7 +30,8 @@ function Slotform() {
     optApple9: false,
     optApple10: false,
   });
-  const ACCESS_KEY = "af8d9131-2484-4a85-8270-b6020831867d"; // get from Web3Forms
+  const [successMessage, setSuccessMessage] = useState("");
+  const ACCESS_KEY = "4869023d-f558-405f-9db7-c877e2d3ab4b"; // get from Web3Forms
 
   const handleChange = (e) => {
     const { name, type, checked, value } = e.target;
@@ -71,8 +71,7 @@ function Slotform() {
         form.optApple3 && "Pharmacy Service - Medication Home Delivery",
         form.optApple4 && "Medical Escort for appointments",
         form.optApple5 && "Residential Cleaning Services",
-        form.optApple6 && "Law Maintenance",
-        form.optApple7 && "Gardening",
+
         form.optApple8 && "Attendant Care",
         form.optApple9 && "Home Making Services",
         form.optApple10 && "Companionship"
@@ -88,7 +87,9 @@ function Slotform() {
       });
       const json = await res.json();
       if (json.success) {
-        alert("Submitted! Check your email.");
+        setSuccessMessage("Form submitted successfully");
+        // Auto-hide message after 5 seconds
+        setTimeout(() => setSuccessMessage(""), 5000);
         // Reset form after successful submission
         setForm({
           firstName: "",
@@ -117,6 +118,11 @@ function Slotform() {
       console.error(err);
       alert("Network error");
     }
+    if (data.success) {
+      window.gtag?.("event", "form_submit", {
+        form_name: "Booking_Form"
+      });
+    }
   };
 
   return (
@@ -124,8 +130,8 @@ function Slotform() {
       <section id="form-section">
         <div className="container">
           <div className="row form-outer">
-            <div className="col-5 formcontent">
-              <h3>Benefits If You Schedule An Appointment</h3>
+            <div className="col-lg-5 col-xs-12 col-sm-12 col-md-12 formcontent">
+              <h2>Benefits If You Schedule An Appointment</h2>
               <ul>
                 <li>
                   <FontAwesomeIcon icon={faCheck} className="formicon" />
@@ -157,26 +163,28 @@ function Slotform() {
                 <ul>
                   <li>
                     <FontAwesomeIcon icon={faEnvelope} className="bene-icon" />
-                    <strong>info@mercy.com</strong>
+                    <strong>info@mercymanor.ca</strong>
                   </li>
 
                   <li>
                     <FontAwesomeIcon icon={faPhone} className="bene-icon" />
-                    <strong>+1234567890</strong>
+                    <strong>+ 604 613 1245</strong>
                   </li>
-                  <li>
-                    <FontAwesomeIcon icon={faInstagram} className="bene-icon" />
-                    <strong>mercyminorities</strong>
-                  </li>
+
                 </ul>
               </div>
 
               <div className="service-image">
-                <img src={services} alt="" />
+                <img src={services} alt="Online booking for senior home care services and caregiver support" />
               </div>
             </div>
 
-            <div className="col-7 mainform">
+            <div className="col-lg-7 col-xs-12 col-sm-12 col-md-12 mainform">
+              {successMessage && (
+                <div className="alert alert-success" role="alert">
+                  {successMessage}
+                </div>
+              )}
               <form onSubmit={handleSubmit}>
                 <ul>
                   <li>
@@ -237,62 +245,52 @@ function Slotform() {
 
                   <span>Service Request</span>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple1" checked={form.optApple1} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple1" checked={form.optApple1} onChange={handleChange} className="form-check-input" id="check1" />
+                    <label className="form-check-label" htmlFor="check1">
                       Post Hospital Discharge Care
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple2" checked={form.optApple2} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple2" checked={form.optApple2} onChange={handleChange} className="form-check-input" id="check2" />
+                    <label className="form-check-label" htmlFor="check2">
                       Wound Care - Simple / Complex
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple3" checked={form.optApple3} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple3" checked={form.optApple3} onChange={handleChange} className="form-check-input" id="check3" />
+                    <label className="form-check-label" htmlFor="check3">
                       Pharmacy Service - Medication Home Delivery
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple4" checked={form.optApple4} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple4" checked={form.optApple4} onChange={handleChange} className="form-check-input" id="check4" />
+                    <label className="form-check-label" htmlFor="check4">
                       Medical Escort for appointments
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple5" checked={form.optApple5} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple5" checked={form.optApple5} onChange={handleChange} className="form-check-input" id="check5" />
+                    <label className="form-check-label" htmlFor="check5">
                       Residential Cleaning Services
                     </label>
                   </div>
+
+
                   <div className="form-check">
-                    <input type="checkbox" name="optApple6" checked={form.optApple6} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
-                      Law Maintenance
-                    </label>
-                  </div>
-                  <div className="form-check">
-                    <input type="checkbox" name="optApple7" checked={form.optApple7} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
-                      Gardening
-                    </label>
-                  </div>
-                  <div className="form-check">
-                    <input type="checkbox" name="optApple8" checked={form.optApple8} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple8" checked={form.optApple8} onChange={handleChange} className="form-check-input" id="check8" />
+                    <label className="form-check-label" htmlFor="check8">
                       Attendant Care
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple9" checked={form.optApple9} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple9" checked={form.optApple9} onChange={handleChange} className="form-check-input" id="check9" />
+                    <label className="form-check-label" htmlFor="check9">
                       Home Making Services
                     </label>
                   </div>
                   <div className="form-check">
-                    <input type="checkbox" name="optApple10" checked={form.optApple10} onChange={handleChange} className="form-check-input" id="checkDefault" />
-                    <label className="form-check-label" htmlFor="checkDefault">
+                    <input type="checkbox" name="optApple10" checked={form.optApple10} onChange={handleChange} className="form-check-input" id="check10" />
+                    <label className="form-check-label" htmlFor="check10">
                       Companionship
                     </label>
                   </div>

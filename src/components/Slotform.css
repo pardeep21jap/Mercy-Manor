@@ -6,10 +6,10 @@
 {
   padding-left: 35px !important;
 }
-.form-check #checkDefault {
-    margin-top: 13px;
-    border: 2px solid black;
-    padding: 8px;
+
+.form-check .form-check-input {
+    border: 2px solid #FD5D02;
+    margin-top: 17px;
 }
 .formcontent {
     background-color: #FD5D02;
@@ -19,11 +19,11 @@
     border-radius: 15px;
     height: 513px;
 }
-.formcontent h3
+.formcontent h2
 {
   padding-left: 13px;
 }
-.formcontent h3::after
+.formcontent h2::after
 {
   content: '';
   display: block;
@@ -79,9 +79,9 @@ textarea
  border-radius: 10px;
  border-color: #DEE2E6;
 }
-.own-textarea
-{
-  margin-left: 10px !important;
+.own-textarea {
+    margin-left: 10px !important;
+    margin-bottom: 20px;
 }
 .mainform ul{
   margin: 0;
@@ -117,9 +117,9 @@ textarea
   display: block;
   font-size: 20px;
 }
-.service-image img{
-  width: 100%;
-  height: 640px;
-  margin-top: 80px;
-  border-radius: 15px;
+.service-image img {
+    width: 100%;
+    height: 640px;
+    margin-top: 72px;
+    border-radius: 15px;
 }
