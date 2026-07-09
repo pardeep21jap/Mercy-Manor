@@ -39,6 +39,11 @@ import "./responsive.css";
 import Blogfourth from "./components/pages/Blog-fourth.jsx";
 import RecoveringAtHomeAfterSurgeryHowMercyManorHomeCareCanHelp from "./components/pages/RecoveringAtHomeAfterSurgeryHowMercyManorHomeCareCanHelp.jsx";
 import SeniorSafetyTipsForLivingIndependentlyAtHome from "./components/pages/SeniorSafetyTipsForLivingIndependentlyAtHome.jsx";
+import CompanionCareProgram from "./components/pages/CompanionCareProgram.jsx";
+
+// Routes rendered as standalone landing pages: no site TopBar/Navbar/Footer,
+// so campaign traffic stays focused on the page's own header/footer and form.
+const STANDALONE_ROUTES = ["/companion-care-program"];
 
 
 
@@ -78,10 +83,12 @@ function EngagedSession2Min() {
 
 
 
-function App() {
-  return (
-    <BrowserRouter>
+function AppShell() {
+  const location = useLocation();
+  const isStandalone = STANDALONE_ROUTES.includes(location.pathname);
 
+  return (
+    <>
       <CookieConsent
         enableDeclineButton
         buttonText="Accept"
@@ -98,8 +105,8 @@ function App() {
         We use cookies to improve your experience and measure website traffic.
       </CookieConsent>
 
-      <TopBar />
-      <Navbar />
+      {!isStandalone && <TopBar />}
+      {!isStandalone && <Navbar />}
       <ScrollToTop />
       <WhatsAppWidget />
       <Routes>
@@ -143,11 +150,20 @@ function App() {
         <Route path="/sun-downing-in-dementia" element={<BlogThird />} />
         <Route path="/recovering-at-home-after-surgery-how-mercy-manor-home-care-can-help" element={<RecoveringAtHomeAfterSurgeryHowMercyManorHomeCareCanHelp />} />
         <Route path="/senior-safety-tips-for-living-independently-at-home" element={<SeniorSafetyTipsForLivingIndependentlyAtHome />} />
+        <Route path="/companion-care-program" element={<CompanionCareProgram />} />
 
 
 
       </Routes>
-      <Footer />
+      {!isStandalone && <Footer />}
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
     </BrowserRouter>
   );
 }
