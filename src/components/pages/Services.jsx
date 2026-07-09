@@ -12,9 +12,9 @@ function Services() {
       <Helmet>
         <title>Senior Care Services in Surrey, BC | Mercy Manor Home Care</title>
 
-        <meta name="description" content="Mercy Manor offers trusted senior care services in Surrey, BC including dementia care, companion care, nursing care, and homemaking care tailored to your loved ones." />
+        <meta name="description" content="Mercy Manor offers trusted 24-hour senior care services in Surrey, BC including dementia care, companion care, nursing care, and homemaking care tailored to your loved ones." />
 
-        <link rel="canonical" href="https://www.mercymanor.ca/Services" />
+        <link rel="canonical" href="https://www.mercymanor.ca/services" />
 
       </Helmet>
       <Banner title="Expert Services Designed for You"

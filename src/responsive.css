@@ -2,7 +2,10 @@ a
 {
     text-decoration: none !important;
 }
-
+/* Hide the button in the banner specifically on the Booking page */
+.booking-banner-wrapper .banner-text .all-button {
+    display: none !important;
+}
 @media (min-width:0px) and (max-width:350px){
     .container, .container-sm {
         max-width: 100% !important;
@@ -53,22 +56,29 @@ a
     height: auto;
 }
 .hero-text {
-        top: 0;
+        top: 10px;
         left: 0;
         text-align: center;
         padding: 0 15px;
         z-index: 0;
+        align-items: center;
     }
 .hero-text h1 {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+.hero-text span
+{
+    text-align: center;
 }
 .hero-text h2 {
     font-size: 20px;
     display: none;
+    text-align: center;
 }
-.hero-cta {
-    display: block;
-}
+   .hero-cta {
+        display: none;
+    }
 .hero-cta button
 {
     font-size: 10px;
@@ -93,6 +103,9 @@ a
         padding: 0px !important;
         margin: 0px !important;
     }
+    .ser-text.innerpage.texted {
+    padding: 0;
+}
 .slider-text .all-button
 {
     display: none;
@@ -387,12 +400,15 @@ margin: 0;
         left: 0;
         text-align: center;
         padding: 0 15px;
+        align-items: center;
     }
 .hero-text h1 {
     font-size: 27px;
+    text-align: center;
 }
 .hero-text h2 {
     font-size: 20px;
+    text-align: center;
 }
 .hero-cta {
     display: none;

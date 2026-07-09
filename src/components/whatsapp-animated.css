@@ -1,0 +1,104 @@
+.whatsapp-animated {
+  position: fixed;
+  bottom: 70px;
+  right: 18px;
+
+  width: 58px;
+  height: 58px;
+
+  background-color: #25D366;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 30px;
+
+  text-decoration: none;
+
+  z-index: 9999;
+
+  -webkit-tap-highlight-color: transparent;
+
+  box-shadow: 0 8px 22px rgba(37, 211, 102, 0.35);
+
+  /* Floating animation */
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Floating effect */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Pulse ring effect */
+.whatsapp-animated::before,
+.whatsapp-animated::after {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+
+  background: rgba(37, 211, 102, 0.35);
+
+  z-index: -1;
+
+  animation: pulse 2s infinite;
+}
+
+/* Second ring delay */
+.whatsapp-animated::after {
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  70% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* Hover effect */
+.whatsapp-animated:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .whatsapp-animated {
+    width: 52px;
+    height: 52px;
+    font-size: 26px;
+    bottom: 14px;
+    right: 14px;
+  }
+}

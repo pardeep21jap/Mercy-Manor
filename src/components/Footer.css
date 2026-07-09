@@ -92,3 +92,8 @@
 {
   transform: rotateY('360deg') !important;
 }
+.mail-icon {
+  pointer-events: auto;
+  cursor: pointer;
+  display: inline-block;
+}

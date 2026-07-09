@@ -11,7 +11,7 @@ function ThingsNeverToDoAsADementiaCaregiver() {
             <div className="first-blog-inner">
               <div className='blogs-detail'>
 
-                <span className='blog-date'>17-02-2026</span>
+              
                 <p className='allp'>
                   Caring for someone living with dementia requires patience, compassion, and understanding. Small changes in how we communicate and respond can make a significant difference in their comfort and wellbeing. Here are 10 important things to avoid as a dementia caregiver:
                   <br></br>

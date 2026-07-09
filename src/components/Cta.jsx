@@ -2,10 +2,7 @@ import React from 'react'
 import "./Cta.css"
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarDays, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -13,35 +10,25 @@ import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 function Cta() {
   return (
     <div>
-
       <section id='cta-section'>
         <div className="container">
-          <div className="row cta-inner">
-
-            <div className="col-lg-6 col-xs-12 col-sm-12 col-md-12 cta-text">
-              <h2>Book a Consultation You’re in Safe Hands</h2>
-
-
-              {/* <ul>
-        <li>
-          <a href=""> <FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /> </a>
-        </li>
-         <li>
-          <a href=""> <FontAwesomeIcon icon={faSquareInstagram} className='' /> </a>
-        </li>
-        <li>
-          <a href=""> <FontAwesomeIcon icon={faSquareEnvelope} className='mailicon' /> </a>
-        </li>
-       </ul> */}
-
-            </div>
-
-            <div className='col-lg-6 col-xs-12 col-sm-12 col-md-12 cta-buttons'>
+          <div className="cta-inner">
+            {/* Card 1: Book an Appointment */}
+            <div className="cta-text">
+              <h2>Book an Appointment</h2>
+              <p className="allp">Schedule a care visit or consultation with our team.</p>
               <Link to="/booking">
-                <button className='cta-button'>book appointment   <FontAwesomeIcon icon={faCalendarDays} className='' /></button>
+                <button className='cta-button'>Book Now <FontAwesomeIcon icon={faCalendarDays} className='' /></button>
               </Link>
             </div>
-
+            {/* Card 2: Contact Us */}
+            <div className="cta-text">
+              <h2>Get in Touch</h2>
+              <p className="allp">Have questions? Reach out to our compassionate team for any inquiries.</p>
+              <Link to="/contact">
+                <button className='cta-button'>Contact Us <FontAwesomeIcon icon={faPhone} className='' /></button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

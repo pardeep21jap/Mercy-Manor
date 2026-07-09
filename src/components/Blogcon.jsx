@@ -2,8 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import "./blogcon.css"
 import exercise from '../assets/exercise.webp';
+import foodprep from '../assets/foodprep.webp';
 import comcare from '../assets/comcare.webp';
 import Slides from '../assets/Slides07.webp';
+import ser2 from '../assets/ser2.jpg';
+import medication from '../assets/medication.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 function Blogcon() {
@@ -14,9 +17,86 @@ function Blogcon() {
           <div className="blog-outer">
             <div className="row blog-inner">
 
-              <div className="col-7 left-blog-content">
+              <div className="col-12 left-blog-content">
+
+                <div className="main-blog">
+
+                  <div className="blog-image">
+                    <img src={medication} alt="recovering at home" />
+                  </div>
+
+                  <div className='blog-content'>
+                    <h2>Senior Safety Tips for Living Independently at Home
+                    </h2>
+
+                    <p className='allp'>Many seniors wish to remain in the comfort of their own homes as they age. Living independently allows older adults to maintain their routines, stay connected to their communities, and enjoy the familiarity of their surroundings. However, maintaining a safe home environment becomes increasingly important as health, mobility, and daily needs change over time.
+                      By taking a few proactive steps, seniors and their families can help reduce risks and create a safer living environment.
 
 
+                    </p>
+                    <Link to="/senior-safety-tips-for-living-independently-at-home">
+                      Read More...
+                    </Link>
+
+
+                    <span className='blog-date'>15-06-2026</span>
+                  </div>
+
+
+
+                </div>
+
+                <div className="main-blog">
+
+                  <div className="blog-image">
+                    <img src={ser2} alt="recovering at home" />
+                  </div>
+
+                  <div className='blog-content'>
+                    <h2>Recovering at Home After Surgery: How Mercy Manor Home Care Can Help
+                    </h2>
+
+                    <p className='allp'>As seniors age, preparing healthy meals can become more challenging. Meal preparation services help older adults maintain their health, independence, and quality of life while continuing to live comfortably at home.
+
+                    </p>
+                    <Link to="/recovering-at-home-after-surgery-how-mercy-manor-home-care-can-help">
+                      Read More...
+                    </Link>
+
+
+                    <span className='blog-date'>02-05-2026</span>
+                  </div>
+
+
+
+                </div>
+
+
+                {/* 1-blog */}
+                <div className="main-blog">
+
+                  <div className="blog-image">
+                    <img src={foodprep} alt="Common mistakes dementia caregivers should avoid when caring for seniors with dementia" />
+                  </div>
+
+                  <div className='blog-content'>
+                    <h2>The Benefits of Meal Preparation Services for Seniors
+                    </h2>
+
+                    <p className='allp'>As seniors age, preparing healthy meals can become more challenging. Meal preparation services help older adults maintain their health, independence, and quality of life while continuing to live comfortably at home.
+
+                    </p>
+                    <Link to="/the-benefits-of-meal-preparation-services-for-seniors">
+                      Read More...
+                    </Link>
+
+
+                    <span className='blog-date'>21-04-2026</span>
+                  </div>
+
+
+
+                </div>
 
                 {/* 1-blog */}
                 <div className="main-blog">
@@ -32,19 +112,14 @@ function Blogcon() {
                     <p className='allp'>Caring for someone living with dementia requires patience, compassion, and understanding.
                       Small changes in how we communicate and respond can make a significant difference in their
                       comfort and wellbeing. Here are 10 important things to avoid as a dementia caregiver:
-                      <br />
-                      <br />
-                      <strong className='bold-title'>
-                        1. Never Correct Their Memory: </strong>
-                      Resist the urge to say, “That’s not what happened.” Correcting someone with dementia can
-                      cause embarrassment, frustration, or distress.
+
                     </p>
                     <Link to="/ThingsNeverToDoAsADementiaCaregiver">
                       Read More...
                     </Link>
 
 
-                    <span className='blog-date'>17-02-2026</span>
+                    <span className='blog-date'>05-03-2026</span>
                   </div>
 
 
@@ -63,17 +138,13 @@ function Blogcon() {
                     </h2>
 
                     <p className='allp'>Caring for a loved one with dementia can be deeply meaningful—and incredibly challenging. When anger or agitation rises, it can feel sudden and overwhelming. The truth is, you may not always be able to stop a dementia-related outburst.
-                      <br />
-                      <br />
-                      <strong className='bold-title'>
-                        1. Do Not Fuel the Fire: </strong>
-                      When emotions rise, our instinct is often to correct, explain, or defend. With dementia, that usually makes things worse. Instead:
+
                     </p>
                     <Link to="/HowToDeEscalateDementiaAnger">
                       Read More...
                     </Link>
 
-                    <span className='blog-date'>21-02-2026</span>
+                    <span className='blog-date'>28-02-2026</span>
                   </div>
 
 
@@ -99,7 +170,7 @@ function Blogcon() {
                       Read More...
                     </Link>
 
-                    <span className='blog-date'>25-02-2026</span>
+                    <span className='blog-date'>17-02-2026</span>
                   </div>
 
 
@@ -110,38 +181,7 @@ function Blogcon() {
 
               </div>
 
-              <div className='col-5 right-blog-list'>
-                <h3>Recent Posts</h3>
-                <ul>
-                  <li>
-                    <img src={comcare} alt="Caregiver assisting elderly woman with dementia at home – dementia caregiver mistakes to avoid" />
-                    <Link to="/ThingsNeverToDoAsADementiaCaregiver">
-                      10 Things to Never Do as a Dementia Caregiver
-                    </Link>
 
-
-                  </li>
-                  <li>
-                    <img src={exercise} alt="How to de-escalate dementia anger and calm a senior patient" />
-                    <Link to="/HowToDeEscalateDementiaAnger">
-                      How to De-Escalate Dementia Anger in the First 10 Seconds
-                    </Link>
-                  </li>
-                  <li>
-                    <img src={Slides} alt="Understanding sundowning in dementia and how caregivers should respond" />
-                    <Link to="/SundowningInDementia">
-                      Sundowning in Dementia: What It Is and How to Respond
-                    </Link>
-                  </li>
-                </ul>
-
-                <div className="orange-blog-div">
-                  <h4>Need expert healthcare support?<br /> Call us </h4>
-                  <FontAwesomeIcon icon={faPhoneVolume} className='blogcall' />
-                  <span>
-                    + 604 613 1245</span>
-                </div>
-              </div>
 
               <div className="numbering">
                 <ul>

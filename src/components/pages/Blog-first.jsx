@@ -14,7 +14,7 @@ function BlogFirst() {
       <Helmet>
         <title>10 Things to Never Do as a Dementia Caregiver | Mercy Manor</title>
         <meta name="description" content="Avoid common mistakes while caring for a loved one with dementia. Learn 10 essential things not to do as a dementia caregiver." />
-        <link rel="canonical" href="https://www.mercymanor.ca/ThingsNeverToDoAsADementiaCaregiver" />
+        <link rel="canonical" href="https://www.mercymanor.ca/things-never-to-do-as-a-dementia-caregiver" />
 
       </Helmet>
       <Banner title="10 Things to Never Do as a Dementia Caregiver"

@@ -42,12 +42,12 @@ function Header() {
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/AboutUs" className="nav-link" onClick={closeNavbar}>About Us</Link>
+                  <Link to="/about-us" className="nav-link" onClick={closeNavbar}>About Us</Link>
                 </li>
 
                 {/* FIXED DROPDOWN */}
                 <li className="nav-item dropdown">
-                  <Link to="/Services" className="nav-link" onClick={closeNavbar}>
+                  <Link to="/services" className="nav-link" onClick={closeNavbar}>
                     Services
                   </Link>
                   <a className="nav-link dropdown-toggle own-dropdown"
@@ -68,15 +68,15 @@ function Header() {
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/Booking" className="nav-link" onClick={closeNavbar}>Booking</Link>
+                  <Link to="/booking" className="nav-link" onClick={closeNavbar}>Booking</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/Blog" className="nav-link" onClick={closeNavbar}>Blog</Link>
+                  <Link to="/blogs" className="nav-link" onClick={closeNavbar}>Blog</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/Contact" className="nav-link" onClick={closeNavbar}>Contact</Link>
+                  <Link to="/contact" className="nav-link" onClick={closeNavbar}>Contact</Link>
                 </li>
 
               </ul>

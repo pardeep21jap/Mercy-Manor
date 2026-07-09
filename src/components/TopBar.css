@@ -1,0 +1,25 @@
+.top-bar-mobile {
+    background-color: #FD5D02;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1050; /* Ensure it stays above other elements */
+    height: 34px; /* Explicit height to match the Navbar offset */
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-mobile a {
+    color: white; /* Branding orange color */
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.top-bar-mobile a:hover {
+    opacity: 0.7;
+}

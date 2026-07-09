@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Banner from '../components/Banner';
 import exercise from '../assets/exercise.webp';
 import Cta from '../components/Cta';
 
 function HowToDeEscalateDementiaAnger() {
+  useEffect(() => {
+    document.title = 'How to De-Escalate Dementia Anger | Mercy Manor Home Care';
+  }, []);
   return (
     <div>
       <Banner

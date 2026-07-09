@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../assets/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStethoscope } from "@fortawesome/free-solid-svg-icons";
+import { faStethoscope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null); // 'services' | 'locations' | null
+  const [activeDropdown, setActiveDropdown] = useState(null); // 'services' | null
   const servicesRef = useRef(null);
   const locationsRef = useRef(null);
 
@@ -76,7 +76,7 @@ function Navbar() {
               <ul className={`nav-menu ${isOpen ? "active" : ""}`}>
 
                 <li><Link to="/" onClick={closeAll}>Home</Link></li>
-                <li><Link to="/aboutUs" onClick={closeAll}>About Us</Link></li>
+                <li><Link to="/about-us" onClick={closeAll}>About Us</Link></li>
 
                 {/* Services Dropdown */}
                 <li className="dropdown" ref={servicesRef}>
@@ -95,29 +95,29 @@ function Navbar() {
                   </ul>
                 </li>
 
-                {/* locations Dropdown */}
-                <li className="dropdown" ref={locationsRef}>
 
+                {/* Location Dropdown */}
+                <li className="dropdown" ref={locationsRef}>
                   <button className="dropdown-toggle" onClick={() => toggleDropdown("locations")}>
                     Locations <span className="caret">▼</span>
                   </button>
-
                   <ul className={`dropdown-menu ${activeDropdown === "locations" ? "show" : ""}`}>
-                    <li><Link to="/home-care-abbotsford" onClick={closeAll}>Abbotsford</Link></li>
-                    <li><Link to="/home-care-agassiz" onClick={closeAll}>Agassiz</Link></li>
-                    <li><Link to="/home-care-chilliwack" onClick={closeAll}>Chilliwack</Link></li>
-                    <li><Link to="/home-care-surrey" onClick={closeAll}>Surrey </Link></li>
+                    <li><Link to="/home-care-abbotsford" onClick={closeAll}>Home care Abbotsford</Link></li>
+                    <li><Link to="/home-care-agassiz" onClick={closeAll}>Home care Agassiz</Link></li>
+                    <li><Link to="/home-care-chilliwack" onClick={closeAll}>Home care Chilliwack</Link></li>
+                    <li><Link to="/home-care-surrey" onClick={closeAll}>Home care Surrey</Link></li>
 
 
 
                   </ul>
                 </li>
 
+
                 <li><Link to="/blogs" onClick={closeAll}>Blogs</Link></li>
 
 
 
-                <li><Link to="/booking" onClick={closeAll}>Booking</Link></li>
+
                 <li><Link to="/contact" onClick={closeAll}>Contact Us</Link></li>
 
               </ul>
@@ -127,7 +127,12 @@ function Navbar() {
           </nav>
 
           <div className="get-quote col-2">
-
+            <div className="navbar-phone">
+              <a href="tel:+16046131245">
+                <FontAwesomeIcon icon={faPhone} className="phone-icon" />
+                +1 (604) 613-1245
+              </a>
+            </div>
             <Link to="/booking">
               <button className="all-button">
                 Booking <FontAwesomeIcon icon={faStethoscope} className="nav-icon" />

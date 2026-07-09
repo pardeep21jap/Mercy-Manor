@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HowToDeEscalateDementiaAnger() {
+function howtodeescalatedementiaanger() {
   return (
     <div>
       <section id='first-blog'>
@@ -10,7 +10,7 @@ function HowToDeEscalateDementiaAnger() {
               <div className='blogs-detail'>
 
 
-                <span className='blog-date'>21-02-2026</span>
+              
                 <p className='allp'>
                   Caring for a loved one with dementia can be deeply meaningful—and incredibly challenging. When anger or agitation rises, it can feel sudden and overwhelming. The truth is, you may not always be able to stop a dementia-related outburst. But you can prevent it from escalating. The first 10 seconds matter most.
 
@@ -127,4 +127,4 @@ function HowToDeEscalateDementiaAnger() {
   )
 }
 
-export default HowToDeEscalateDementiaAnger
+export default howtodeescalatedementiaanger

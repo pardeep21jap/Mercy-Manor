@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function SundowningInDementia() {
+  useEffect(() => {
+    document.title = 'Sun Downing In Dementia | Mercy Manor Home Care';
+  }, []);
+
   return (
     <div>
       <section id='first-blog'>
@@ -10,7 +14,7 @@ function SundowningInDementia() {
               <div className='blogs-detail'>
 
 
-                <span className='blog-date'>25-02-2026</span>
+
                 <p className='allp'>
                   Sundowning is real — and it can feel terrifying if you don’t know what’s happening.
                   If you care for a loved one with dementia, you may notice that late in the afternoon or evening, something changes. The person who seemed relatively calm earlier in the day may suddenly become confused, anxious, restless, or agitated. This shift in behavior often builds gradually throughout the day and peaks as daylight fades.

@@ -22,10 +22,12 @@ function Booking() {
 
       </Helmet>
 
-      <Banner title="Book Your Home Care Appointment"
-        subtitleba="Arrange professional in-home caregiving services designed to help seniors live comfortably and independently."
-        bannerImage={bannerImg} alt="Book professional in-home senior care services with Mercy Manor" />
-      <Slotpara />
+      <div className="booking-banner-wrapper">
+        <Banner title="Book Your Home Care Appointment"
+          subtitleba="Arrange professional in-home caregiving services designed to help seniors live comfortably and independently."
+          bannerImage={bannerImg} alt="Book professional in-home senior care services with Mercy Manor" />
+      </div>
+
       <Slotform />
     </>
 

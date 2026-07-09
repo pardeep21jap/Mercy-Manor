@@ -49,7 +49,7 @@ function Who() {
 
               </div>
 
-              <Link to="/aboutUs">
+              <Link to="/about-us">
                 <button className='all-button bluedivbtn'>Read more...</button>
               </Link>
 

@@ -1,0 +1,25 @@
+.location-strip {
+    background-color: #fcfcfc;
+    padding: 0px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.location-text {
+    font-family: "Oswald", sans-serif;
+    color: #222;
+    font-size: 32px;
+    margin: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.location-strip .text-orange {
+    color: #FD5D02;
+}
+
+@media (max-width: 768px) {
+    .location-text {
+        font-size: 40px;
+    }
+}

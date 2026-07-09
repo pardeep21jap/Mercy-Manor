@@ -5,36 +5,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
+import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 function Contactinfo() {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
     phone: "",
     email: "",
-    message: ""
+    message: "",
   });
-
   const [successMessage, setSuccessMessage] = useState("");
-
-  const ACCESS_KEY = "4869023d-f558-405f-9db7-c877e2d3ab4b"; // Same key from Web3Forms
+  const ACCESS_KEY = "4869023d-f558-405f-9db7-c877e2d3ab4b"; // get from Web3Forms
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    // For phone field: remove non-digits and limit to 10 characters
+    let v = value;
     if (name === "phone") {
-      setForm((s) => ({ ...s, [name]: String(value).replace(/\D/g, "").slice(0, 10) }));
-    } else {
-      setForm((s) => ({ ...s, [name]: value }));
+      v = String(v).replace(/\D/g, "").slice(0, 10);
     }
+    setForm((s) => ({ ...s, [name]: v }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validate phone is exactly 10 digits
     const digitsOnlyPhone = String(form.phone || "").replace(/\D/g, "");
     if (digitsOnlyPhone.length !== 10) {
       alert("Please enter a valid 10-digit phone number.");
@@ -58,12 +60,19 @@ function Contactinfo() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
+
       const json = await res.json();
+
       if (json.success) {
         setSuccessMessage("Form submitted successfully");
-        // Auto-hide message after 5 seconds
-        setTimeout(() => setSuccessMessage(""), 5000);
-        // Reset form after successful submission
+
+        // ✅ GA4 TRACKING (CORRECT PLACE)
+        window.gtag?.("event", "form_submit", {
+          event_category: "lead",
+          event_label: "Contact_Form",
+          form_name: "Contact_Form",
+        });
+
         setForm({
           firstName: "",
           lastName: "",
@@ -71,17 +80,13 @@ function Contactinfo() {
           email: "",
           message: ""
         });
+        navigate("/thanks");
       } else {
         alert("Submission failed: " + JSON.stringify(json));
       }
     } catch (err) {
       console.error(err);
       alert("Network error");
-    }
-    if (data.success) {
-      window.gtag?.("event", "form_submit", {
-        form_name: "Booking_Form"
-      });
     }
   };
   return (
@@ -96,14 +101,26 @@ function Contactinfo() {
                   <li>
                     <FontAwesomeIcon icon={faPhone} className='con-icon' />
                     <h4>Call Us</h4>
-                    <span>+ 604 613 1245</span>
+                    <span>+ 604 613 1246</span>
                   </li>
                   <li>
                     <FontAwesomeIcon icon={faEnvelope} className='con-icon' />
                     <h4>E - Mail</h4>
                     <span>info@mercymanor.ca</span>
                   </li>
-
+                  <li>
+                    <FontAwesomeIcon icon={faClock} className='con-icon' />
+                    <h4> Working Hours </h4>
+                    <span>Mon – Sun : Open 24 Hours</span>
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faThumbsUp} className='con-icon' />
+                    <h4> Follow Mercy Manor </h4>
+                    <span className="getfot" >  <a href="https://www.facebook.com/profile.php?id=61589532728856" target='_blank'><FontAwesomeIcon icon={faSquareFacebook} className='fbicon' size="17px" style={{ color: '#FD5D02' }} /></a>
+                    </span>
+                    <span className="getfot" > <a href="https://www.instagram.com/mercymanorhomecarebc/" target='_blank'>  <FontAwesomeIcon icon={faSquareInstagram} className='instaicon' size="17px" style={{ color: '#FD5D02' }} />
+                    </a></span>
+                  </li>
 
                 </ul>
               </div>

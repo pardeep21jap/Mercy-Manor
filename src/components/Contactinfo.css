@@ -12,6 +12,25 @@
   padding-bottom: 20px;
   margin: 0
 }
+.getfot  a
+{
+  padding-right: 8px !important;
+    font-size: 32px !important ;
+    color: #FD5D02 !important;
+    display: inline-block;
+}
+
+input
+{
+  border: 1px solid #F9DFDF !important;
+  border-radius: 0px !important;
+  
+}
+textarea
+{
+  border: 1px solid #F9DFDF !important;
+  border-radius: 0px !important;
+}
 .contact-icons ul li h4
 {
   color: black;
@@ -28,7 +47,7 @@
 
 }
 .contact-icons .con-icon {
-    font-size: 40px;
+    font-size: 32px;
     color: #FD5D02;
     display: inline-block;
     padding-right: 10px;

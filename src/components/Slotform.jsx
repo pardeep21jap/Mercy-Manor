@@ -5,10 +5,11 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import services from '../assets/services.webp';
 function Slotform() {
-
+  const navigate = useNavigate();
 
   const [form, setForm] = useState({
     firstName: "",
@@ -88,9 +89,16 @@ function Slotform() {
       const json = await res.json();
       if (json.success) {
         setSuccessMessage("Form submitted successfully");
-        // Auto-hide message after 5 seconds
+
+        // GA4 tracking event (ONLY HERE)
+        window.gtag?.("event", "form_submit", {
+          event_category: "lead",
+          event_label: "Booking_Form",
+          form_name: "Booking_Form",
+        });
+
         setTimeout(() => setSuccessMessage(""), 5000);
-        // Reset form after successful submission
+
         setForm({
           firstName: "",
           lastName: "",
@@ -111,17 +119,10 @@ function Slotform() {
           optApple9: false,
           optApple10: false
         });
-      } else {
-        alert("Submission failed: " + JSON.stringify(json));
+        navigate("/thanks");
       }
-    } catch (err) {
-      console.error(err);
-      alert("Network error");
-    }
-    if (data.success) {
-      window.gtag?.("event", "form_submit", {
-        form_name: "Booking_Form"
-      });
+    } catch (error) {
+      console.error("Submission error:", error);
     }
   };
 
@@ -130,7 +131,7 @@ function Slotform() {
       <section id="form-section">
         <div className="container">
           <div className="row form-outer">
-            <div className="col-lg-5 col-xs-12 col-sm-12 col-md-12 formcontent">
+            {/* <div className="col-lg-5 col-xs-12 col-sm-12 col-md-12 formcontent">
               <h2>Benefits If You Schedule An Appointment</h2>
               <ul>
                 <li>
@@ -177,9 +178,9 @@ function Slotform() {
               <div className="service-image">
                 <img src={services} alt="Online booking for senior home care services and caregiver support" />
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-7 col-xs-12 col-sm-12 col-md-12 mainform">
+            <div className="col-lg-12 col-xs-12 col-sm-12 col-md-12 mainform">
               {successMessage && (
                 <div className="alert alert-success" role="alert">
                   {successMessage}

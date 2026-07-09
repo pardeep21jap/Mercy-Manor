@@ -38,9 +38,9 @@ function Footer() {
 
                   <li><Link to="/" onClick={scrollToTop}>Home</Link>
                   </li>
-                  <li><Link to="/aboutUs" onClick={scrollToTop}>About Us</Link></li>
-                  <li><Link to="/Services" onClick={scrollToTop}>Services</Link></li>
-                  <li><Link to="/home-care-abbotsford" onClick={scrollToTop}>locations</Link></li>
+                  <li><Link to="/about-us" onClick={scrollToTop}>About Us</Link></li>
+                  <li><Link to="/services" onClick={scrollToTop}>Services</Link></li>
+                  <li><Link to="/home-care-abbotsford" onClick={scrollToTop}>Locations</Link></li>
                   <li><Link to="/booking" onClick={scrollToTop}>Booking</Link></li>
                   <li><Link to="/blogs" onClick={scrollToTop}>Blogs</Link></li>
                   <li><Link to="/contact" onClick={scrollToTop}>Contact Us</Link></li>
@@ -52,8 +52,16 @@ function Footer() {
                 <ul>
                   <li>
                     <FontAwesomeIcon icon={faPhone} className='' />
-                    <a href="tel:+16046131245">
-                      +1 604 613 1245
+                    <a
+                      href="tel:+16046131245"
+                      onClick={() => {
+                        window.gtag?.("event", "phone_click", {
+                          event_category: "lead",
+                          event_label: "Phone Call",
+                        });
+                      }}
+                    >
+                      +1 604 613 1246
                     </a>
 
                   </li>
@@ -73,22 +81,29 @@ function Footer() {
                 <h4>Follow Us</h4>
                 <ul className='mediaicons'>
                   <li>
-                    <a href="https://www.facebook.com/profile.php?id=61589532728856"><FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /></a>
+                    <a href="https://www.facebook.com/profile.php?id=61589532728856" target='_blank'><FontAwesomeIcon icon={faSquareFacebook} className='fbicon' /></a>
                   </li>
                   <li>
 
-                    <a href="https://www.instagram.com/mercymanorhomecarebc/" >  <FontAwesomeIcon icon={faSquareInstagram} className='' />
+                    <a href="https://www.instagram.com/mercymanorhomecarebc/" target='_blank'>  <FontAwesomeIcon icon={faSquareInstagram} className='' />
                     </a>
 
                   </li>
                   <li>
-                    <a href=""><FontAwesomeIcon icon={faSquareEnvelope} className='mailicon' /></a>
+                    <a
+                      href="mailto:info@mercymanor.ca?subject=Inquiry&body=Hello, I would like more information."
+                      target="_self"
+                      rel="noopener noreferrer"
+                      className="mail-icon"
+                    >
+                      <FontAwesomeIcon icon={faSquareEnvelope} className="mail-icon" />
+                    </a>
                   </li>
                 </ul>
               </div>
 
             </div>
-            <p className='rightp'>© 2026 Mercy Minor. All rights reserved.</p>
+            <p className='rightp'>© 2026 Mercy Manor. All rights reserved.</p>
           </div>
         </div>
 

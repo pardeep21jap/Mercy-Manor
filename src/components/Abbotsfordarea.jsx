@@ -1,7 +1,5 @@
 import React from 'react'
 
-import "./Surreyarea.css"
-
 function Abbotsfordarea() {
   return (
     <div>
@@ -14,7 +12,7 @@ function Abbotsfordarea() {
               <h3 className='subtitle'>Trusted in-home senior care services in Abbotsford</h3>
 
               <div className="storytext">
-                <p className='allp'>Families in Abbotsford trust Mercy Manor Home Care to provide thoughtful and reliable home care for their loved ones. Our caregivers are committed to helping seniors live safely and comfortably while remaining in familiar surroundings. Whether assistance is needed with daily activities, meal preparation, light housekeeping, or companionship, our team provides support with patience and respect. We believe that quality home care not only improves daily living but also brings peace of mind to families who want the very best for their loved ones.<br></br>
+                <p className='allp'>At Mercy Manor Home Care, we are proud to provide caring and dependable home care services to seniors in Abbotsford. We understand how important it is for individuals to remain in a familiar and comfortable environment while receiving the help they need. Our caregivers offer compassionate assistance with daily activities, companionship, and support that promotes safety and independence. By working closely with families, we ensure that each client receives personalized care that reflects their lifestyle, preferences, and individual needs.<br></br>
                 </p><br></br>
               </div>
 

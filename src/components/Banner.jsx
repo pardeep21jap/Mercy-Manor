@@ -9,6 +9,14 @@ import defaultBannerImage from "../assets/aboutbanner.webp";
 function Banner({ title, subtitleba, bannerImage }) {
   const imgSrc = bannerImage || defaultBannerImage;
 
+  const scrollToCta = (e) => {
+    const element = document.getElementById('cta-section');
+    if (element) {
+      e.preventDefault();
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
       <section id='banner-section'>
@@ -18,8 +26,8 @@ function Banner({ title, subtitleba, bannerImage }) {
             <div className="banner-text">
               <h1>{title}</h1>
               <h2>{subtitleba}</h2>
-              <Link to="/contact">
-                <button className='all-button'><FontAwesomeIcon icon={faPhone} className='' />contact us</button>
+              <Link to="/#cta-section" onClick={scrollToCta}>
+                <button className='all-button hero-cta'><FontAwesomeIcon icon={faPhone} className='hero-icon' />Start Your Care Today </button>
               </Link>
             </div>
           </div>
@@ -30,4 +38,3 @@ function Banner({ title, subtitleba, bannerImage }) {
 }
 
 export default Banner
-

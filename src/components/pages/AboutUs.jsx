@@ -7,7 +7,7 @@ import Process from "../Process";
 import Faq from "../Faq";
 import Cta from "../Cta";
 import bannerImg from "../../assets/aboutbanner.webp";
-
+import WhatsAppWidget from "../WhatsAppWidget";
 
 function AboutUs() {
   return (
@@ -29,12 +29,13 @@ function AboutUs() {
 
       <Banner title="About Us – Trusted Senior Care and Home Support Services"
         subtitleba="We provide compassionate caregiving and daily living assistance to help older adults maintain independence at home."
-        bannerImage={bannerImg} alt="Professional home care services by Mercy Manor in Surrey, BC" />
+        bannerImage={bannerImg} alt="Professional in-home care services by Mercy Manor in Surrey, BC" />
       <Ourstory />
       <Mvv />
       <Process />
       <Faq />
       <Cta />
+      <WhatsAppWidget />
     </>
   )
 }
